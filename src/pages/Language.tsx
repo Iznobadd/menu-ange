@@ -1,10 +1,13 @@
+import { useTranslation } from "react-i18next";
 import ListFlags from "../components/ListFlags";
 
 const Language = () => {
+  const { t } = useTranslation();
   return (
-    <div className="relative w-screen h-screen">
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 top-1/2">
+    <div className="flex items-center justify-center w-screen h-screen">
+      <div className="text-center">
         <ListFlags />
+        <h2 className="text-center">{t("language.choose")}</h2>
       </div>
     </div>
   );
