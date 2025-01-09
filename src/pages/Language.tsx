@@ -1,4 +1,4 @@
-import ListFlags from "../components/listFlags";
+import ListFlags from "../components/ListFlags";
 
 const Language = () => {
   return (
