@@ -1,5 +1,29 @@
 {
   "language": {
     "choose": "Cliccate sulla bandiera della vostra lingua"
+  },
+  "salades": {
+    "title": "LE NOSTRE INSALATE",
+    "trilogie": "Trilogia orientale (Zaalouk, insalata marocchina, Hummus)",
+    "taboule": "Tabbouleh di quinoa",
+    "buddha": "Buddha bowl (riso, verdure, mango, tuorlo d'uovo)",
+    "thai": "Thai con pollo",
+    "anges": "Les Anges (Pollo, Salmone affumicato, Gamberi, Avocado, Agrumi)"
+  },
+  "brochettes": {
+    "title": "LE NOSTRE SPIEDINI",
+    "desc": "A tua scelta: Insalata mista, Patatine fritte, Verdure saltate o Riso pilaf",
+    "poulet": "Pollo",
+    "kefta": "Kofta",
+    "boeuf": "Filetto di manzo",
+    "gambas": "Gamberi"
+  },
+  "woks": {
+    "title": "I NOSTRI WOK",
+    "legume": "Verdure",
+    "poulet": "Pollo",
+    "boeuf": "Filetto di manzo",
+    "crevette": "Gamberi",
+    "anges": "Gli Angeli (Merluzzo, Riso basmati, Verdure, Salsa di ostriche)"
   }
 }

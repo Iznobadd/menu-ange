@@ -1,5 +1,29 @@
 {
   "language": {
     "choose": "Click on your language flag"
+  },
+  "salades": {
+    "title": "OUR SALADS",
+    "trilogie": "Oriental trilogy (Zaalouk, Moroccan Salad, Hummus)",
+    "taboule": "Quinoa Tabbouleh",
+    "buddha": "Buddha bowl (Rice, Vegetables, Mango, Egg yolk)",
+    "thai": "Thai with chicken",
+    "anges": "Les Anges (Chicken, Smoked Salmon, Shrimp, Avocado, Citrus)"
+  },
+  "brochettes": {
+    "title": "OUR SKEWERS",
+    "desc": "With your choice: Mixed salad, Fries, Stir-fried vegetables, or Pilaf rice",
+    "poulet": "Chicken",
+    "kefta": "Kofta",
+    "boeuf": "Beef tenderloin",
+    "gambas": "Prawns"
+  },
+  "woks": {
+    "title": "OUR WOKS",
+    "legume": "Vegetables",
+    "poulet": "Chicken",
+    "boeuf": "Beef tenderloin",
+    "crevette": "Prawns",
+    "anges": "The Angels (Codfish, Basmati rice, Vegetables, Oyster sauce)"
   }
 }

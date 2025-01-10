@@ -1,5 +1,29 @@
 {
   "language": {
     "choose": "Haga clic en la bandera de su idioma"
+  },
+  "salades": {
+    "title": "NUESTRAS ENSALADAS",
+    "trilogie": "Trilogía oriental (Zaalouk, ensalada marroquí, Hummus)",
+    "taboule": "Tabulé de quinoa",
+    "buddha": "Buddha bowl (Arroz, Verduras, Mango, Yema de huevo)",
+    "thai": "Thai con pollo",
+    "anges": "Les Anges (Pollo, Salmón ahumado, Gambas, Aguacate, Cítricos)"
+  },
+  "brochettes": {
+    "title": "NUESTRAS BROCHETAS",
+    "desc": "Con tu elección: Ensalada mixta, Patatas fritas, Verduras salteadas o Arroz pilaf",
+    "poulet": "Pollo",
+    "kefta": "Kofta",
+    "boeuf": "Solomillo de ternera",
+    "gambas": "Gambas"
+  },
+  "woks": {
+    "title": "NUESTROS WOKS",
+    "legume": "Verduras",
+    "poulet": "Pollo",
+    "boeuf": "Solomillo de ternera",
+    "crevette": "Gambas",
+    "anges": "Los Ángeles (Bacalao, Arroz basmati, Verduras, Salsa de ostras)"
   }
 }

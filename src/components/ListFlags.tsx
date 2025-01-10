@@ -13,36 +13,36 @@ const ListFlags = () => {
     navigate("/menu");
   };
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="flex justify-center gap-x-12 gap-y-6 flex-wrap px-8 my-8">
       <img
         src={ukFlag}
         alt="English"
         onClick={() => setLanguage("en")}
-        className="max-h-12 cursor-pointer"
+        className="max-h-8 cursor-pointer"
       />
       <img
         src={frFlag}
         alt="English"
         onClick={() => setLanguage("fr")}
-        className="max-h-12 cursor-pointer"
+        className="max-h-8 cursor-pointer"
       />
       <img
         src={esFlag}
         alt="English"
         onClick={() => setLanguage("es")}
-        className="max-h-12 cursor-pointer"
+        className="max-h-8 cursor-pointer"
       />
       <img
         src={itFlag}
         alt="English"
         onClick={() => setLanguage("it")}
-        className="max-h-12 cursor-pointer"
+        className="max-h-8 cursor-pointer"
       />
       <img
         src={grFlag}
         alt="English"
         onClick={() => setLanguage("gr")}
-        className="max-h-12 cursor-pointer"
+        className="max-h-8 cursor-pointer"
       />
     </div>
   );

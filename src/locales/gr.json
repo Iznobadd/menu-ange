@@ -1,5 +1,29 @@
 {
   "language": {
     "choose": "Klicken Sie auf die Flagge Ihrer Sprache"
+  },
+  "salades": {
+    "title": "UNSERE SALATE",
+    "trilogie": "Orientalische Trilogie (Zaalouk, Marokkanischer Salat, Hummus)",
+    "taboule": "Quinoa-Taboulé",
+    "buddha": "Buddha bowl (Reis, Gemüse, Mango, Eigelb)",
+    "thai": "Thai mit Huhn",
+    "anges": "Les Anges (Huhn, Räucherlachs, Garnelen, Avocado, Zitrusfrüchte)"
+  },
+  "brochettes": {
+    "title": "UNSERE SPIEßE",
+    "desc": "Mit Ihrer Wahl: Gemischter Salat, Pommes Frites, Gebratenes Gemüse oder Pilaw-Reis",
+    "poulet": "Hähnchen",
+    "kefta": "Kofta",
+    "boeuf": "Rinderfilet",
+    "gambas": "Garnelen"
+  },
+  "woks": {
+    "title": "UNSERE WOKS",
+    "legume": "Gemüse",
+    "poulet": "Hähnchen",
+    "boeuf": "Rinderfilet",
+    "crevette": "Garnelen",
+    "anges": "Die Engel (Kabeljau, Basmati-Reis, Gemüse, Austernsauce)"
   }
 }
