@@ -25,5 +25,33 @@
     "boeuf": "Beef tenderloin",
     "crevette": "Prawns",
     "anges": "The Angels (Codfish, Basmati rice, Vegetables, Oyster sauce)"
+  },
+  "burgers": {
+    "title": "OUR BURGERS",
+    "desc": "With your choice: Mixed salad, Fries, or Stir-fried vegetables",
+    "vegetarien": "The Vegetarian",
+    "poulet": "The Chicken",
+    "boeuf": "The Beef",
+    "poisson": "The Fish (Cod fillet)"
+  },
+  "bruschettas": {
+    "title": "OUR BRUSCHETTAS",
+    "desc": "Served with a mixed salad",
+    "chevre": "Goat cheese, walnuts & honey",
+    "jambon": "Turkey ham with pepper & pesto",
+    "poivrons": "Peppers & Feta",
+    "guacamole": "Guacamole & prawns",
+    "islandaise": "The Icelandic with smoked salmon"
+  },
+  "paninis": {
+    "title": "OUR PANINIS",
+    "desc": "With your choice: Mixed salad, Fries, or Stir-fried vegetables",
+    "tomate": "Sautéed tomatoes, Mozzarella & pesto",
+    "legume": "Sautéed vegetables & Mozzarella",
+    "vegan": "The Vegan (Stir-fried vegetables, Vegan cheese)",
+    "epinard": "Sautéed spinach, Brie & toasted sesame seeds",
+    "marocain": "The Moroccan (Vegetables, Spices, Cheese, Kefta)",
+    "poulet": "Curry chicken",
+    "burger": "Like a Burger"
   }
 }

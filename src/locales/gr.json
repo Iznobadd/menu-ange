@@ -25,5 +25,33 @@
     "boeuf": "Rinderfilet",
     "crevette": "Garnelen",
     "anges": "Die Engel (Kabeljau, Basmati-Reis, Gemüse, Austernsauce)"
+  },
+  "burgers": {
+    "title": "UNSERE BURGER",
+    "desc": "Mit Ihrer Wahl: Gemischter Salat, Pommes Frites oder Gebratenes Gemüse",
+    "vegetarien": "Der Vegetarier",
+    "poulet": "Das Hähnchen",
+    "boeuf": "Das Rindfleisch",
+    "poisson": "Der Fisch (Kabeljaufilet)"
+  },
+  "bruschettas": {
+    "title": "UNSERE BRUSCHETTAS",
+    "desc": "Serviert mit einem gemischten Salat",
+    "chevre": "Ziegenkäse, Walnüsse & Honig",
+    "jambon": "Putenham mit Pfeffer & Pesto",
+    "poivrons": "Paprika & Feta",
+    "guacamole": "Guacamole & Garnelen",
+    "islandaise": "Die Island-Variante mit Räucherlachs"
+  },
+  "paninis": {
+    "title": "UNSERE PANINIS",
+    "desc": "Mit Ihrer Wahl: Gemischter Salat, Pommes Frites oder Gebratenes Gemüse",
+    "tomate": "Gebratene Tomaten, Mozzarella & Pesto",
+    "legume": "Gebratenes Gemüse & Mozzarella",
+    "vegan": "Der Vegane (Gebratene Gemüse, Veganer Käse)",
+    "epinard": "Gebratener Spinat, Brie & geröstete Sesamsamen",
+    "marocain": "Der Marokkaner (Gemüse, Gewürze, Käse, Kefta)",
+    "poulet": "Hähnchen mit Curry",
+    "burger": "Wie ein Burger"
   }
 }

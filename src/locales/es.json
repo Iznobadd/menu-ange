@@ -25,5 +25,33 @@
     "boeuf": "Solomillo de ternera",
     "crevette": "Gambas",
     "anges": "Los Ángeles (Bacalao, Arroz basmati, Verduras, Salsa de ostras)"
+  },
+  "burgers": {
+    "title": "NUESTROS BURGERS",
+    "desc": "Con tu elección: Ensalada mixta, Patatas fritas, o Verduras salteadas",
+    "vegetarien": "El Vegetariano",
+    "poulet": "El Pollo",
+    "boeuf": "La Carne de Res",
+    "poisson": "El Pescado (Filete de bacalao)"
+  },
+  "bruschettas": {
+    "title": "NUESTRAS BRUSCHETTAS",
+    "desc": "Acompañadas de una ensalada mixta",
+    "chevre": "Queso de cabra, nueces & miel",
+    "jambon": "Jamón de pavo con pimienta & pesto",
+    "poivrons": "Pimientos & Feta",
+    "guacamole": "Guacamole & gambas",
+    "islandaise": "La islandesa con salmón ahumado"
+  },
+  "paninis": {
+    "title": "NUESTROS PANINIS",
+    "desc": "Con tu elección: Ensalada mixta, Patatas fritas, o Verduras salteadas",
+    "tomate": "Tomates salteados, Mozzarella & pesto",
+    "legume": "Verduras salteadas & Mozzarella",
+    "vegan": "El Vegano (Verduras salteadas, Queso vegano)",
+    "epinard": "Espinacas salteadas, Brie & semillas de sésamo tostadas",
+    "marocain": "El Marroquí (Verduras, Especias, Queso, Kefta)",
+    "poulet": "Pollo al curry",
+    "burger": "Como una hamburguesa"
   }
 }

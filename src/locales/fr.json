@@ -12,7 +12,7 @@
   },
   "brochettes": {
     "title": "NOS BROCHETTES",
-    "desc": "Avec au choix: Salade composée ou Frites ou Légumes sautées ou Riz pilaf",
+    "desc": "Avec au choix: Salade composée ou Frites ou Légumes sautés ou Riz pilaf",
     "poulet": "Poulet",
     "kefta": "Kefta",
     "boeuf": "Filet de boeuf",
@@ -25,5 +25,33 @@
     "boeuf": "Filet de boeuf",
     "crevette": "Crevettes",
     "anges": "Les Anges (Cabillaud, Riz basmati, Légumes, Sauces huitres)"
+  },
+  "burgers": {
+    "title": "NOS BURGERS",
+    "desc": "Avec au choix: Salade composée ou Frites ou Légumes sautés",
+    "vegetarien": "Le Végétarien",
+    "poulet": "Le Poulet",
+    "boeuf": "Le Boeuf",
+    "poisson": "Le Poisson (Filet de cabillaud)"
+  },
+  "bruschettas": {
+    "title": "NOS BRUSCHETTAS",
+    "desc": "Accompagnées d'une salade composée",
+    "chevre": "Chèvre, noix & miel",
+    "jambon": "Jambon de dinde au poivre & pesto",
+    "poivrons": "Poivrons & Feta",
+    "guacamole": "Guacamole & crevettes",
+    "islandaise": "L'islandaise au saumon fumé"
+  },
+  "paninis": {
+    "title": "NOS PANINIS",
+    "desc": "Avec au choix: Salade composée ou Frites ou Légumes sautés",
+    "tomate": "Tomates poêlées, Mozzarella & pesto",
+    "legume": "Légumes poêlés & Mozzarella",
+    "vegan": "Le végan (Légumes sautés, Fromage végan)",
+    "epinard": "Epinards sautés, brie & sésames grillés",
+    "marocain": "Le Marocain (Légumes, Epices, Fromage, Kefta)",
+    "poulet": "Poulet au curry",
+    "burger": "Comme un Burger"
   }
 }

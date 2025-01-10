@@ -25,5 +25,33 @@
     "boeuf": "Filetto di manzo",
     "crevette": "Gamberi",
     "anges": "Gli Angeli (Merluzzo, Riso basmati, Verdure, Salsa di ostriche)"
+  },
+  "burgers": {
+    "title": "I NOSTRI BURGER",
+    "desc": "A tua scelta: Insalata mista, Patatine fritte o Verdure saltate",
+    "vegetarien": "Il Vegetariano",
+    "poulet": "Il Pollo",
+    "boeuf": "Il Manzo",
+    "poisson": "Il Pesce (Filetto di merluzzo)"
+  },
+  "bruschettas": {
+    "title": "LE NOSTRE BRUSCHETTE",
+    "desc": "Accompagnate da un'insalata mista",
+    "chevre": "Caprino, noci & miele",
+    "jambon": "Prosciutto di tacchino al pepe & pesto",
+    "poivrons": "Peperoni & Feta",
+    "guacamole": "Guacamole & gamberi",
+    "islandaise": "L'Islanda con salmone affumicato"
+  },
+  "paninis": {
+    "title": "I NOSTRI PANINI",
+    "desc": "A tua scelta: Insalata mista, Patatine fritte o Verdure saltate",
+    "tomate": "Pomodori saltati, Mozzarella & pesto",
+    "legume": "Verdure saltate & Mozzarella",
+    "vegan": "Il Vegano (Verdure saltate, Formaggio vegano)",
+    "epinard": "Spinaci saltati, Brie & semi di sesamo tostati",
+    "marocain": "Il Marocco (Verdure, Spezie, Formaggio, Kefta)",
+    "poulet": "Pollo al curry",
+    "burger": "Come un Burger"
   }
 }

@@ -87,6 +87,33 @@ const Menu = () => {
       >
         {t("woks.title")}
       </button>
+      <button
+        data-id="burger"
+        onClick={() => scrollToSection("burger")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "burger" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("burgers.title")}
+      </button>
+      <button
+        data-id="bruschetta"
+        onClick={() => scrollToSection("bruschetta")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "bruschetta" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("bruschettas.title")}
+      </button>
+      <button
+        data-id="panini"
+        onClick={() => scrollToSection("panini")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "panini" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("paninis.title")}
+      </button>
     </div>
   );
 };
