@@ -123,5 +123,43 @@
     "fraise": "Fresa",
     "banane": "Plátano",
     "fruit": "Frutas de temporada"
+  },
+  "soft": {
+    "title": "NUESTRAS BEBIDAS SIN ALCOHOL",
+    "desc": "Acompaña tus bebidas: 5 Galletas marroquíes caseras (40 DHS)",
+    "presse": "Naranja exprimida | Limón exprimido",
+    "orange-gingembre": "Naranja con jengibre",
+    "orange-carotte": "Naranja con zanahoria",
+    "citron-gingembre": "Limón con jengibre",
+    "citron-basilic": "Limón con albahaca",
+    "panache": "Frutas mixtas del día",
+    "avocat-orange": "Aguacate con naranja",
+    "avocat-lait": "Aguacate con leche",
+    "virgin": "Virgin Mojito",
+    "virgin-cafe": "Virgin Mojito Café (Limón, espresso, sprite, menta fresca)",
+    "coca": "Coca-Cola | Coca-Cola Zero",
+    "regular": "Coca Regular | Coca Zero | Sprite | Schweppes Limón | Schweppes Tonic | Té helado",
+    "sirop-eau": "Jarabe con agua",
+    "sirop-diabolo": "Diabolo | Jarabe con leche",
+    "eau": "Agua mineral (50ml / 150ml)",
+    "eau-petillante": "Agua con gas (50ml / 100ml)"
+  },
+  "chaud": {
+    "title": "NUESTRAS BEBIDAS CALIENTES",
+    "desc": "Acompaña tus bebidas: 5 Galletas marroquíes caseras (40 DHS)",
+    "the-menthe": "Té de menta",
+    "the-corne": "Té de menta & cuernos de gacela",
+    "the-royal": "Té real con especias",
+    "the-earl": "Té Earl Grey",
+    "chocolat": "Chocolate caliente",
+    "nouss": "Nouss nouss (Café Illy & leche)",
+    "cafe-epice": "Café con especias",
+    "expresso": "Espresso Illy",
+    "double": "Doble espresso Illy",
+    "capuccino": "Capuchino Illy",
+    "latte": "Café con leche Illy",
+    "cafe-glace": "Café helado (Illy con leche)",
+    "cafe-frappe": "Café frappé (doble espresso sin leche)",
+    "supplement": "Suplemento Leche de avena"
   }
 }

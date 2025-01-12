@@ -195,6 +195,24 @@ const Menu = () => {
       >
         {t("milkshakes.title")}
       </button>
+      <button
+        data-id="soft"
+        onClick={() => scrollToSection("soft")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "soft" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("soft.title")}
+      </button>
+      <button
+        data-id="chaud"
+        onClick={() => scrollToSection("chaud")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "chaud" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("chaud.title")}
+      </button>
     </div>
   );
 };

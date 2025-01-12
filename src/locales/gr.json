@@ -123,5 +123,43 @@
     "fraise": "Erdbeere",
     "banane": "Banane",
     "fruit": "Saisonale Früchte"
+  },
+  "soft": {
+    "title": "UNSERE ERFRISCHUNGSGETRÄNKE",
+    "desc": "Begleiten Sie Ihre Getränke: 5 hausgemachte marokkanische Kekse (40 DHS)",
+    "presse": "Frisch gepresster Orangensaft | Frisch gepresster Zitronensaft",
+    "orange-gingembre": "Orange mit Ingwer",
+    "orange-carotte": "Orange mit Karotte",
+    "citron-gingembre": "Zitrone mit Ingwer",
+    "citron-basilic": "Zitrone mit Basilikum",
+    "panache": "Gemischte Früchte des Tages",
+    "avocat-orange": "Avocado mit Orange",
+    "avocat-lait": "Avocado mit Milch",
+    "virgin": "Virgin Mojito",
+    "virgin-cafe": "Virgin Mojito Café (Zitrone, Espresso, Sprite, frische Minze)",
+    "coca": "Coca-Cola | Coca-Cola Zero",
+    "regular": "Coca Regular | Coca Zero | Sprite | Schweppes Zitrone | Schweppes Tonic | Eistee",
+    "sirop-eau": "Sirup mit Wasser",
+    "sirop-diabolo": "Diabolo | Sirup mit Milch",
+    "eau": "Mineralwasser (50ml / 150ml)",
+    "eau-petillante": "Sprudelwasser (50ml / 100ml)"
+  },
+  "chaud": {
+    "title": "UNSERE HEISSGETRÄNKE",
+    "desc": "Begleiten Sie Ihre Getränke: 5 hausgemachte marokkanische Kekse (40 DHS)",
+    "the-menthe": "Minztee",
+    "the-corne": "Minztee & Gazellenhörner",
+    "the-royal": "Royaler Tee mit Gewürzen",
+    "the-earl": "Earl Grey Tee",
+    "chocolat": "Heiße Schokolade",
+    "nouss": "Nouss nouss (Illy Kaffee & Milch)",
+    "cafe-epice": "Kaffee mit Gewürzen",
+    "expresso": "Illy Espresso",
+    "double": "Doppelter Illy Espresso",
+    "capuccino": "Illy Cappuccino",
+    "latte": "Illy Milchkaffee",
+    "cafe-glace": "Eiskaffee (Illy mit Milch)",
+    "cafe-frappe": "Frappe Kaffee (doppelter Espresso ohne Milch)",
+    "supplement": "Zusatzt Laktosefreie Milch"
   }
 }

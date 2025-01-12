@@ -123,5 +123,43 @@
     "fraise": "Fraise",
     "banane": "Banane",
     "fruit": "Fruits de saison"
+  },
+  "soft": {
+    "title": "NOS BOISSONS SOFT",
+    "desc": "Accompagner vos boissons : 5Biscuits Marocains Maison (40dhs)",
+    "presse": "Orange pressé | Citron pressé",
+    "orange-gingembre": "Orange gingembre",
+    "orange-carotte": "Orange carotte",
+    "citron-gingembre": "Citron gingembre",
+    "citron-basilic": "Citron basilic",
+    "panache": "Panaché de fruits du jour",
+    "avocat-orange": "Avocat orange",
+    "avocat-lait": "Avocat lait",
+    "virgin": "Virgin Mojito",
+    "virgin-cafe": "Virgin Mojito Café (Citron, expresso, sprite, menthe fraîche)",
+    "coca": "Coca-Cola | Coca-Cola zéro",
+    "regular": "Coca Regular | Coca Zéro | Sprite | Schweppes Citron | Schweppes Tonic | Ice tea",
+    "sirop-eau": "Sirop à l'eau",
+    "sirop-diabolo": "Diabolo | Sirop au lait",
+    "eau": "Eau minérale (50ml / 150ml)",
+    "eau-petillante": "Eau pétillante (50ml / 100ml)"
+  },
+  "chaud": {
+    "title": "NOS BOISSONS CHAUDES",
+    "desc": "Accompagner vos boissons : 5Biscuits Marocains Maison (40dhs)",
+    "the-menthe": "Thé à la menthe",
+    "the-corne": "Thé à la menthe & cornes de gazelles",
+    "the-royal": "Thé royal aux épices",
+    "the-earl": "Thé Earl Grey",
+    "chocolat": "Chocolat chaud",
+    "nouss": "Nouss nouss (Café Illy & lait)",
+    "cafe-epice": "Café aux épices",
+    "expresso": "Expresso Illy",
+    "double": "Double expresso Illy",
+    "capuccino": "Capuccino Illy",
+    "latte": "Café latté Illy",
+    "cafe-glace": "Café glacé (Illy avec lait)",
+    "cafe-frappe": "Café frappé (double expresso sans lait)",
+    "supplement": "Supplément Lait d'avoine"
   }
 }

@@ -123,5 +123,43 @@
     "fraise": "Strawberry",
     "banane": "Banana",
     "fruit": "Seasonal fruits"
+  },
+  "soft": {
+    "title": "OUR SOFT DRINKS",
+    "desc": "Accompany your drinks: 5 Homemade Moroccan Biscuits (40dhs)",
+    "presse": "Freshly squeezed orange | Freshly squeezed lemon",
+    "orange-gingembre": "Orange with ginger",
+    "orange-carotte": "Orange with carrot",
+    "citron-gingembre": "Lemon with ginger",
+    "citron-basilic": "Lemon with basil",
+    "panache": "Mixed fruits of the day",
+    "avocat-orange": "Avocado with orange",
+    "avocat-lait": "Avocado with milk",
+    "virgin": "Virgin Mojito",
+    "virgin-cafe": "Virgin Mojito Café (Lemon, espresso, sprite, fresh mint)",
+    "coca": "Coca-Cola | Coca-Cola Zero",
+    "regular": "Coca Regular | Coca Zero | Sprite | Schweppes Lemon | Schweppes Tonic | Ice tea",
+    "sirop-eau": "Syrup with water",
+    "sirop-diabolo": "Diabolo | Syrup with milk",
+    "eau": "Mineral water (50ml / 150ml)",
+    "eau-petillante": "Sparkling water (50ml / 100ml)"
+  },
+  "chaud": {
+    "title": "OUR HOT DRINKS",
+    "desc": "Accompany your drinks: 5 Homemade Moroccan Biscuits (40dhs)",
+    "the-menthe": "Mint tea",
+    "the-corne": "Mint tea & gazelle horns",
+    "the-royal": "Royal tea with spices",
+    "the-earl": "Earl Grey tea",
+    "chocolat": "Hot chocolate",
+    "nouss": "Nouss nouss (Illy coffee & milk)",
+    "cafe-epice": "Coffee with spices",
+    "expresso": "Illy espresso",
+    "double": "Double Illy espresso",
+    "capuccino": "Illy cappuccino",
+    "latte": "Illy latte coffee",
+    "cafe-glace": "Iced coffee (Illy with milk)",
+    "cafe-frappe": "Frappe coffee (double espresso without milk)",
+    "supplement": "Oat Milk Supplement"
   }
 }

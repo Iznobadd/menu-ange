@@ -1,6 +1,7 @@
 import Brochette from "../components/category/Brochette";
 import Bruschetta from "../components/category/Bruschetta";
 import Burger from "../components/category/Burger";
+import Chaud from "../components/category/Chaud";
 import Crepe from "../components/category/Crepe";
 import Dessert from "../components/category/Dessert";
 import Enfant from "../components/category/Enfant";
@@ -11,6 +12,7 @@ import Panini from "../components/category/Panini";
 import Pastilla from "../components/category/Pastilla";
 import Pate from "../components/category/Pate";
 import Salade from "../components/category/Salade";
+import Soft from "../components/category/Soft";
 import Soupe from "../components/category/Soupe";
 import Wok from "../components/category/Wok";
 import Menu from "../components/Menu";
@@ -64,6 +66,12 @@ const Home = () => {
         </section>
         <section id="milkshake">
           <Milkshake />
+        </section>
+        <section id="soft">
+          <Soft />
+        </section>
+        <section id="chaud">
+          <Chaud />
         </section>
       </div>
     </div>
