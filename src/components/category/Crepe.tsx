@@ -47,9 +47,6 @@ const Crepe = () => {
   return (
     <div className="my-4">
       <h2 className="font-bold text-xl mb-2">{t("crepes.title")}</h2>
-      <p className="mb-6 text-gray-500">
-        <i>{t("crepes.desc")}</i>
-      </p>
       <div className="grid grid-cols-2 gap-4">
         {crepes.map((crepe, index) => (
           <div key={index} className=" bg-white border border-gray-200 shadow">
