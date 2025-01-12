@@ -12,7 +12,7 @@ const Language = () => {
         <img src={Logo} alt="logo" className="w-80 mx-auto" />
         <ListFlags />
         <h2 className="text-center font-bold">{t("language.choose")}</h2>
-        <div className="px-8 mt-24 flex justify-between">
+        <div className="px-8 mt-8 flex justify-between">
           <a
             href="https://www.instagram.com/lesanges_essaouira/"
             target="_blank"

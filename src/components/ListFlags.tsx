@@ -14,7 +14,7 @@ const ListFlags = () => {
   };
   return (
     <div className="flex justify-center gap-x-12 gap-y-6 flex-wrap px-8 my-8">
-      <div className="bg-gray-200 p-4 rounded">
+      <div className="bg-gray-200 p-2 rounded">
         <img
           src={ukFlag}
           alt="English"
@@ -22,7 +22,7 @@ const ListFlags = () => {
           className="max-h-8 cursor-pointer"
         />
       </div>
-      <div className="bg-gray-200 p-4 rounded">
+      <div className="bg-gray-200 p-2 rounded">
         <img
           src={frFlag}
           alt="English"
@@ -30,7 +30,7 @@ const ListFlags = () => {
           className="max-h-8 cursor-pointer"
         />
       </div>
-      <div className="bg-gray-200 p-4 rounded">
+      <div className="bg-gray-200 p-2 rounded">
         <img
           src={itFlag}
           alt="English"
@@ -38,7 +38,7 @@ const ListFlags = () => {
           className="max-h-8 cursor-pointer"
         />
       </div>
-      <div className="bg-gray-200 p-4 rounded">
+      <div className="bg-gray-200 p-2 rounded">
         <img
           src={esFlag}
           alt="English"
@@ -46,7 +46,7 @@ const ListFlags = () => {
           className="max-h-8 cursor-pointer"
         />
       </div>
-      <div className="bg-gray-200 p-4 rounded">
+      <div className="bg-gray-200 p-2 rounded">
         <img
           src={grFlag}
           alt="English"
