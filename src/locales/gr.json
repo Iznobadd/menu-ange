@@ -53,5 +53,75 @@
     "marocain": "Der Marokkaner (Gemüse, Gewürze, Käse, Kefta)",
     "poulet": "Hähnchen mit Curry",
     "burger": "Wie ein Burger"
+  },
+  "pates": {
+    "title": "UNSERE NUDELN",
+    "desc": "Mit Ihrer Wahl: Spaghettini, Tagliatelle oder Linguine",
+    "pesto": "Mit Pesto",
+    "creme": "Mit Sahne und frischen Champignons",
+    "puttanesca": "Puttanesca-Art (Sardellen, Kapern, Knoblauch, Tomaten)",
+    "mer": "Mit Meeresfrüchten"
+  },
+  "pastillas": {
+    "title": "UNSERE PASTILLAS",
+    "desc": "Mit einem gemischten Salat serviert",
+    "legume": "Gemüse",
+    "poulet": "Hähnchen",
+    "mer": "Meeresfrüchte"
+  },
+  "omelettes": {
+    "title": "UNSERE OMELETTEN",
+    "desc": "Mit einem gemischten Salat serviert",
+    "legume": "Gemischtes Gemüse",
+    "tomate": "Tomaten & Zwiebeln",
+    "parmesan": "Parmesan in Scheiben"
+  },
+  "soupes": {
+    "title": "UNSERE SUPPEN",
+    "potiron": "Kürbis - Karotten & frische Sahne",
+    "asiatique": "Asiatisch"
+  },
+  "enfant": {
+    "title": "KINDERMENÜ",
+    "desc": "Hacksteak oder Hähnchenspieße",
+    "desc2": "Pommes Frites, Spaghetti mit Tomatensoße, oder Spaghetti mit Butter & Käse",
+    "desc3": "Eiscreme 2 Kugeln: Schokolade | Kaffee | Vanille | Nougat | Zitrone | Himbeere | Erdbeere"
+  },
+  "desserts": {
+    "title": "UNSERE HAUSGEMACHTEN DESSERTS",
+    "tiramisu-datte": "Dattel-Tiramisu",
+    "tiramisu-citron": "Tiramisu mit Zitronenzeste",
+    "panna-pomme": "Panna Cotta mit karamellisierten Äpfeln",
+    "panna-amlou": "Panna Cotta mit Amlou",
+    "mousse": "Dunkle Schokoladenmousse",
+    "meli-melo": "Mischung aus saisonalen Früchten",
+    "corne": "Gazellenhörner (3 Stück)",
+    "biscuit": "Traditionelle marokkanische Kekse (5 Stück)"
+  },
+  "crepes": {
+    "title": "UNSERE CRÊPES",
+    "sucre": "Zucker & Zitrone",
+    "nutella": "Nutella",
+    "banane": "Nutella & Banane",
+    "chocolat": "Schokolade",
+    "suzette": "Suzette (alkoholfrei)",
+    "miel": "Honig & Trockenfrüchte",
+    "caramel": "Gesalzenes Karamell",
+    "amlou": "Amlou"
+  },
+  "glaces": {
+    "title": "UNSERE EISSORTEN",
+    "desc": "Schokolade | Kaffee | Vanille | Nougat | Zitrone | Himbeere | Erdbeere | Mango",
+    "une": "1 Kugel",
+    "deux": "2 Kugeln",
+    "trois": "3 Kugeln"
+  },
+  "milkshakes": {
+    "title": "UNSERE MILCHSHAKES",
+    "chocolat": "Schokolade",
+    "vanille": "Vanille",
+    "fraise": "Erdbeere",
+    "banane": "Banane",
+    "fruit": "Saisonale Früchte"
   }
 }

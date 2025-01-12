@@ -53,5 +53,75 @@
     "marocain": "The Moroccan (Vegetables, Spices, Cheese, Kefta)",
     "poulet": "Curry chicken",
     "burger": "Like a Burger"
+  },
+  "pates": {
+    "title": "OUR PASTAS",
+    "desc": "With your choice: Spaghettini, Tagliatelle, or Linguine",
+    "pesto": "With pesto",
+    "creme": "With cream & fresh mushrooms",
+    "puttanesca": "Puttanesca style (Anchovies, Capers, Garlic, Tomatoes)",
+    "mer": "With seafood"
+  },
+  "pastillas": {
+    "title": "OUR PASTILLAS",
+    "desc": "Served with a mixed salad",
+    "legume": "Vegetables",
+    "poulet": "Chicken",
+    "mer": "Seafood"
+  },
+  "omelettes": {
+    "title": "OUR OMELETTES",
+    "desc": "Served with a mixed salad",
+    "legume": "Mixed vegetables",
+    "tomate": "Tomatoes & onions",
+    "parmesan": "Shaved parmesan"
+  },
+  "soupes": {
+    "title": "OUR SOUPS",
+    "potiron": "Pumpkin - Carrots & fresh cream",
+    "asiatique": "Asian style"
+  },
+  "enfant": {
+    "title": "KIDS MENU",
+    "desc": "Minced steak or Chicken skewers",
+    "desc2": "Fries, Spaghetti with tomato sauce, or Spaghetti with butter & cheese",
+    "desc3": "2-scoop ice cream: Chocolate | Coffee | Vanilla | Nougat | Lemon | Raspberry | Strawberry"
+  },
+  "desserts": {
+    "title": "OUR HOMEMADE DESSERTS",
+    "tiramisu-datte": "Date tiramisu",
+    "tiramisu-citron": "Lemon zest tiramisu",
+    "panna-pomme": "Panna cotta with caramelized apples",
+    "panna-amlou": "Panna cotta with amlou",
+    "mousse": "Dark chocolate mousse",
+    "meli-melo": "Medley of seasonal fruits",
+    "corne": "Gazelle horns (3pcs)",
+    "biscuit": "Traditional Moroccan cookies (5pcs)"
+  },
+  "crepes": {
+    "title": "OUR CRÊPES",
+    "sucre": "Sugar & lemon",
+    "nutella": "Nutella",
+    "banane": "Nutella & banana",
+    "chocolat": "Chocolate",
+    "suzette": "Suzette (alcohol-free)",
+    "miel": "Honey & dried fruits",
+    "caramel": "Salted caramel butter",
+    "amlou": "Amlou"
+  },
+  "glaces": {
+    "title": "OUR ICE CREAMS",
+    "desc": "Chocolate | Coffee | Vanilla | Nougat | Lemon | Raspberry | Strawberry | Mango",
+    "une": "1 scoop",
+    "deux": "2 scoops",
+    "trois": "3 scoops"
+  },
+  "milkshakes": {
+    "title": "OUR MILKSHAKES",
+    "chocolat": "Chocolate",
+    "vanille": "Vanilla",
+    "fraise": "Strawberry",
+    "banane": "Banana",
+    "fruit": "Seasonal fruits"
   }
 }

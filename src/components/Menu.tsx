@@ -114,6 +114,87 @@ const Menu = () => {
       >
         {t("paninis.title")}
       </button>
+      <button
+        data-id="pate"
+        onClick={() => scrollToSection("pate")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "pate" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("pates.title")}
+      </button>
+      <button
+        data-id="pastilla"
+        onClick={() => scrollToSection("pastilla")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "pastilla" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("pastillas.title")}
+      </button>
+      <button
+        data-id="omelette"
+        onClick={() => scrollToSection("omelette")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "omelette" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("omelettes.title")}
+      </button>
+      <button
+        data-id="soupe"
+        onClick={() => scrollToSection("soupe")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "soupe" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("soupes.title")}
+      </button>
+      <button
+        data-id="enfant"
+        onClick={() => scrollToSection("enfant")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "enfant" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("enfant.title")}
+      </button>
+      <button
+        data-id="dessert"
+        onClick={() => scrollToSection("dessert")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "dessert" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("desserts.title")}
+      </button>
+      <button
+        data-id="crepe"
+        onClick={() => scrollToSection("crepe")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "crepe" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("crepes.title")}
+      </button>
+      <button
+        data-id="glace"
+        onClick={() => scrollToSection("glace")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "glace" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("glaces.title")}
+      </button>
+      <button
+        data-id="milkshake"
+        onClick={() => scrollToSection("milkshake")}
+        className={`text-white py-2 px-4 ${
+          activeSection === "milkshake" ? "bg-[#194697] rounded" : ""
+        }`}
+      >
+        {t("milkshakes.title")}
+      </button>
     </div>
   );
 };

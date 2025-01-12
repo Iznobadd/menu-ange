@@ -53,5 +53,75 @@
     "marocain": "Il Marocco (Verdure, Spezie, Formaggio, Kefta)",
     "poulet": "Pollo al curry",
     "burger": "Come un Burger"
+  },
+  "pates": {
+    "title": "LE NOSTRE PASTE",
+    "desc": "Con la tua scelta: Spaghettini, Tagliatelle o Linguine",
+    "pesto": "Al pesto",
+    "creme": "Con crema e funghi freschi",
+    "puttanesca": "Alla puttanesca (Acciughe, Capperi, Aglio, Pomodori)",
+    "mer": "Con frutti di mare"
+  },
+  "pastillas": {
+    "title": "LE NOSTRE PASTILLAS",
+    "desc": "Accompagnate da un'insalata mista",
+    "legume": "Verdure",
+    "poulet": "Pollo",
+    "mer": "Frutti di mare"
+  },
+  "omelettes": {
+    "title": "LE NOSTRE OMELETTE",
+    "desc": "Accompagnate da un'insalata mista",
+    "legume": "Verdure miste",
+    "tomate": "Pomodori e cipolle",
+    "parmesan": "Parmigiano a scaglie"
+  },
+  "soupes": {
+    "title": "LE NOSTRE ZUPPE",
+    "potiron": "Zucca - Carote & panna fresca",
+    "asiatique": "Stile asiatico"
+  },
+  "enfant": {
+    "title": "MENU BAMBINI",
+    "desc": "Hamburger tritato o Spiedini di pollo",
+    "desc2": "Patatine fritte, Spaghetti al pomodoro, o Spaghetti burro & formaggio",
+    "desc3": "Gelato 2 gusti: Cioccolato | Caffè | Vaniglia | Torrone | Limone | Lampone | Fragola"
+  },
+  "desserts": {
+    "title": "I NOSTRI DOLCI FATTI IN CASA",
+    "tiramisu-datte": "Tiramisù ai datteri",
+    "tiramisu-citron": "Tiramisù agli agrumi",
+    "panna-pomme": "Panna cotta alle mele caramellate",
+    "panna-amlou": "Panna cotta con amlou",
+    "mousse": "Mousse al cioccolato fondente",
+    "meli-melo": "Macedonia di frutta di stagione",
+    "corne": "Corna di gazzella (3 pezzi)",
+    "biscuit": "Biscotti marocchini tradizionali (5 pezzi)"
+  },
+  "crepes": {
+    "title": "LE NOSTRE CRÊPE",
+    "sucre": "Zucchero & limone",
+    "nutella": "Nutella",
+    "banane": "Nutella & banana",
+    "chocolat": "Cioccolato",
+    "suzette": "Suzette (senza alcool)",
+    "miel": "Miele & frutta secca",
+    "caramel": "Caramello salato",
+    "amlou": "Amlou"
+  },
+  "glaces": {
+    "title": "I NOSTRI GELATI",
+    "desc": "Cioccolato | Caffè | Vaniglia | Torrone | Limone | Lampone | Fragola | Mango",
+    "une": "1 pallina",
+    "deux": "2 palline",
+    "trois": "3 palline"
+  },
+  "milkshakes": {
+    "title": "I NOSTRI FRULLATI",
+    "chocolat": "Cioccolato",
+    "vanille": "Vaniglia",
+    "fraise": "Fragola",
+    "banane": "Banana",
+    "fruit": "Frutta di stagione"
   }
 }

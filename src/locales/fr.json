@@ -53,5 +53,75 @@
     "marocain": "Le Marocain (Légumes, Epices, Fromage, Kefta)",
     "poulet": "Poulet au curry",
     "burger": "Comme un Burger"
+  },
+  "pates": {
+    "title": "NOS PÂTES",
+    "desc": "Avec au choix: Spaghettini ou Tagliatelle ou Linguine",
+    "pesto": "Au pesto",
+    "creme": "A la crème & champignons frais",
+    "puttanesca": "A la puttanesca (Anchois, Câpres, Ail, Tomates)",
+    "mer": "Aux fruits de mer"
+  },
+  "pastillas": {
+    "title": "NOS PASTILLAS",
+    "desc": "Accompagnées d'une salade composée",
+    "legume": "Légumes",
+    "poulet": "Poulet",
+    "mer": "Fruits de mer"
+  },
+  "omelettes": {
+    "title": "NOS OMELETTES",
+    "desc": "Accompagnées d'une salade composée",
+    "legume": "Légumes variés",
+    "tomate": "Tomates & oignons",
+    "parmesan": "Parmesan en copeaux"
+  },
+  "soupes": {
+    "title": "NOS SOUPES",
+    "potiron": "Potiron - Carottes & crème fraîche",
+    "asiatique": "Asiatique"
+  },
+  "enfant": {
+    "title": "MENU ENFANT",
+    "desc": "Steack haché ou Brochettes de Poulet",
+    "desc2": "Frites ou Spaghetti sauce tomates ou Spaghetti beurre & fromage",
+    "desc3": "Glace 2 boules: Chocolat | Café | Vanille | Nougat | Citron | Framboise | Fraise"
+  },
+  "desserts": {
+    "title": "NOS DESSERTS MAISON",
+    "tiramisu-datte": "Tiramisu aux dattes",
+    "tiramisu-citron": "Tiramisu aux zestes de citron",
+    "panna-pomme": "Panna cotta aux pommes caramélisées",
+    "panna-amlou": "Panna cotta à l'amlou",
+    "mousse": "Mousse au chocolat noir",
+    "meli-melo": "Méli-mélo de fruits de saison",
+    "corne": "Cornes de gazelles (3pcs)",
+    "biscuit": "Biscuits Marocains traditionnels (5pcs)"
+  },
+  "crepes": {
+    "title": "NOS CRÊPES",
+    "sucre": "Sucre & citron",
+    "nutella": "Nutella",
+    "banane": "Nutella & banane",
+    "chocolat": "Chocolat",
+    "suzette": "Suzette (sans alcool)",
+    "miel": "Miel & Fruits secs",
+    "caramel": "Caramel beurre salé",
+    "amlou": "Amlou"
+  },
+  "glaces": {
+    "title": "NOS GLACES",
+    "desc": "Chocolat | Café | Vanille | Nougat | Citron | Framboise | Fraise | Mangue",
+    "une": "1 boule",
+    "deux": "2 boules",
+    "trois": "3 boules"
+  },
+  "milkshakes": {
+    "title": "NOS MILKSHAKES",
+    "chocolat": "Chocolat",
+    "vanille": "Vanille",
+    "fraise": "Fraise",
+    "banane": "Banane",
+    "fruit": "Fruits de saison"
   }
 }

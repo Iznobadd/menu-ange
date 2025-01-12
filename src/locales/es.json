@@ -53,5 +53,75 @@
     "marocain": "El Marroquí (Verduras, Especias, Queso, Kefta)",
     "poulet": "Pollo al curry",
     "burger": "Como una hamburguesa"
+  },
+  "pates": {
+    "title": "NUESTRAS PASTAS",
+    "desc": "Con tu elección: Spaghettini, Tagliatelle o Linguine",
+    "pesto": "Con pesto",
+    "creme": "Con crema y champiñones frescos",
+    "puttanesca": "Estilo puttanesca (Anchoas, Alcaparras, Ajo, Tomates)",
+    "mer": "Con mariscos"
+  },
+  "pastillas": {
+    "title": "NUESTRAS PASTILLAS",
+    "desc": "Acompañadas de una ensalada mixta",
+    "legume": "Verduras",
+    "poulet": "Pollo",
+    "mer": "Mariscos"
+  },
+  "omelettes": {
+    "title": "NUESTRAS TORTILLAS",
+    "desc": "Acompañadas de una ensalada mixta",
+    "legume": "Verduras mixtas",
+    "tomate": "Tomates y cebollas",
+    "parmesan": "Parmesano en láminas"
+  },
+  "soupes": {
+    "title": "NUESTRAS SOPAS",
+    "potiron": "Calabaza - Zanahorias & crema fresca",
+    "asiatique": "Estilo asiático"
+  },
+  "enfant": {
+    "title": "MENÚ INFANTIL",
+    "desc": "Filete de carne molida o Brochetas de pollo",
+    "desc2": "Papas fritas, Espaguetis con salsa de tomate, o Espaguetis con mantequilla y queso",
+    "desc3": "Helado de 2 bolas: Chocolate | Café | Vainilla | Nougat | Limón | Frambuesa | Fresa"
+  },
+  "desserts": {
+    "title": "NUESTROS POSTRES CASEROS",
+    "tiramisu-datte": "Tiramisú de dátiles",
+    "tiramisu-citron": "Tiramisú de ralladura de limón",
+    "panna-pomme": "Panna cotta con manzanas caramelizadas",
+    "panna-amlou": "Panna cotta con amlou",
+    "mousse": "Mousse de chocolate negro",
+    "meli-melo": "Mezcla de frutas de temporada",
+    "corne": "Cuernos de gacela (3 unidades)",
+    "biscuit": "Galletas marroquíes tradicionales (5 unidades)"
+  },
+  "crepes": {
+    "title": "NUESTRAS CRÊPES",
+    "sucre": "Azúcar y limón",
+    "nutella": "Nutella",
+    "banane": "Nutella y plátano",
+    "chocolat": "Chocolate",
+    "suzette": "Suzette (sin alcohol)",
+    "miel": "Miel y frutos secos",
+    "caramel": "Caramelo salado",
+    "amlou": "Amlou"
+  },
+  "glaces": {
+    "title": "NUESTROS HELADOS",
+    "desc": "Chocolate | Café | Vainilla | Turrón | Limón | Frambuesa | Fresa | Mango",
+    "une": "1 bola",
+    "deux": "2 bolas",
+    "trois": "3 bolas"
+  },
+  "milkshakes": {
+    "title": "NUESTROS BATIDOS",
+    "chocolat": "Chocolate",
+    "vanille": "Vainilla",
+    "fraise": "Fresa",
+    "banane": "Plátano",
+    "fruit": "Frutas de temporada"
   }
 }
