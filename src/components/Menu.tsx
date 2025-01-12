@@ -58,13 +58,15 @@ const Menu = () => {
   return (
     <div
       ref={menuRef}
-      className="fixed top-0 h-auto bg-gray-900 w-full py-8 flex items-center gap-8 px-6 overflow-x-auto whitespace-nowrap"
+      className="fixed top-0 h-auto bg-white w-full py-4 flex items-center gap-8 px-6 overflow-x-auto whitespace-nowrap"
     >
       <button
         data-id="salade"
         onClick={() => scrollToSection("salade")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "salade" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "salade"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("salades.title")}
@@ -72,8 +74,10 @@ const Menu = () => {
       <button
         data-id="brochette"
         onClick={() => scrollToSection("brochette")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "brochette" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "brochette"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("brochettes.title")}
@@ -81,8 +85,10 @@ const Menu = () => {
       <button
         data-id="wok"
         onClick={() => scrollToSection("wok")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "wok" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "wok"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("woks.title")}
@@ -90,8 +96,10 @@ const Menu = () => {
       <button
         data-id="burger"
         onClick={() => scrollToSection("burger")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "burger" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "burger"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("burgers.title")}
@@ -99,8 +107,10 @@ const Menu = () => {
       <button
         data-id="bruschetta"
         onClick={() => scrollToSection("bruschetta")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "bruschetta" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "bruschetta"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("bruschettas.title")}
@@ -108,8 +118,10 @@ const Menu = () => {
       <button
         data-id="panini"
         onClick={() => scrollToSection("panini")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "panini" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "panini"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("paninis.title")}
@@ -117,8 +129,10 @@ const Menu = () => {
       <button
         data-id="pate"
         onClick={() => scrollToSection("pate")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "pate" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "pate"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("pates.title")}
@@ -126,8 +140,10 @@ const Menu = () => {
       <button
         data-id="pastilla"
         onClick={() => scrollToSection("pastilla")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "pastilla" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "pastilla"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("pastillas.title")}
@@ -135,8 +151,10 @@ const Menu = () => {
       <button
         data-id="omelette"
         onClick={() => scrollToSection("omelette")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "omelette" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "omelette"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("omelettes.title")}
@@ -144,8 +162,10 @@ const Menu = () => {
       <button
         data-id="soupe"
         onClick={() => scrollToSection("soupe")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "soupe" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "soupe"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("soupes.title")}
@@ -153,8 +173,10 @@ const Menu = () => {
       <button
         data-id="enfant"
         onClick={() => scrollToSection("enfant")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "enfant" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "enfant"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("enfant.title")}
@@ -162,8 +184,10 @@ const Menu = () => {
       <button
         data-id="dessert"
         onClick={() => scrollToSection("dessert")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "dessert" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "dessert"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("desserts.title")}
@@ -171,8 +195,10 @@ const Menu = () => {
       <button
         data-id="crepe"
         onClick={() => scrollToSection("crepe")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "crepe" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "crepe"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("crepes.title")}
@@ -180,8 +206,10 @@ const Menu = () => {
       <button
         data-id="glace"
         onClick={() => scrollToSection("glace")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "glace" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "glace"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("glaces.title")}
@@ -189,8 +217,10 @@ const Menu = () => {
       <button
         data-id="milkshake"
         onClick={() => scrollToSection("milkshake")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "milkshake" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "milkshake"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("milkshakes.title")}
@@ -198,8 +228,10 @@ const Menu = () => {
       <button
         data-id="soft"
         onClick={() => scrollToSection("soft")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "soft" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "soft"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("soft.title")}
@@ -207,8 +239,10 @@ const Menu = () => {
       <button
         data-id="chaud"
         onClick={() => scrollToSection("chaud")}
-        className={`text-white py-2 px-4 ${
-          activeSection === "chaud" ? "bg-[#194697] rounded" : ""
+        className={`text-black py-2 px-4 ${
+          activeSection === "chaud"
+            ? "bg-green-400 rounded"
+            : "bg-gray-200 rounded"
         }`}
       >
         {t("chaud.title")}

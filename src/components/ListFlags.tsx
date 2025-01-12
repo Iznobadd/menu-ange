@@ -14,36 +14,46 @@ const ListFlags = () => {
   };
   return (
     <div className="flex justify-center gap-x-12 gap-y-6 flex-wrap px-8 my-8">
-      <img
-        src={ukFlag}
-        alt="English"
-        onClick={() => setLanguage("en")}
-        className="max-h-8 cursor-pointer"
-      />
-      <img
-        src={frFlag}
-        alt="English"
-        onClick={() => setLanguage("fr")}
-        className="max-h-8 cursor-pointer"
-      />
-      <img
-        src={esFlag}
-        alt="English"
-        onClick={() => setLanguage("es")}
-        className="max-h-8 cursor-pointer"
-      />
-      <img
-        src={itFlag}
-        alt="English"
-        onClick={() => setLanguage("it")}
-        className="max-h-8 cursor-pointer"
-      />
-      <img
-        src={grFlag}
-        alt="English"
-        onClick={() => setLanguage("gr")}
-        className="max-h-8 cursor-pointer"
-      />
+      <div className="bg-gray-200 p-4 rounded">
+        <img
+          src={ukFlag}
+          alt="English"
+          onClick={() => setLanguage("en")}
+          className="max-h-8 cursor-pointer"
+        />
+      </div>
+      <div className="bg-gray-200 p-4 rounded">
+        <img
+          src={frFlag}
+          alt="English"
+          onClick={() => setLanguage("en")}
+          className="max-h-8 cursor-pointer"
+        />
+      </div>
+      <div className="bg-gray-200 p-4 rounded">
+        <img
+          src={itFlag}
+          alt="English"
+          onClick={() => setLanguage("en")}
+          className="max-h-8 cursor-pointer"
+        />
+      </div>
+      <div className="bg-gray-200 p-4 rounded">
+        <img
+          src={esFlag}
+          alt="English"
+          onClick={() => setLanguage("en")}
+          className="max-h-8 cursor-pointer"
+        />
+      </div>
+      <div className="bg-gray-200 p-4 rounded">
+        <img
+          src={grFlag}
+          alt="English"
+          onClick={() => setLanguage("en")}
+          className="max-h-8 cursor-pointer"
+        />
+      </div>
     </div>
   );
 };
