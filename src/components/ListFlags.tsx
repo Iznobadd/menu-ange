@@ -26,7 +26,7 @@ const ListFlags = () => {
         <img
           src={frFlag}
           alt="English"
-          onClick={() => setLanguage("en")}
+          onClick={() => setLanguage("fr")}
           className="max-h-8 cursor-pointer"
         />
       </div>
@@ -34,7 +34,7 @@ const ListFlags = () => {
         <img
           src={itFlag}
           alt="English"
-          onClick={() => setLanguage("en")}
+          onClick={() => setLanguage("it")}
           className="max-h-8 cursor-pointer"
         />
       </div>
@@ -42,7 +42,7 @@ const ListFlags = () => {
         <img
           src={esFlag}
           alt="English"
-          onClick={() => setLanguage("en")}
+          onClick={() => setLanguage("es")}
           className="max-h-8 cursor-pointer"
         />
       </div>
@@ -50,7 +50,7 @@ const ListFlags = () => {
         <img
           src={grFlag}
           alt="English"
-          onClick={() => setLanguage("en")}
+          onClick={() => setLanguage("gr")}
           className="max-h-8 cursor-pointer"
         />
       </div>
