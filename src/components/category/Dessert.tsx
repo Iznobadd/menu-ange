@@ -1,6 +1,12 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
-import Corne from "../../assets/desserts/corne.jpg";
+import Biscuit from "../../assets/desserts/biscuit.png";
+import Corne from "../../assets/desserts/corne.png";
+import Mousse from "../../assets/desserts/mousse.png";
+import PannaAmlou from "../../assets/desserts/panna-amlou.png";
+import PannaPomme from "../../assets/desserts/panna-pomme.png";
+import TiramisuCitron from "../../assets/desserts/tiramisu-citron.png";
+import TiramisuDatte from "../../assets/desserts/tiramisu-datte.png";
+import MeliMelo from "../../assets/desserts/meli-melo.png";
 
 const Dessert = () => {
   const { t } = useTranslation();
@@ -8,32 +14,32 @@ const Dessert = () => {
     {
       name: t("desserts.tiramisu-datte"),
       price: 60,
-      image: Generique,
+      image: TiramisuDatte,
     },
     {
       name: t("desserts.tiramisu-citron"),
       price: 60,
-      image: Generique,
+      image: TiramisuCitron,
     },
     {
       name: t("desserts.panna-pomme"),
       price: 60,
-      image: Generique,
+      image: PannaPomme,
     },
     {
       name: t("desserts.panna-amlou"),
       price: 75,
-      image: Generique,
+      image: PannaAmlou,
     },
     {
       name: t("desserts.mousse"),
       price: 70,
-      image: Generique,
+      image: Mousse,
     },
     {
       name: t("desserts.meli-melo"),
       price: 65,
-      image: Generique,
+      image: MeliMelo,
     },
     {
       name: t("desserts.corne"),
@@ -43,7 +49,7 @@ const Dessert = () => {
     {
       name: t("desserts.biscuit"),
       price: 40,
-      image: Generique,
+      image: Biscuit,
     },
   ];
   return (
@@ -55,7 +61,7 @@ const Dessert = () => {
             <img
               src={dessert.image}
               alt={dessert.name}
-              className="w-full h-32 object-cover mb-4"
+              className="w-full h-32 object-contain mb-4"
             />
             <div className="p-2">
               <p className="font-bold text-md">{dessert.name}</p>

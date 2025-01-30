@@ -1,5 +1,9 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
+import Chevre from "../../assets/bruschettas/chevre.png";
+import Guacamole from "../../assets/bruschettas/guacamole.png";
+import Islandaise from "../../assets/bruschettas/islandaise.png";
+import Jambon from "../../assets/bruschettas/jambon.png";
+import Poivron from "../../assets/bruschettas/poivron.png";
 
 const Bruschetta = () => {
   const { t } = useTranslation();
@@ -7,27 +11,27 @@ const Bruschetta = () => {
     {
       name: t("bruschettas.chevre"),
       price: 70,
-      image: Generique,
+      image: Chevre,
     },
     {
       name: t("bruschettas.jambon"),
       price: 70,
-      image: Generique,
+      image: Jambon,
     },
     {
       name: t("bruschettas.poivrons"),
       price: 80,
-      image: Generique,
+      image: Poivron,
     },
     {
       name: t("bruschettas.guacamole"),
       price: 85,
-      image: Generique,
+      image: Guacamole,
     },
     {
       name: t("bruschettas.islandaise"),
       price: 95,
-      image: Generique,
+      image: Islandaise,
     },
   ];
   return (
@@ -42,7 +46,7 @@ const Bruschetta = () => {
             <img
               src={bruschetta.image}
               alt={bruschetta.name}
-              className="w-full h-32 object-cover mb-4"
+              className="w-full h-32 object-contain mb-4"
             />
             <div className="p-2">
               <p className="font-bold text-md">{bruschetta.name}</p>

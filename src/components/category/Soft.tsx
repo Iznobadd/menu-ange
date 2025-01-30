@@ -92,7 +92,7 @@ const Soft = () => {
             <img
               src={soft.image}
               alt={soft.name}
-              className="w-full h-32 object-cover mb-4"
+              className="w-full h-32 object-contain mb-4"
             />
             <div className="p-2">
               <p className="font-bold text-md">{soft.name}</p>

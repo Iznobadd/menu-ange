@@ -87,7 +87,7 @@ const Chaud = () => {
             <img
               src={chaud.image}
               alt={chaud.name}
-              className="w-full h-32 object-cover mb-4"
+              className="w-full h-32 object-contain mb-4"
             />
             <div className="p-2">
               <p className="font-bold text-md">{chaud.name}</p>

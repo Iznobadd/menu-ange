@@ -23,7 +23,7 @@ const Enfant = () => {
             <img
               src={enfants.image}
               alt={enfants.name}
-              className="w-full h-32 object-cover mb-4"
+              className="w-full h-32 object-contain mb-4"
             />
             <div className="p-2">
               {/* Remplace les sauts de ligne par des <br /> */}

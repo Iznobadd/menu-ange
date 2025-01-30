@@ -53,7 +53,7 @@ const Crepe = () => {
             <img
               src={crepe.image}
               alt={crepe.name}
-              className="w-full h-32 object-cover mb-4"
+              className="w-full h-32 object-contain mb-4"
             />
             <div className="p-2">
               <p className="font-bold text-md">{crepe.name}</p>
