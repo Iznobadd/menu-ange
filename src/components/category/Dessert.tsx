@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Generique from "../../assets/salades/generique.jpg";
+import Corne from "../../assets/desserts/corne.jpg";
+
 const Dessert = () => {
   const { t } = useTranslation();
   const desserts = [
@@ -36,7 +38,7 @@ const Dessert = () => {
     {
       name: t("desserts.corne"),
       price: 30,
-      image: Generique,
+      image: Corne,
     },
     {
       name: t("desserts.biscuit"),
