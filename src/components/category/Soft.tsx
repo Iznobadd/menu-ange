@@ -46,7 +46,7 @@ const Soft = () => {
     },
     {
       name: t("soft.virgin"),
-      price: 60,
+      price: 65,
       image: Generique,
     },
     {
@@ -61,7 +61,7 @@ const Soft = () => {
     },
     {
       name: t("soft.sirop-eau"),
-      price: 30,
+      price: 35,
       image: Generique,
     },
     {
@@ -71,12 +71,12 @@ const Soft = () => {
     },
     {
       name: t("soft.eau"),
-      price: "10 Dhs / 20",
+      price: "10 Dhs / 25",
       image: Generique,
     },
     {
       name: t("soft.eau-petillante"),
-      price: "10 Dhs / 25",
+      price: "15 Dhs / 30",
       image: Generique,
     },
   ];

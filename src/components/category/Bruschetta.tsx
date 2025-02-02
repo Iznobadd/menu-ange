@@ -10,27 +10,27 @@ const Bruschetta = () => {
   const bruschettas = [
     {
       name: t("bruschettas.chevre"),
-      price: 70,
+      price: 75,
       image: Chevre,
     },
     {
       name: t("bruschettas.jambon"),
-      price: 70,
+      price: 75,
       image: Jambon,
     },
     {
       name: t("bruschettas.poivrons"),
-      price: 80,
+      price: 85,
       image: Poivron,
     },
     {
       name: t("bruschettas.guacamole"),
-      price: 85,
+      price: 90,
       image: Guacamole,
     },
     {
       name: t("bruschettas.islandaise"),
-      price: 95,
+      price: 100,
       image: Islandaise,
     },
   ];

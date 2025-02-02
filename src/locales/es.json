@@ -135,7 +135,7 @@
     "panache": "Frutas mixtas del día",
     "avocat-orange": "Aguacate con naranja",
     "avocat-lait": "Aguacate con leche",
-    "virgin": "Virgin Mojito",
+    "virgin": "Blue Virgin Mojito",
     "virgin-cafe": "Virgin Mojito Café (Limón, espresso, sprite, menta fresca)",
     "coca": "Coca-Cola | Coca-Cola Zero",
     "regular": "Coca Regular | Coca Zero | Sprite | Schweppes Limón | Schweppes Tonic | Té helado",
@@ -160,6 +160,7 @@
     "latte": "Café con leche Illy",
     "cafe-glace": "Café helado (Illy con leche)",
     "cafe-frappe": "Café frappé (doble espresso sin leche)",
+    "cafe-illy": "Café frappé (doble espresso ILLY)",
     "supplement": "Suplemento Leche de avena"
   }
 }

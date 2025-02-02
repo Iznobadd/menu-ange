@@ -40,7 +40,7 @@ const Crepe = () => {
     },
     {
       name: t("crepes.amlou"),
-      price: 55,
+      price: 60,
       image: Generique,
     },
   ];

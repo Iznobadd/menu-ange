@@ -6,12 +6,12 @@ const Soupe = () => {
   const soupes = [
     {
       name: t("soupes.potiron"),
-      price: 50,
+      price: 60,
       image: Generique,
     },
     {
       name: t("soupes.asiatique"),
-      price: 70,
+      price: 100,
       image: Generique,
     },
   ];

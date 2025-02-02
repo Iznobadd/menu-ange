@@ -6,7 +6,7 @@ const Panini = () => {
   const paninis = [
     {
       name: t("paninis.tomate"),
-      price: 60,
+      price: 65,
       image: Generique,
     },
     {
@@ -21,12 +21,12 @@ const Panini = () => {
     },
     {
       name: t("paninis.epinard"),
-      price: 80,
+      price: 85,
       image: Generique,
     },
     {
       name: t("paninis.marocain"),
-      price: 70,
+      price: 75,
       image: Generique,
     },
     {
@@ -36,7 +36,7 @@ const Panini = () => {
     },
     {
       name: t("paninis.burger"),
-      price: 85,
+      price: 90,
       image: Generique,
     },
   ];

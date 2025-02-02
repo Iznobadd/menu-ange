@@ -28,7 +28,7 @@
   },
   "burgers": {
     "title": "NOS BURGERS",
-    "desc": "Avec au choix: Salade composée ou Frites ou Légumes sautés",
+    "desc": "Avec au choix: Salade composée ou Frites maison ou Légumes sautés",
     "vegetarien": "Le Végétarien",
     "poulet": "Le Poulet",
     "boeuf": "Le Boeuf",
@@ -57,10 +57,10 @@
   "pates": {
     "title": "NOS PÂTES",
     "desc": "Avec au choix: Spaghettini ou Tagliatelle ou Linguine",
-    "pesto": "Au pesto",
-    "creme": "A la crème & champignons frais",
-    "puttanesca": "A la puttanesca (Anchois, Câpres, Ail, Tomates)",
-    "mer": "Aux fruits de mer"
+    "pesto": "Pesto",
+    "creme": "Crème & champignons frais",
+    "puttanesca": "Puttanesca (Anchois, Câpres, Ail, Tomates)",
+    "mer": "Fruits de mer"
   },
   "pastillas": {
     "title": "NOS PASTILLAS",
@@ -74,7 +74,7 @@
     "desc": "Accompagnées d'une salade composée",
     "legume": "Légumes variés",
     "tomate": "Tomates & oignons",
-    "parmesan": "Parmesan en copeaux"
+    "parmesan": "Copeaux de parmesan"
   },
   "soupes": {
     "title": "NOS SOUPES",
@@ -85,7 +85,7 @@
     "title": "MENU ENFANT",
     "desc": "Steack haché ou Brochettes de Poulet",
     "desc2": "Frites ou Spaghetti sauce tomates ou Spaghetti beurre & fromage",
-    "desc3": "Glace 2 boules: Chocolat | Café | Vanille | Nougat | Citron | Framboise | Fraise"
+    "desc3": "Glace 2 boules: Chocolat | Café | Vanille | Nougat | Citron | Framboise | Fraise | Pistache"
   },
   "desserts": {
     "title": "NOS DESSERTS MAISON",
@@ -135,7 +135,7 @@
     "panache": "Panaché de fruits du jour",
     "avocat-orange": "Avocat orange",
     "avocat-lait": "Avocat lait",
-    "virgin": "Virgin Mojito",
+    "virgin": "Blue Virgin Mojito",
     "virgin-cafe": "Virgin Mojito Café (Citron, expresso, sprite, menthe fraîche)",
     "coca": "Coca-Cola | Coca-Cola zéro",
     "regular": "Coca Regular | Coca Zéro | Sprite | Schweppes Citron | Schweppes Tonic | Ice tea",
@@ -160,6 +160,7 @@
     "latte": "Café latté Illy",
     "cafe-glace": "Café glacé (Illy avec lait)",
     "cafe-frappe": "Café frappé (double expresso sans lait)",
+    "cafe-illy": "Café frappé (double expresso ILLY + glaçons)",
     "supplement": "Supplément Lait d'avoine"
   }
 }

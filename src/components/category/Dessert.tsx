@@ -38,12 +38,12 @@ const Dessert = () => {
     },
     {
       name: t("desserts.meli-melo"),
-      price: 65,
+      price: 70,
       image: MeliMelo,
     },
     {
       name: t("desserts.corne"),
-      price: 30,
+      price: 35,
       image: Corne,
     },
     {

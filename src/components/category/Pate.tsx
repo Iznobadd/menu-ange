@@ -16,7 +16,7 @@ const Pate = () => {
     },
     {
       name: t("pates.puttanesca"),
-      price: 80,
+      price: 90,
       image: Generique,
     },
     {

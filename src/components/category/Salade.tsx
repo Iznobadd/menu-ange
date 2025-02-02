@@ -12,7 +12,7 @@ const Salade = () => {
     },
     {
       name: t("salades.taboule"),
-      price: 75,
+      price: 90,
       image: Generique,
     },
     {
@@ -22,7 +22,7 @@ const Salade = () => {
     },
     {
       name: t("salades.thai"),
-      price: 90,
+      price: 95,
       image: Generique,
     },
     {

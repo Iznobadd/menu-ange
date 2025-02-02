@@ -6,12 +6,12 @@ const Brochette = () => {
   const brochettes = [
     {
       name: t("brochettes.poulet"),
-      price: 80,
+      price: 85,
       image: Generique,
     },
     {
       name: t("brochettes.kefta"),
-      price: 80,
+      price: 85,
       image: Generique,
     },
     {

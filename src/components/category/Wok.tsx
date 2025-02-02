@@ -11,7 +11,7 @@ const Wok = () => {
     },
     {
       name: t("woks.poulet"),
-      price: 80,
+      price: 85,
       image: Generique,
     },
     {

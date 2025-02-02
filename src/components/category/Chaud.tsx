@@ -11,7 +11,7 @@ const Chaud = () => {
     },
     {
       name: t("chaud.the-corne"),
-      price: 40,
+      price: 45,
       image: Generique,
     },
     {
@@ -66,6 +66,11 @@ const Chaud = () => {
     },
     {
       name: t("chaud.cafe-frappe"),
+      price: 50,
+      image: Generique,
+    },
+    {
+      name: t("chaud.cafe-illy"),
       price: 50,
       image: Generique,
     },

@@ -11,7 +11,7 @@ const Burger = () => {
     },
     {
       name: t("burgers.poulet"),
-      price: 90,
+      price: 95,
       image: Generique,
     },
     {
@@ -21,7 +21,7 @@ const Burger = () => {
     },
     {
       name: t("burgers.poisson"),
-      price: 110,
+      price: 120,
       image: Generique,
     },
   ];
