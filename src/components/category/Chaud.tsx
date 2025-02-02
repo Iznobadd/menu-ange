@@ -81,9 +81,12 @@ const Chaud = () => {
       <p className="mb-6 text-gray-500">
         <i>{t("soft.desc")}</i>
       </p>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {chauds.map((chaud, index) => (
-          <div key={index} className=" bg-white border border-gray-200 shadow">
+          <div
+            key={index}
+            className=" bg-white border md:text-center border-gray-200 shadow"
+          >
             <img
               src={chaud.image}
               alt={chaud.name}

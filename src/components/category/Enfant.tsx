@@ -19,7 +19,10 @@ const Enfant = () => {
       <h2 className="font-bold text-xl mb-2">{t("enfant.title")}</h2>
       <div className="grid grid-cols gap-4">
         {enfant.map((enfants, index) => (
-          <div key={index} className="bg-white border border-gray-200 shadow">
+          <div
+            key={index}
+            className="bg-white border md:text-center border-gray-200 shadow"
+          >
             <img
               src={enfants.image}
               alt={enfants.name}

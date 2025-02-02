@@ -31,9 +31,12 @@ const Brochette = () => {
       <p className="mb-6 text-gray-500">
         <i>{t("brochettes.desc")}</i>
       </p>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {brochettes.map((brochette, index) => (
-          <div key={index} className=" bg-white border border-gray-200 shadow">
+          <div
+            key={index}
+            className=" bg-white border md:text-center border-gray-200 shadow"
+          >
             <img
               src={brochette.image}
               alt={brochette.name}

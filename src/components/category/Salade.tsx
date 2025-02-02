@@ -35,9 +35,12 @@ const Salade = () => {
   return (
     <div className="my-4">
       <h2 className="font-bold text-xl mb-6">{t("salades.title")}</h2>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {salades.map((salade, index) => (
-          <div key={index} className=" bg-white border border-gray-200 shadow">
+          <div
+            key={index}
+            className=" bg-white border md:text-center border-gray-200 shadow"
+          >
             <img
               src={salade.image}
               alt={salade.name}
