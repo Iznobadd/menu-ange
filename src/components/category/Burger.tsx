@@ -27,16 +27,15 @@ const Burger = () => {
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2">{t("burgers.title")}</h2>
+      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+        {t("burgers.title")}
+      </h2>
       <p className="mb-6 text-gray-500">
         <i>{t("burgers.desc")}</i>
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {burgers.map((burger, index) => (
-          <div
-            key={index}
-            className=" bg-white border md:text-center border-gray-200 shadow"
-          >
+          <div key={index} className=" md:text-center">
             <img
               src={burger.image}
               alt={burger.name}

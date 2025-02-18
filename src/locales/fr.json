@@ -3,15 +3,17 @@
     "choose": "Cliquez sur le drapeau de votre langue"
   },
   "salades": {
-    "title": "NOS SALADES",
-    "trilogie": "Trilogie orientale (Zaalouk, Salade marocaine, Houmous)",
-    "taboule": "Taboulé de quinoa",
+    "title": "SALADES",
+    "quinoa": {
+      "title": "Salade de Quinoa",
+      "desc": "Mangue, Avocat, Dattes, Menthe"
+    },
     "buddha": "Buddha bowl (Riz, Légumes, Mangue, Jaune d'oeuf)",
     "thai": "Thaï au poulet",
     "anges": "Les Anges (Poulet, Saumon fumé, Crevettes, Avocat, Agrumes)"
   },
   "brochettes": {
-    "title": "NOS BROCHETTES",
+    "title": "BROCHETTES",
     "desc": "Avec au choix: Salade composée ou Frites ou Légumes sautés ou Riz pilaf",
     "poulet": "Poulet",
     "kefta": "Kefta",
@@ -19,7 +21,7 @@
     "gambas": "Gambas"
   },
   "woks": {
-    "title": "NOS WOKS",
+    "title": "WOKS",
     "legume": "Légumes",
     "poulet": "Poulet",
     "boeuf": "Filet de boeuf",
@@ -27,7 +29,7 @@
     "anges": "Les Anges (Cabillaud, Riz basmati, Légumes, Sauces huitres)"
   },
   "burgers": {
-    "title": "NOS BURGERS",
+    "title": "BURGERS",
     "desc": "Avec au choix: Salade composée ou Frites maison ou Légumes sautés",
     "vegetarien": "Le Végétarien",
     "poulet": "Le Poulet",
@@ -35,7 +37,7 @@
     "poisson": "Le Poisson (Filet de cabillaud)"
   },
   "bruschettas": {
-    "title": "NOS BRUSCHETTAS",
+    "title": "BRUSCHETTAS",
     "desc": "Accompagnées d'une salade composée",
     "chevre": "Chèvre, noix & miel",
     "jambon": "Jambon de dinde au poivre & pesto",
@@ -44,7 +46,7 @@
     "islandaise": "L'islandaise au saumon fumé"
   },
   "paninis": {
-    "title": "NOS PANINIS",
+    "title": "PANINIS",
     "desc": "Avec au choix: Salade composée ou Frites ou Légumes sautés",
     "tomate": "Tomates poêlées, Mozzarella & pesto",
     "legume": "Légumes poêlés & Mozzarella",
@@ -55,7 +57,7 @@
     "burger": "Comme un Burger"
   },
   "pates": {
-    "title": "NOS PÂTES",
+    "title": "PÂTES",
     "desc": "Avec au choix: Spaghettini ou Tagliatelle ou Linguine",
     "pesto": "Pesto",
     "creme": "Crème & champignons frais",
@@ -63,21 +65,21 @@
     "mer": "Fruits de mer"
   },
   "pastillas": {
-    "title": "NOS PASTILLAS",
+    "title": "PASTILLAS",
     "desc": "Accompagnées d'une salade composée",
     "legume": "Légumes",
     "poulet": "Poulet",
     "mer": "Fruits de mer"
   },
   "omelettes": {
-    "title": "NOS OMELETTES",
+    "title": "OMELETTES",
     "desc": "Accompagnées d'une salade composée",
     "legume": "Légumes variés",
     "tomate": "Tomates & oignons",
     "parmesan": "Copeaux de parmesan"
   },
   "soupes": {
-    "title": "NOS SOUPES",
+    "title": "SOUPES",
     "potiron": "Potiron - Carottes & crème fraîche",
     "asiatique": "Asiatique"
   },
@@ -88,7 +90,7 @@
     "desc3": "Glace 2 boules: Chocolat | Café | Vanille | Nougat | Citron | Framboise | Fraise | Pistache"
   },
   "desserts": {
-    "title": "NOS DESSERTS MAISON",
+    "title": "DESSERTS MAISON",
     "tiramisu-datte": "Tiramisu aux dattes",
     "tiramisu-citron": "Tiramisu aux zestes de citron",
     "panna-pomme": "Panna cotta aux pommes caramélisées",
@@ -99,7 +101,7 @@
     "biscuit": "Biscuits Marocains traditionnels (5pcs)"
   },
   "crepes": {
-    "title": "NOS CRÊPES",
+    "title": "CRÊPES",
     "sucre": "Sucre & citron",
     "nutella": "Nutella",
     "banane": "Nutella & banane",
@@ -110,14 +112,14 @@
     "amlou": "Amlou"
   },
   "glaces": {
-    "title": "NOS GLACES",
+    "title": "GLACES",
     "desc": "Chocolat | Café | Vanille | Nougat | Citron | Framboise | Fraise | Mangue",
     "une": "1 boule",
     "deux": "2 boules",
     "trois": "3 boules"
   },
   "milkshakes": {
-    "title": "NOS MILKSHAKES",
+    "title": "MILKSHAKES",
     "chocolat": "Chocolat",
     "vanille": "Vanille",
     "fraise": "Fraise",
@@ -125,7 +127,7 @@
     "fruit": "Fruits de saison"
   },
   "soft": {
-    "title": "NOS BOISSONS SOFT",
+    "title": "BOISSONS SOFT",
     "desc": "Accompagner vos boissons : 5Biscuits Marocains Maison (40dhs)",
     "presse": "Orange pressé | Citron pressé",
     "orange-gingembre": "Orange gingembre",
@@ -145,7 +147,7 @@
     "eau-petillante": "Eau pétillante (50ml / 100ml)"
   },
   "chaud": {
-    "title": "NOS BOISSONS CHAUDES",
+    "title": "BOISSONS CHAUDES",
     "desc": "Accompagner vos boissons : 5Biscuits Marocains Maison (40dhs)",
     "the-menthe": "Thé à la menthe",
     "the-corne": "Thé à la menthe & cornes de gazelles",

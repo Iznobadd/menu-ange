@@ -54,13 +54,12 @@ const Dessert = () => {
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2">{t("desserts.title")}</h2>
+      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+        {t("desserts.title")}
+      </h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {desserts.map((dessert, index) => (
-          <div
-            key={index}
-            className=" bg-white border md:text-center border-gray-200 shadow"
-          >
+          <div key={index} className=" md:text-center">
             <img
               src={dessert.image}
               alt={dessert.name}

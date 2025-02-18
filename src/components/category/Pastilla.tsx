@@ -22,16 +22,15 @@ const Pastilla = () => {
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2">{t("pastillas.title")}</h2>
+      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+        {t("pastillas.title")}
+      </h2>
       <p className="mb-6 text-gray-500">
         <i>{t("pastillas.desc")}</i>
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {pastillas.map((pastilla, index) => (
-          <div
-            key={index}
-            className=" bg-white border md:text-center border-gray-200 shadow"
-          >
+          <div key={index} className=" md:text-center">
             <img
               src={pastilla.image}
               alt={pastilla.name}

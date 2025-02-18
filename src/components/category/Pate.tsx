@@ -27,16 +27,15 @@ const Pate = () => {
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2">{t("pates.title")}</h2>
+      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+        {t("pates.title")}
+      </h2>
       <p className="mb-6 text-gray-500">
         <i>{t("pates.desc")}</i>
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {pates.map((pate, index) => (
-          <div
-            key={index}
-            className=" bg-white border md:text-center border-gray-200 shadow"
-          >
+          <div key={index} className=" md:text-center">
             <img
               src={pate.image}
               alt={pate.name}

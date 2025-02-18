@@ -16,13 +16,12 @@ const Enfant = () => {
 
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2">{t("enfant.title")}</h2>
+      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+        {t("enfant.title")}
+      </h2>
       <div className="grid grid-cols gap-4">
         {enfant.map((enfants, index) => (
-          <div
-            key={index}
-            className="bg-white border md:text-center border-gray-200 shadow"
-          >
+          <div key={index} className="md:text-center">
             <img
               src={enfants.image}
               alt={enfants.name}
