@@ -30,7 +30,7 @@ const Salade = () => {
 
   return (
     <div className="my-4">
-      <h2 className="font-bold text-2xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl mb-2 text-[#7ba7d3]">
         {t("salades.title")}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
