@@ -30,21 +30,26 @@ const Salade = () => {
 
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-2xl mb-2 text-[#7ba7d3]">
         {t("salades.title")}
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {salades.map((salade, index) => (
-          <div key={index} className=" md:text-center">
+          <div
+            key={index}
+            className=" md:text-center flex justify-between items-center"
+          >
             <img
               src={salade.image}
               alt={salade.title}
-              className="w-full h-32 object-contain mb-4"
+              className="h-24 object-cover w-[39%]"
             />
-            <div className="p-2">
-              <p className="font-bold text-md">{salade.title}</p>
+            <div className="p-2 w-[60%]">
+              <p className="font-semibold text-md">{salade.title}</p>
               <p className="italic text-gray-500 text-[12px]">{salade.desc}</p>
-              <p className="text-sm text-gray-600 mt-2">{salade.price} Dhs</p>
+              <p className="text-[12px] text-gray-500 mt-2">
+                {salade.price} Dhs
+              </p>
             </div>
           </div>
         ))}

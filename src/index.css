@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.cdnfonts.com/css/futura-std-4");
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   background-color: #f8f8f8;
+  font-family: "Futura Std", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 3px;
 }

@@ -7,9 +7,8 @@ import Tiktok from "../assets/tiktok.png";
 const Language = () => {
   const { t } = useTranslation();
   return (
-    // <div className="flex items-center justify-center w-screen h-screen bg-white">
-    <div className="flex items-center justify-center w-screen h-screen bg-white flex-wrap">
-      {/* <div className="text-center">
+    <div className="flex items-center justify-center w-screen h-screen bg-white">
+      <div className="text-center">
         <img src={Logo} alt="logo" className="w-80 mx-auto" />
         <ListFlags />
         <h2 className="text-center font-bold">{t("language.choose")}</h2>
@@ -29,9 +28,7 @@ const Language = () => {
             <img src={Tiktok} alt="" className="max-w-40" />
           </a>
         </div>
-      </div> */}
-      <img src={Logo} alt="logo" className="w-80 mx-auto" />
-      <h1 className="text-3xl font-bold">BIENTÔT DISPONIBLE</h1>
+      </div>
     </div>
   );
 };

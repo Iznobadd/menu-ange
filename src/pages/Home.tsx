@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div>
       <Menu />
-      <div className="pt-48 px-6">
+      <div className="pt-48 px-2">
         <section id="salade">
           <Salade />
         </section>
