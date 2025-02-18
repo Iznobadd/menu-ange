@@ -21,7 +21,12 @@ const Home = () => {
   return (
     <div>
       <Menu />
-      <div className="pt-48 px-2">
+      <div className="pt-[193px] px-2">
+        <p className="italic text-[12px] text-center mb-7 px-4">
+          “Là où le local rencontre l’excellence. Nous sélectionnons avec soin
+          des produits de qualité pour vous offrir des créations maison,
+          empreintes d'authenticité et de saveurs uniques”
+        </p>
         <section id="salade">
           <Salade />
         </section>
