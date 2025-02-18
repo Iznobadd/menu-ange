@@ -8,9 +8,18 @@
       "title": "Salade de Quinoa",
       "desc": "Mangue, Avocat, Dattes, Menthe"
     },
-    "buddha": "Buddha bowl (Riz, Légumes, Mangue, Jaune d'oeuf)",
-    "thai": "Thaï au poulet",
-    "anges": "Les Anges (Poulet, Saumon fumé, Crevettes, Avocat, Agrumes)"
+    "buddha": {
+      "title": "Buddha bowl",
+      "desc": "Riz, Légumes, Mangue, Jaune d'oeuf"
+    },
+    "thai": {
+      "title": "Thaï au poulet",
+      "desc": ""
+    },
+    "anges": {
+      "title": "Les Anges",
+      "desc": "Poulet, Saumon fumé, Crevettes, Avocat, Agrumes"
+    }
   },
   "brochettes": {
     "title": "BROCHETTES",

@@ -21,7 +21,7 @@ const Menu = () => {
 
     sections.forEach((section) => {
       const rect = section.getBoundingClientRect();
-      const topOffset = 250;
+      const topOffset = 150;
       if (rect.top <= topOffset && rect.bottom > topOffset) {
         setActiveSection(section.id);
 
@@ -63,7 +63,7 @@ const Menu = () => {
       </div>
       <div
         ref={menuRef}
-        className="fixed top-0 h-auto w-full flex items-end gap-3 pt-[135px] overflow-x-auto whitespace-nowrap bg-contain bg-right"
+        className="fixed top-0 h-[167px] w-full flex items-end gap-3 pt-[135px] overflow-x-auto whitespace-nowrap bg-contain bg-right"
         style={{ backgroundImage: `url(${BgTop})` }}
       >
         <button
