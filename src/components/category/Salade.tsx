@@ -54,7 +54,7 @@ const Salade = () => {
               <p className="font-semibold text-lg">{salade.title}</p>
               <p className="italic text-gray-500 text-[12px]">{salade.desc}</p>
               <p className="text-[12px] text-gray-500 mt-2">
-                {salade.price} Dhs
+                {salade.price} dhs
               </p>
             </div>
           </div>

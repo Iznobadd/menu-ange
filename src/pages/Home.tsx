@@ -21,8 +21,8 @@ const Home = () => {
   return (
     <div>
       <Menu />
-      <div className="pt-[193px] px-2">
-        <p className="italic text-[12px] text-center mb-7 px-4">
+      <div className="pt-[198px] px-2">
+        <p className="italic text-[14px] text-center mb-7 px-4">
           “Là où le local rencontre l’excellence. Nous sélectionnons avec soin
           des produits de qualité pour vous offrir des créations maison,
           empreintes d'authenticité et de saveurs uniques”
@@ -30,26 +30,26 @@ const Home = () => {
         <section id="salade">
           <Salade />
         </section>
-        <section id="brochette">
-          <Brochette />
-        </section>
-        <section id="wok">
-          <Wok />
-        </section>
-        <section id="burger">
-          <Burger />
-        </section>
         <section id="bruschetta">
           <Bruschetta />
-        </section>
-        <section id="panini">
-          <Panini />
         </section>
         <section id="pate">
           <Pate />
         </section>
+        <section id="burger">
+          <Burger />
+        </section>
+        <section id="panini">
+          <Panini />
+        </section>
+        <section id="brochette">
+          <Brochette />
+        </section>
         <section id="pastilla">
           <Pastilla />
+        </section>
+        <section id="wok">
+          <Wok />
         </section>
         <section id="omelette">
           <Omelette />

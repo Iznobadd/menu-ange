@@ -63,7 +63,7 @@ const Menu = () => {
       </div>
       <div
         ref={menuRef}
-        className="fixed top-0 h-[167px] w-full flex items-end gap-3 pt-[135px] overflow-x-auto whitespace-nowrap bg-contain bg-right"
+        className="fixed top-0 h-[175px] w-full flex items-end gap-3 pt-[135px] overflow-x-auto whitespace-nowrap bg-contain bg-right px-4"
         style={{ backgroundImage: `url(${BgTop})` }}
       >
         <button
@@ -74,35 +74,6 @@ const Menu = () => {
           }`}
         >
           {t("salades.title")}
-        </button>
-        <button
-          data-id="brochette"
-          onClick={() => scrollToSection("brochette")}
-          className={`px-2 pt-2 text-white  ${
-            activeSection === "brochette"
-              ? "text-[#7ba7d3] rounded"
-              : " rounded"
-          }`}
-        >
-          {t("brochettes.title")}
-        </button>
-        <button
-          data-id="wok"
-          onClick={() => scrollToSection("wok")}
-          className={`px-2 pt-2 text-white  ${
-            activeSection === "wok" ? "text-[#7ba7d3] rounded" : " rounded"
-          }`}
-        >
-          {t("woks.title")}
-        </button>
-        <button
-          data-id="burger"
-          onClick={() => scrollToSection("burger")}
-          className={`px-2 pt-2 text-white  ${
-            activeSection === "burger" ? "text-[#7ba7d3] rounded" : " rounded"
-          }`}
-        >
-          {t("burgers.title")}
         </button>
         <button
           data-id="bruschetta"
@@ -116,15 +87,6 @@ const Menu = () => {
           {t("bruschettas.title")}
         </button>
         <button
-          data-id="panini"
-          onClick={() => scrollToSection("panini")}
-          className={`px-2 pt-2 text-white  ${
-            activeSection === "panini" ? "text-[#7ba7d3] rounded" : " rounded"
-          }`}
-        >
-          {t("paninis.title")}
-        </button>
-        <button
           data-id="pate"
           onClick={() => scrollToSection("pate")}
           className={`px-2 pt-2 text-white  ${
@@ -134,6 +96,36 @@ const Menu = () => {
           {t("pates.title")}
         </button>
         <button
+          data-id="burger"
+          onClick={() => scrollToSection("burger")}
+          className={`px-2 pt-2 text-white  ${
+            activeSection === "burger" ? "text-[#7ba7d3] rounded" : " rounded"
+          }`}
+        >
+          {t("burgers.title")}
+        </button>
+
+        <button
+          data-id="panini"
+          onClick={() => scrollToSection("panini")}
+          className={`px-2 pt-2 text-white  ${
+            activeSection === "panini" ? "text-[#7ba7d3] rounded" : " rounded"
+          }`}
+        >
+          {t("paninis.title")}
+        </button>
+        <button
+          data-id="brochette"
+          onClick={() => scrollToSection("brochette")}
+          className={`px-2 pt-2 text-white  ${
+            activeSection === "brochette"
+              ? "text-[#7ba7d3] rounded"
+              : " rounded"
+          }`}
+        >
+          {t("brochettes.title")}
+        </button>
+        <button
           data-id="pastilla"
           onClick={() => scrollToSection("pastilla")}
           className={`px-2 pt-2 text-white  ${
@@ -141,6 +133,15 @@ const Menu = () => {
           }`}
         >
           {t("pastillas.title")}
+        </button>
+        <button
+          data-id="wok"
+          onClick={() => scrollToSection("wok")}
+          className={`px-2 pt-2 text-white  ${
+            activeSection === "wok" ? "text-[#7ba7d3] rounded" : " rounded"
+          }`}
+        >
+          {t("woks.title")}
         </button>
         <button
           data-id="omelette"
