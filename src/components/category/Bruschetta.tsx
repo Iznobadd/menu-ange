@@ -9,51 +9,65 @@ const Bruschetta = () => {
   const { t } = useTranslation();
   const bruschettas = [
     {
-      name: t("bruschettas.chevre"),
+      title: t("bruschettas.chevre.title"),
+      desc: t("bruschettas.chevre.desc"),
       price: 75,
       image: Chevre,
     },
     {
-      name: t("bruschettas.jambon"),
+      title: t("bruschettas.jambon.title"),
+      desc: t("bruschettas.jambon.desc"),
       price: 75,
       image: Jambon,
     },
     {
-      name: t("bruschettas.poivrons"),
+      title: t("bruschettas.poivrons.title"),
+      desc: t("bruschettas.poivrons.desc"),
       price: 85,
       image: Poivron,
     },
     {
-      name: t("bruschettas.guacamole"),
+      title: t("bruschettas.guacamole.title"),
+      desc: t("bruschettas.guacamole.desc"),
       price: 90,
       image: Guacamole,
     },
     {
-      name: t("bruschettas.islandaise"),
+      title: t("bruschettas.islandaise.title"),
+      desc: t("bruschettas.islandaise.desc"),
       price: 100,
       image: Islandaise,
     },
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("bruschettas.title")}
       </h2>
-      <p className="mb-6 text-gray-500">
-        <i>{t("bruschettas.desc")}</i>
-      </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex items-center mb-4">
+        <div className="w-[10%] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+        <p className="px-4 text-[#7ba7d3] text-[12px] -mt-3">
+          {t("bruschettas.desc")}
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {bruschettas.map((bruschetta, index) => (
-          <div key={index} className=" md:text-center">
+          <div
+            key={index}
+            className=" md:text-center flex justify-between items-center"
+          >
             <img
               src={bruschetta.image}
-              alt={bruschetta.name}
-              className="w-full h-32 object-contain mb-4"
+              alt={bruschetta.title}
+              className="object-cover w-[36%]"
             />
-            <div className="p-2">
-              <p className="font-bold text-md">{bruschetta.name}</p>
-              <p className="text-sm text-gray-600 mt-2">
-                {bruschetta.price} Dhs
+            <div className="py-2 w-[60%]">
+              <p className="font-semibold text-lg">{bruschetta.title}</p>
+              <p className="italic text-gray-500 text-[12px]">
+                {bruschetta.desc}
+              </p>
+              <p className="text-[12px] text-gray-500 mt-2">
+                {bruschetta.price} dhs
               </p>
             </div>
           </div>

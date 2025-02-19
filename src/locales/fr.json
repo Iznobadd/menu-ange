@@ -48,11 +48,26 @@
   "bruschettas": {
     "title": "BRUSCHETTAS",
     "desc": "Accompagnées d'une salade composée",
-    "chevre": "Chèvre, noix & miel",
-    "jambon": "Jambon de dinde au poivre & pesto",
-    "poivrons": "Poivrons & Feta",
-    "guacamole": "Guacamole & crevettes",
-    "islandaise": "L'islandaise au saumon fumé"
+    "chevre": {
+      "title": "Chèvre, noix & miel",
+      "desc": ""
+    },
+    "jambon": {
+      "title": "Jambon de dinde au poivre & Pesto",
+      "desc": ""
+    },
+    "poivrons": {
+      "title": "Poivron & Feta",
+      "desc": ""
+    },
+    "guacamole": {
+      "title": "Guacamole & Crevettes",
+      "desc": ""
+    },
+    "islandaise": {
+      "title": "L'islandaise au Saumon fumé",
+      "desc": ""
+    }
   },
   "paninis": {
     "title": "PANINIS",
