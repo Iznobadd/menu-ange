@@ -1,49 +1,65 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
 
+import Boeuf from "../../assets/burgers/boeuf.png";
+import Poisson from "../../assets/burgers/poisson.png";
+import Poulet from "../../assets/burgers/poulet.png";
+import Vegan from "../../assets/burgers/vegan.png";
 const Burger = () => {
   const { t } = useTranslation();
   const burgers = [
     {
-      name: t("burgers.vegetarien"),
+      title: t("burgers.vegetarien.title"),
+      desc: t("burgers.vegetarien.desc"),
       price: 80,
-      image: Generique,
+      image: Vegan,
     },
     {
-      name: t("burgers.poulet"),
+      title: t("burgers.poulet.title"),
+      desc: t("burgers.poulet.desc"),
       price: 95,
-      image: Generique,
+      image: Poulet,
     },
     {
-      name: t("burgers.boeuf"),
+      title: t("burgers.boeuf.title"),
+      desc: t("burgers.boeuf.desc"),
       price: 100,
-      image: Generique,
+      image: Boeuf,
     },
     {
-      name: t("burgers.poisson"),
+      title: t("burgers.poisson.title"),
+      desc: t("burgers.poisson.desc"),
       price: 120,
-      image: Generique,
+      image: Poisson,
     },
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("burgers.title")}
       </h2>
-      <p className="mb-6 text-gray-500">
-        <i>{t("burgers.desc")}</i>
-      </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex items-center mb-4">
+        <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-3">
+          {t("burgers.desc")}
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {burgers.map((burger, index) => (
-          <div key={index} className=" md:text-center">
+          <div
+            key={index}
+            className=" md:text-center flex justify-between items-center"
+          >
             <img
               src={burger.image}
-              alt={burger.name}
-              className="w-full h-32 object-contain mb-4"
+              alt={burger.title}
+              className="object-cover w-[36%]"
             />
-            <div className="p-2">
-              <p className="font-bold text-md">{burger.name}</p>
-              <p className="text-sm text-gray-600 mt-2">{burger.price} Dhs</p>
+            <div className="py-2 w-[60%]">
+              <p className="font-semibold text-md">{burger.title}</p>
+              <p className="italic text-gray-500 text-[12px]">{burger.desc}</p>
+              <p className="text-[12px] text-gray-500 mt-2">
+                {burger.price} dhs
+              </p>
             </div>
           </div>
         ))}

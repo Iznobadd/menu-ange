@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
+import Steak from "../../assets/enfant/steak.png";
+import Brochette from "../../assets/enfant/brochette.png";
 import React from "react";
 
 const Enfant = () => {
@@ -10,26 +11,31 @@ const Enfant = () => {
         "enfant.desc3"
       )}`,
       price: 90,
-      image: Generique,
     },
   ];
 
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("enfant.title")}
       </h2>
-      <div className="grid grid-cols gap-4">
+      <div className="flex items-center mb-4">
+        <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="flex justify-between">
+          <img src={Steak} alt="Steak" className="w-full h-32 object-contain" />
+          <img
+            src={Brochette}
+            alt="Brochette"
+            className="w-full h-32 object-contain"
+          />
+        </div>
+
         {enfant.map((enfants, index) => (
           <div key={index} className="md:text-center">
-            <img
-              src={enfants.image}
-              alt={enfants.name}
-              className="w-full h-32 object-contain mb-4"
-            />
             <div className="p-2">
-              {/* Remplace les sauts de ligne par des <br /> */}
-              <p className="font-bold text-md text-center">
+              <p className="font-semibold text-md text-left">
                 {enfants.name.split("\n").map((line, i) => (
                   <React.Fragment key={i}>
                     {line}
@@ -37,8 +43,8 @@ const Enfant = () => {
                   </React.Fragment>
                 ))}
               </p>
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                {enfants.price} Dhs
+              <p className="text-[12px] text-gray-500 mt-2 text-left">
+                {enfants.price} dhs
               </p>
             </div>
           </div>

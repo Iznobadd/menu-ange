@@ -1,7 +1,9 @@
 import Brochette from "../components/category/Brochette";
 import Bruschetta from "../components/category/Bruschetta";
 import Burger from "../components/category/Burger";
+import Camembert from "../components/category/Camembert";
 import Chaud from "../components/category/Chaud";
+import Couscous from "../components/category/Couscous";
 import Crepe from "../components/category/Crepe";
 import Dessert from "../components/category/Dessert";
 import Enfant from "../components/category/Enfant";
@@ -33,6 +35,9 @@ const Home = () => {
         <section id="bruschetta">
           <Bruschetta />
         </section>
+        <section id="camembert">
+          <Camembert />
+        </section>
         <section id="pate">
           <Pate />
         </section>
@@ -50,6 +55,9 @@ const Home = () => {
         </section>
         <section id="wok">
           <Wok />
+        </section>
+        <section id="couscous">
+          <Couscous />
         </section>
         <section id="omelette">
           <Omelette />

@@ -5,100 +5,122 @@ const Soft = () => {
   const { t } = useTranslation();
   const softs = [
     {
-      name: t("soft.presse"),
+      title: t("soft.orange-gingembre.title"),
+      desc: t("soft.orange-gingembre.desc"),
       price: 25,
       image: Generique,
     },
     {
-      name: t("soft.orange-gingembre"),
+      title: t("soft.orange-carotte.title"),
+      desc: t("soft.orange-carotte.desc"),
       price: 35,
       image: Generique,
     },
     {
-      name: t("soft.orange-carotte"),
+      title: t("soft.citron-gingembre.title"),
+      desc: t("soft.citron-gingembre.desc"),
       price: 25,
       image: Generique,
     },
     {
-      name: t("soft.citron-gingembre"),
+      title: t("soft.citron-basilic.title"),
+      desc: t("soft.citron-basilic.desc"),
       price: 35,
       image: Generique,
     },
     {
-      name: t("soft.citron-basilic"),
+      title: t("soft.panache.title"),
+      desc: t("soft.panache.desc"),
       price: 35,
       image: Generique,
     },
     {
-      name: t("soft.panache"),
+      title: t("soft.avocat-orange.title"),
+      desc: t("soft.avocat-orange.desc"),
       price: 35,
       image: Generique,
     },
     {
-      name: t("soft.avocat-orange"),
+      title: t("soft.avocat-lait.title"),
+      desc: t("soft.avocat-lait.desc"),
       price: 45,
       image: Generique,
     },
     {
-      name: t("soft.avocat-lait"),
+      title: t("soft.virgin.title"),
+      desc: t("soft.virgin.desc"),
       price: 40,
       image: Generique,
     },
     {
-      name: t("soft.virgin"),
+      title: t("soft.virgin-cafe.title"),
+      desc: t("soft.virgin-cafe.desc"),
       price: 65,
       image: Generique,
     },
     {
-      name: t("soft.virgin-cafe"),
+      title: t("soft.coca.title"),
+      desc: t("soft.coca.desc"),
       price: 70,
       image: Generique,
     },
     {
-      name: t("soft.regular"),
+      title: t("soft.regular.title"),
+      desc: t("soft.regular.desc"),
       price: 20,
       image: Generique,
     },
     {
-      name: t("soft.sirop-eau"),
+      title: t("soft.sirop-eau.title"),
+      desc: t("soft.sirop-eau.desc"),
       price: 35,
       image: Generique,
     },
     {
-      name: t("soft.sirop-diabolo"),
+      title: t("soft.sirop-diabolo.title"),
+      desc: t("soft.sirop-diabolo.desc"),
       price: 40,
       image: Generique,
     },
     {
-      name: t("soft.eau"),
+      title: t("soft.eau.title"),
+      desc: t("soft.eau.desc"),
       price: "10 Dhs / 25",
       image: Generique,
     },
     {
-      name: t("soft.eau-petillante"),
+      title: t("soft.eau-petillante.title"),
+      desc: t("soft.eau-petillante.desc"),
       price: "15 Dhs / 30",
       image: Generique,
     },
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("soft.title")}
       </h2>
-      <p className="mb-6 text-gray-500">
-        <i>{t("soft.desc")}</i>
-      </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex items-center mb-4">
+        <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-3">
+          {t("soft.desc")}
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {softs.map((soft, index) => (
-          <div key={index} className=" md:text-center">
+          <div
+            key={index}
+            className=" md:text-center flex justify-between items-center"
+          >
             <img
               src={soft.image}
-              alt={soft.name}
-              className="w-full h-32 object-contain mb-4"
+              alt={soft.title}
+              className="object-cover w-[36%]"
             />
-            <div className="p-2">
-              <p className="font-bold text-md">{soft.name}</p>
-              <p className="text-sm text-gray-600 mt-2">{soft.price} Dhs</p>
+            <div className="py-2 w-[60%]">
+              <p className="font-semibold text-md">{soft.title}</p>
+              <p className="italic text-gray-500 text-[12px]">{soft.desc}</p>
+              <p className="text-[12px] text-gray-500 mt-2">{soft.price} dhs</p>
             </div>
           </div>
         ))}

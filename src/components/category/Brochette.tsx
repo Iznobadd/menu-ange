@@ -1,50 +1,70 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
+import Boeuf from "../../assets/brochettes/boeuf.png";
+import Gambas from "../../assets/brochettes/gambas.png";
+import Poulet from "../../assets/brochettes/poulet.png";
+import Accompagnement from "../../assets/brochettes/accompagnement.png";
 
 const Brochette = () => {
   const { t } = useTranslation();
   const brochettes = [
     {
-      name: t("brochettes.poulet"),
+      title: t("brochettes.poulet.title"),
+      desc: t("brochettes.poulet.desc"),
       price: 85,
-      image: Generique,
+      image: Poulet,
     },
     {
-      name: t("brochettes.kefta"),
+      title: t("brochettes.kefta.title"),
+      desc: t("brochettes.kefta.desc"),
       price: 85,
-      image: Generique,
+      image: Boeuf,
     },
     {
-      name: t("brochettes.boeuf"),
+      title: t("brochettes.boeuf.title"),
+      desc: t("brochettes.boeuf.desc"),
       price: 120,
-      image: Generique,
+      image: Boeuf,
     },
     {
-      name: t("brochettes.gambas"),
+      title: t("brochettes.gambas.title"),
+      desc: t("brochettes.gambas.desc"),
       price: 120,
-      image: Generique,
+      image: Gambas,
     },
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("brochettes.title")}
       </h2>
-      <p className="mb-6 text-gray-500">
-        <i>{t("brochettes.desc")}</i>
-      </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex items-start mb-4">
+        <div className="w-[40px] min-w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-1">
+          {t("brochettes.desc")}
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="text-center">
+          <img src={Accompagnement} className="w-2/3 inline-block" />
+        </div>
+
         {brochettes.map((brochette, index) => (
-          <div key={index} className=" md:text-center">
+          <div
+            key={index}
+            className=" md:text-center flex justify-between items-center"
+          >
             <img
               src={brochette.image}
-              alt={brochette.name}
-              className="w-full h-32 object-contain mb-4"
+              alt={brochette.title}
+              className="object-cover w-[36%]"
             />
-            <div className="p-2">
-              <p className="font-bold text-md">{brochette.name}</p>
-              <p className="text-sm text-gray-600 mt-2">
-                {brochette.price} Dhs
+            <div className="py-2 w-[60%]">
+              <p className="font-semibold text-md">{brochette.title}</p>
+              <p className="italic text-gray-500 text-[12px]">
+                {brochette.desc}
+              </p>
+              <p className="text-[12px] text-gray-500 mt-2">
+                {brochette.price} dhs
               </p>
             </div>
           </div>

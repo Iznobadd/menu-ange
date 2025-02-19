@@ -38,7 +38,7 @@ const Salade = () => {
       <h2 className="font-bold text-3xl text-[#7ba7d3] px-4">
         {t("salades.title")}
       </h2>
-      <div className="w-[10%] h-[3px] bg-[#7ba7d3] mt-1 mb-6 ml-4"></div>
+      <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-6 ml-4"></div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {salades.map((salade, index) => (
           <div

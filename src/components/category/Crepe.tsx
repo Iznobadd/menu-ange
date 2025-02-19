@@ -1,65 +1,99 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
+import Compote from "../../assets/crepes/compote.png";
+import Sucre from "../../assets/crepes/sucre.png";
+import Nutella from "../../assets/crepes/nutella.png";
+import Banane from "../../assets/crepes/banane.png";
+import Suzette from "../../assets/crepes/suzette.png";
+import Miel from "../../assets/crepes/miel.png";
+import Caramel from "../../assets/crepes/caramel.png";
+import Amlou from "../../assets/crepes/amlou.png";
+
 const Crepe = () => {
   const { t } = useTranslation();
   const crepes = [
     {
-      name: t("crepes.sucre"),
+      title: t("crepes.compote.title"),
+      desc: t("crepes.compote.desc"),
       price: 40,
-      image: Generique,
+      image: Compote,
     },
     {
-      name: t("crepes.nutella"),
+      title: t("crepes.sucre.title"),
+      desc: t("crepes.sucre.desc"),
       price: 40,
-      image: Generique,
+      image: Sucre,
     },
     {
-      name: t("crepes.banane"),
+      title: t("crepes.nutella.title"),
+      desc: t("crepes.nutella.desc"),
+      price: 40,
+      image: Nutella,
+    },
+    {
+      title: t("crepes.banane.title"),
+      desc: t("crepes.banane.desc"),
       price: 50,
-      image: Generique,
+      image: Banane,
     },
     {
-      name: t("crepes.chocolat"),
+      title: t("crepes.chocolat.title"),
+      desc: t("crepes.chocolat.desc"),
       price: 50,
-      image: Generique,
+      image: Nutella,
     },
     {
-      name: t("crepes.suzette"),
+      title: t("crepes.suzette.title"),
+      desc: t("crepes.suzette.desc"),
       price: 50,
-      image: Generique,
+      image: Suzette,
     },
     {
-      name: t("crepes.miel"),
+      title: t("crepes.miel.title"),
+      desc: t("crepes.miel.desc"),
       price: 55,
-      image: Generique,
+      image: Miel,
     },
     {
-      name: t("crepes.caramel"),
+      title: t("crepes.caramel.title"),
+      desc: t("crepes.caramel.desc"),
       price: 55,
-      image: Generique,
+      image: Caramel,
     },
     {
-      name: t("crepes.amlou"),
+      title: t("crepes.amlou.title"),
+      desc: t("crepes.amlou.desc"),
       price: 60,
-      image: Generique,
+      image: Amlou,
     },
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("crepes.title")}
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex items-center mb-4">
+        <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-3">
+          {t("crepes.desc")}
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {crepes.map((crepe, index) => (
-          <div key={index} className=" md:text-center">
+          <div
+            key={index}
+            className=" md:text-center flex justify-between items-center"
+          >
             <img
               src={crepe.image}
-              alt={crepe.name}
-              className="w-full h-32 object-contain mb-4"
+              alt={crepe.title}
+              className="object-cover w-[36%]"
             />
-            <div className="p-2">
-              <p className="font-bold text-md">{crepe.name}</p>
-              <p className="text-sm text-gray-600 mt-2">{crepe.price} Dhs</p>
+            <div className="py-2 w-[60%]">
+              <p className="font-semibold text-md">{crepe.title}</p>
+              <p className="italic text-gray-500 text-[12px]">{crepe.desc}</p>
+              <p className="text-[12px] text-gray-500 mt-2">
+                {crepe.price} dhs
+              </p>
             </div>
           </div>
         ))}

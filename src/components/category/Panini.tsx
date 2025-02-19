@@ -1,64 +1,87 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
+
+import Tomate from "../../assets/paninis/tomate.png";
+import Legume from "../../assets/paninis/legume.png";
+import Vegan from "../../assets/paninis/vegan.png";
+import Epinard from "../../assets/paninis/epinard.png";
+import Marocain from "../../assets/paninis/marocain.png";
+import Poulet from "../../assets/paninis/poulet.png";
+import Burger from "../../assets/paninis/burger.png";
 
 const Panini = () => {
   const { t } = useTranslation();
   const paninis = [
     {
-      name: t("paninis.tomate"),
+      title: t("paninis.tomate.title"),
+      desc: t("paninis.tomate.desc"),
       price: 65,
-      image: Generique,
+      image: Tomate,
     },
     {
-      name: t("paninis.legume"),
+      title: t("paninis.legume.title"),
+      desc: t("paninis.legume.desc"),
       price: 70,
-      image: Generique,
+      image: Legume,
     },
     {
-      name: t("paninis.vegan"),
+      title: t("paninis.vegan.title"),
+      desc: t("paninis.vegan.desc"),
       price: 75,
-      image: Generique,
+      image: Vegan,
     },
     {
-      name: t("paninis.epinard"),
+      title: t("paninis.epinard.title"),
+      desc: t("paninis.epinard.desc"),
       price: 85,
-      image: Generique,
+      image: Epinard,
     },
     {
-      name: t("paninis.marocain"),
+      title: t("paninis.marocain.title"),
+      desc: t("paninis.marocain.desc"),
       price: 75,
-      image: Generique,
+      image: Marocain,
     },
     {
-      name: t("paninis.poulet"),
+      title: t("paninis.poulet.title"),
+      desc: t("paninis.poulet.desc"),
       price: 80,
-      image: Generique,
+      image: Poulet,
     },
     {
-      name: t("paninis.burger"),
+      title: t("paninis.burger.title"),
+      desc: t("paninis.burger.desc"),
       price: 90,
-      image: Generique,
+      image: Burger,
     },
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("paninis.title")}
       </h2>
-      <p className="mb-6 text-gray-500">
-        <i>{t("paninis.desc")}</i>
-      </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex items-center mb-4">
+        <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-3">
+          {t("paninis.desc")}
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {paninis.map((panini, index) => (
-          <div key={index} className=" md:text-center">
+          <div
+            key={index}
+            className=" md:text-center flex justify-between items-center"
+          >
             <img
               src={panini.image}
-              alt={panini.name}
-              className="w-full h-32 object-contain mb-4"
+              alt={panini.title}
+              className="object-cover w-[36%]"
             />
-            <div className="p-2">
-              <p className="font-bold text-md">{panini.name}</p>
-              <p className="text-sm text-gray-600 mt-2">{panini.price} Dhs</p>
+            <div className="py-2 w-[60%]">
+              <p className="font-semibold text-md">{panini.title}</p>
+              <p className="italic text-gray-500 text-[12px]">{panini.desc}</p>
+              <p className="text-[12px] text-gray-500 mt-2">
+                {panini.price} dhs
+              </p>
             </div>
           </div>
         ))}

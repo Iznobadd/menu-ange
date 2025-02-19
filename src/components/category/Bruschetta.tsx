@@ -45,8 +45,8 @@ const Bruschetta = () => {
         {t("bruschettas.title")}
       </h2>
       <div className="flex items-center mb-4">
-        <div className="w-[10%] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
-        <p className="px-4 text-[#7ba7d3] text-[12px] -mt-3">
+        <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-3">
           {t("bruschettas.desc")}
         </p>
       </div>

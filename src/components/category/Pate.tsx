@@ -1,49 +1,76 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
 
+import Bolo from "../../assets/pates/bolo.png";
+import Creme from "../../assets/pates/creme.png";
+import Mer from "../../assets/pates/mer.png";
+import Pesto from "../../assets/pates/pesto.png";
+import Puttanesca from "../../assets/pates/puttanesca.png";
 const Pate = () => {
   const { t } = useTranslation();
   const pates = [
     {
-      name: t("pates.pesto"),
+      title: t("pates.pesto.title"),
+      desc: t("pates.pesto.desc"),
       price: 70,
-      image: Generique,
+      image: Pesto,
     },
     {
-      name: t("pates.creme"),
-      price: 80,
-      image: Generique,
+      title: t("pates.creme.title"),
+      desc: t("pates.creme.desc"),
+      price: 85,
+      image: Creme,
     },
     {
-      name: t("pates.puttanesca"),
+      title: t("pates.carbo.title"),
+      desc: t("pates.carbo.desc"),
       price: 90,
-      image: Generique,
+      image: Creme,
     },
     {
-      name: t("pates.mer"),
+      title: t("pates.puttanesca.title"),
+      desc: t("pates.puttanesca.desc"),
+      price: 90,
+      image: Puttanesca,
+    },
+    {
+      title: t("pates.mer.title"),
+      desc: t("pates.mer.desc"),
       price: 95,
-      image: Generique,
+      image: Mer,
+    },
+    {
+      title: t("pates.bolo.title"),
+      desc: t("pates.bolo.desc"),
+      price: 90,
+      image: Bolo,
     },
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("pates.title")}
       </h2>
-      <p className="mb-6 text-gray-500">
-        <i>{t("pates.desc")}</i>
-      </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex items-center mb-4">
+        <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-3">
+          {t("pates.desc")}
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {pates.map((pate, index) => (
-          <div key={index} className=" md:text-center">
+          <div
+            key={index}
+            className=" md:text-center flex justify-between items-center"
+          >
             <img
               src={pate.image}
-              alt={pate.name}
-              className="w-full h-32 object-contain mb-4"
+              alt={pate.title}
+              className="object-cover w-[36%]"
             />
-            <div className="p-2">
-              <p className="font-bold text-md">{pate.name}</p>
-              <p className="text-sm text-gray-600 mt-2">{pate.price} Dhs</p>
+            <div className="py-2 w-[60%]">
+              <p className="font-semibold text-md">{pate.title}</p>
+              <p className="italic text-gray-500 text-[12px]">{pate.desc}</p>
+              <p className="text-[12px] text-gray-500 mt-2">{pate.price} dhs</p>
             </div>
           </div>
         ))}

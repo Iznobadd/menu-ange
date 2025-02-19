@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
+import GlaceImg from "../../assets/glaces/glace.png";
 
 const Glace = () => {
   const { t } = useTranslation();
@@ -7,41 +7,42 @@ const Glace = () => {
     {
       name: t("glaces.une"),
       price: 20,
-      image: Generique,
     },
     {
       name: t("glaces.deux"),
       price: 35,
-      image: Generique,
     },
     {
       name: t("glaces.trois"),
       price: 50,
-      image: Generique,
     },
   ];
   return (
     <div className="my-4">
-      <h2 className="font-bold text-xl mb-2 text-[#7ba7d3]">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("glaces.title")}
       </h2>
-      <p className="mb-6 text-gray-500">
-        <i>{t("glaces.desc")}</i>
-      </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {glaces.map((glace, index) => (
-          <div key={index} className=" md:text-center">
-            <img
-              src={glace.image}
-              alt={glace.name}
-              className="w-full h-32 object-contain mb-4"
-            />
-            <div className="p-2">
-              <p className="font-bold text-md">{glace.name}</p>
-              <p className="text-sm text-gray-600 mt-2">{glace.price} Dhs</p>
-            </div>
+      <div className="flex items-start">
+        <div className="w-[40px] min-w-[40px] h-[3px] bg-[#7ba7d3] mb-4 ml-4 mt-1"></div>
+        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-1">
+          {t("glaces.desc")}
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className=" md:text-center flex justify-between items-center">
+          <img src={GlaceImg} alt="Glace" className="object-cover w-[40%]" />
+          <div className="py-2 w-[55%]">
+            {glaces.map((glace, index) => (
+              <div
+                className="flex justify-start gap-8 items-center"
+                key={index}
+              >
+                <p className="font-semibold text-md">{glace.name}</p>
+                <p className="text-[12px] text-gray-500">{glace.price} dhs</p>
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </div>
   );

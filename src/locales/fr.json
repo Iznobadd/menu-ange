@@ -23,27 +23,63 @@
   },
   "brochettes": {
     "title": "BROCHETTES",
-    "desc": "Avec au choix: Salade composée ou Frites ou Légumes sautés ou Riz pilaf",
-    "poulet": "Poulet",
-    "kefta": "Kefta",
-    "boeuf": "Filet de boeuf",
-    "gambas": "Gambas"
+    "desc": "Salade composée | Frites maison | Légumes sautés | Riz",
+    "poulet": {
+      "title": "Poulet",
+      "desc": ""
+    },
+    "kefta": {
+      "title": "Kefta",
+      "desc": ""
+    },
+    "boeuf": {
+      "title": "Filet de boeuf",
+      "desc": ""
+    },
+    "gambas": {
+      "title": "Gambas",
+      "desc": ""
+    }
   },
   "woks": {
     "title": "WOKS",
-    "legume": "Légumes",
-    "poulet": "Poulet",
-    "boeuf": "Filet de boeuf",
-    "crevette": "Crevettes",
-    "anges": "Les Anges (Cabillaud, Riz basmati, Légumes, Sauces huitres)"
+    "desc": "",
+    "legume": {
+      "title": "Légumes",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Poulet",
+      "desc": ""
+    },
+    "boeuf": {
+      "title": "Filet de boeuf",
+      "desc": ""
+    },
+    "crevette": {
+      "title": "Crevettes",
+      "desc": ""
+    }
   },
   "burgers": {
     "title": "BURGERS",
-    "desc": "Avec au choix: Salade composée ou Frites maison ou Légumes sautés",
-    "vegetarien": "Le Végétarien",
-    "poulet": "Le Poulet",
-    "boeuf": "Le Boeuf",
-    "poisson": "Le Poisson (Filet de cabillaud)"
+    "desc": "Salade composée ou Frites maison",
+    "vegetarien": {
+      "title": "Végétarien",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Poulet",
+      "desc": ""
+    },
+    "boeuf": {
+      "title": "Boeuf",
+      "desc": ""
+    },
+    "poisson": {
+      "title": "Poisson",
+      "desc": "Dos de Cabillaud sans peau"
+    }
   },
   "bruschettas": {
     "title": "BRUSCHETTAS",
@@ -71,122 +107,375 @@
   },
   "paninis": {
     "title": "PANINIS",
-    "desc": "Avec au choix: Salade composée ou Frites ou Légumes sautés",
-    "tomate": "Tomates poêlées, Mozzarella & pesto",
-    "legume": "Légumes poêlés & Mozzarella",
-    "vegan": "Le végan (Légumes sautés, Fromage végan)",
-    "epinard": "Epinards sautés, brie & sésames grillés",
-    "marocain": "Le Marocain (Légumes, Epices, Fromage, Kefta)",
-    "poulet": "Poulet au curry",
-    "burger": "Comme un Burger"
+    "desc": "Salade composée ou Frites maison",
+    "tomate": {
+      "title": "Tomates poêlées, Mozzarella & pesto",
+      "desc": ""
+    },
+    "legume": {
+      "title": "Légumes poêlés & Mozzarella",
+      "desc": ""
+    },
+    "vegan": {
+      "title": "Le Végan",
+      "desc": "Légumes sautés, Fromage végan"
+    },
+    "epinard": {
+      "title": "Epinards sautés, brie & sésames grillés",
+      "desc": ""
+    },
+    "marocain": {
+      "title": "Le Marocain",
+      "desc": "Légumes, Epices, Fromage, Kefta"
+    },
+    "poulet": {
+      "title": "Poulet, Curry & Ananas",
+      "desc": ""
+    },
+    "burger": {
+      "title": "Le Burger",
+      "desc": ""
+    }
   },
   "pates": {
     "title": "PÂTES",
-    "desc": "Avec au choix: Spaghettini ou Tagliatelle ou Linguine",
-    "pesto": "Pesto",
-    "creme": "Crème & champignons frais",
-    "puttanesca": "Puttanesca (Anchois, Câpres, Ail, Tomates)",
-    "mer": "Fruits de mer"
+    "desc": "Spaghettini | Tagliatelle | Penne | Linguini",
+    "pesto": {
+      "title": "Pesto",
+      "desc": ""
+    },
+    "creme": {
+      "title": "Crème & Champignons",
+      "desc": ""
+    },
+    "carbo": {
+      "title": "Carbonara",
+      "desc": "oeuf"
+    },
+    "puttanesca": {
+      "title": "Puttanesca",
+      "desc": "Anchois, Câpres, Ail, Tomates"
+    },
+    "mer": {
+      "title": "Fruits de mer",
+      "desc": ""
+    },
+    "bolo": {
+      "title": "Bolognaise",
+      "desc": ""
+    }
   },
   "pastillas": {
     "title": "PASTILLAS",
-    "desc": "Accompagnées d'une salade composée",
-    "legume": "Légumes",
-    "poulet": "Poulet",
-    "mer": "Fruits de mer"
+    "desc": "Accompagnée d'une salade composée",
+    "legume": {
+      "title": "Légumes",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Poulet",
+      "desc": ""
+    },
+    "mer": {
+      "title": "Fruits de Mer",
+      "desc": ""
+    }
   },
   "omelettes": {
     "title": "OMELETTES",
     "desc": "Accompagnées d'une salade composée",
-    "legume": "Légumes variés",
-    "tomate": "Tomates & oignons",
-    "parmesan": "Copeaux de parmesan"
+    "legume": {
+      "title": "Légumes variés",
+      "desc": ""
+    },
+    "tomate": {
+      "title": "Tomates & Oignons",
+      "desc": ""
+    },
+    "parmesan": {
+      "title": "Copeaux de Parmesan",
+      "desc": ""
+    }
+  },
+  "couscous": {
+    "title": "COUSCOUS",
+    "desc": "Tous les Vendredis",
+    "vege": {
+      "title": "Végétarien",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Poulet",
+      "desc": ""
+    },
+    "agneau": {
+      "title": "Agneau",
+      "desc": "Sur commande à partir de 4 personnes"
+    }
+  },
+  "camembert": {
+    "title": "CAMEMBERT",
+    "desc": "",
+    "roti": {
+      "title": "Camembert rôti au miel",
+      "desc": "Enveloppé de son pain maison & d’une salade verte croquante"
+    }
   },
   "soupes": {
     "title": "SOUPES",
-    "potiron": "Potiron - Carottes & crème fraîche",
-    "asiatique": "Asiatique"
+    "desc": "",
+    "potiron": {
+      "title": "Potiron - Carottes & crème fraîche",
+      "desc": ""
+    },
+    "poisson": {
+      "title": "Poisson & Crevette avec rouille & croûtons",
+      "desc": ""
+    }
   },
   "enfant": {
     "title": "MENU ENFANT",
     "desc": "Steack haché ou Brochettes de Poulet",
     "desc2": "Frites ou Spaghetti sauce tomates ou Spaghetti beurre & fromage",
-    "desc3": "Glace 2 boules: Chocolat | Café | Vanille | Nougat | Citron | Framboise | Fraise | Pistache"
+    "desc3": "Glace 2 boules: Chocolat, Vanille, Nougat, Citron, Fraise, Framboise, Café"
   },
   "desserts": {
     "title": "DESSERTS MAISON",
-    "tiramisu-datte": "Tiramisu aux dattes",
-    "tiramisu-citron": "Tiramisu aux zestes de citron",
-    "panna-pomme": "Panna cotta aux pommes caramélisées",
-    "panna-amlou": "Panna cotta à l'amlou",
-    "mousse": "Mousse au chocolat noir",
-    "meli-melo": "Méli-mélo de fruits de saison",
-    "corne": "Cornes de gazelles (3pcs)",
-    "biscuit": "Biscuits Marocains traditionnels (5pcs)"
+    "desc": "",
+    "tiramisu-datte": {
+      "title": "Tiramisu aux dattes",
+      "desc": ""
+    },
+    "tiramisu-citron": {
+      "title": "Tiramisu aux zestes de citron",
+      "desc": ""
+    },
+    "panna-pomme": {
+      "title": "Panna cotta aux pommes caramélisées",
+      "desc": ""
+    },
+    "panna-amlou": {
+      "title": "Panna cotta à l'amlou",
+      "desc": ""
+    },
+    "mousse": {
+      "title": "Mousse au chocolat noir",
+      "desc": ""
+    },
+    "meli-melo": {
+      "title": "Méli-mélo de fruits de saison",
+      "desc": ""
+    },
+    "corne": {
+      "title": "Cornes de gazelles (3pcs)",
+      "desc": ""
+    },
+    "biscuit": {
+      "title": "Biscuits Marocains traditionnels (5pcs)",
+      "desc": ""
+    }
   },
   "crepes": {
     "title": "CRÊPES",
-    "sucre": "Sucre & citron",
-    "nutella": "Nutella",
-    "banane": "Nutella & banane",
-    "chocolat": "Chocolat",
-    "suzette": "Suzette (sans alcool)",
-    "miel": "Miel & Fruits secs",
-    "caramel": "Caramel beurre salé",
-    "amlou": "Amlou"
+    "desc": "",
+    "compote": {
+      "title": "Compote de Pommes & Cannelle",
+      "desc": ""
+    },
+    "sucre": {
+      "title": "Sucre & citron",
+      "desc": ""
+    },
+    "nutella": {
+      "title": "Nutella",
+      "desc": ""
+    },
+    "banane": {
+      "title": "Nutella & banane",
+      "desc": ""
+    },
+    "chocolat": {
+      "title": "Chocolat noir fondu",
+      "desc": ""
+    },
+    "suzette": {
+      "title": "Suzette (sans alcool)",
+      "desc": ""
+    },
+    "miel": {
+      "title": "Miel & Fruits secs",
+      "desc": ""
+    },
+    "caramel": {
+      "title": "Caramel beurre salé",
+      "desc": ""
+    },
+    "amlou": {
+      "title": "Amlou",
+      "desc": ""
+    }
   },
   "glaces": {
     "title": "GLACES",
-    "desc": "Chocolat | Café | Vanille | Nougat | Citron | Framboise | Fraise | Mangue",
-    "une": "1 boule",
-    "deux": "2 boules",
-    "trois": "3 boules"
+    "desc": "Chocolat | Café | Vanille | Nougat | Citron Framboise | Fraise | Mangue",
+    "une": "1 Boule",
+    "deux": "2 Boules",
+    "trois": "3 Boules"
   },
   "milkshakes": {
     "title": "MILKSHAKES",
-    "chocolat": "Chocolat",
-    "vanille": "Vanille",
-    "fraise": "Fraise",
-    "banane": "Banane",
-    "fruit": "Fruits de saison"
+    "desc": "",
+    "chocolat": {
+      "title": "Chocolat",
+      "desc": ""
+    },
+    "vanille": {
+      "title": "Vanille",
+      "desc": ""
+    },
+    "fraise": {
+      "title": "Fraise",
+      "desc": ""
+    },
+    "banane": {
+      "title": "Banane",
+      "desc": ""
+    },
+    "fruit": {
+      "title": "Fruits de saison",
+      "desc": ""
+    }
   },
   "soft": {
     "title": "BOISSONS SOFT",
-    "desc": "Accompagner vos boissons : 5Biscuits Marocains Maison (40dhs)",
-    "presse": "Orange pressé | Citron pressé",
-    "orange-gingembre": "Orange gingembre",
-    "orange-carotte": "Orange carotte",
-    "citron-gingembre": "Citron gingembre",
-    "citron-basilic": "Citron basilic",
-    "panache": "Panaché de fruits du jour",
-    "avocat-orange": "Avocat orange",
-    "avocat-lait": "Avocat lait",
-    "virgin": "Blue Virgin Mojito",
-    "virgin-cafe": "Virgin Mojito Café (Citron, expresso, sprite, menthe fraîche)",
-    "coca": "Coca-Cola | Coca-Cola zéro",
-    "regular": "Coca Regular | Coca Zéro | Sprite | Schweppes Citron | Schweppes Tonic | Ice tea",
-    "sirop-eau": "Sirop à l'eau",
-    "sirop-diabolo": "Diabolo | Sirop au lait",
-    "eau": "Eau minérale (50ml / 150ml)",
-    "eau-petillante": "Eau pétillante (50ml / 100ml)"
+    "desc": "",
+    "presse": {
+      "title": "Orange pressé | Citron pressé",
+      "desc": ""
+    },
+    "orange-gingembre": {
+      "title": "Orange gingembre",
+      "desc": ""
+    },
+    "orange-carotte": {
+      "title": "Orange carotte",
+      "desc": ""
+    },
+    "citron-gingembre": {
+      "title": "Citron gingembre",
+      "desc": ""
+    },
+    "citron-basilic": {
+      "title": "Citron basilic",
+      "desc": ""
+    },
+    "panache": {
+      "title": "Panaché de fruits du jour",
+      "desc": ""
+    },
+    "avocat-orange": {
+      "title": "Avocat orange",
+      "desc": ""
+    },
+    "avocat-lait": {
+      "title": "Avocat lait",
+      "desc": ""
+    },
+    "virgin": {
+      "title": "Blue Virgin Mojito",
+      "desc": ""
+    },
+    "virgin-cafe": {
+      "title": "Virgin Mojito Café ",
+      "desc": "Citron, expresso, sprite, menthe fraîche"
+    },
+    "coca": {
+      "title": "Coca-Cola | Coca-Cola zéro",
+      "desc": ""
+    },
+    "regular": {
+      "title": "Sprite | Schweppes Citron | Schweppes Tonic | Ice tea",
+      "desc": ""
+    },
+    "sirop-eau": {
+      "title": "Sirop à l'eau",
+      "desc": ""
+    },
+    "sirop-diabolo": {
+      "title": "Diabolo | Sirop au lait",
+      "desc": ""
+    },
+    "eau": {
+      "title": "Eau minérale",
+      "desc": "50ml / 150ml"
+    },
+    "eau-petillante": {
+      "title": "Eau pétillante",
+      "desc": "50ml / 100ml"
+    }
   },
   "chaud": {
     "title": "BOISSONS CHAUDES",
-    "desc": "Accompagner vos boissons : 5Biscuits Marocains Maison (40dhs)",
-    "the-menthe": "Thé à la menthe",
-    "the-corne": "Thé à la menthe & cornes de gazelles",
-    "the-royal": "Thé royal aux épices",
-    "the-earl": "Thé Earl Grey",
-    "chocolat": "Chocolat chaud",
-    "nouss": "Nouss nouss (Café Illy & lait)",
-    "cafe-epice": "Café aux épices",
-    "expresso": "Expresso Illy",
-    "double": "Double expresso Illy",
-    "capuccino": "Capuccino Illy",
-    "latte": "Café latté Illy",
-    "cafe-glace": "Café glacé (Illy avec lait)",
-    "cafe-frappe": "Café frappé (double expresso sans lait)",
-    "cafe-illy": "Café frappé (double expresso ILLY + glaçons)",
-    "supplement": "Supplément Lait d'avoine"
+    "desc": "",
+    "the-menthe": {
+      "title": "Thé à la menthe",
+      "desc": ""
+    },
+    "the-corne": {
+      "title": "Thé à la menthe & cornes de gazelles",
+      "desc": ""
+    },
+    "the-royal": {
+      "title": "Thé royal aux épices",
+      "desc": ""
+    },
+    "the-earl": {
+      "title": "Thé Earl Grey",
+      "desc": ""
+    },
+    "chocolat": {
+      "title": "Chocolat chaud",
+      "desc": ""
+    },
+    "nouss": {
+      "title": "Nouss nouss",
+      "desc": "Café Illy & lait"
+    },
+    "cafe-epice": {
+      "title": "Café aux épices",
+      "desc": ""
+    },
+    "expresso": {
+      "title": "Expresso Illy",
+      "desc": ""
+    },
+    "double": {
+      "title": "Double expresso Illy",
+      "desc": ""
+    },
+    "capuccino": {
+      "title": "Capuccino Illy",
+      "desc": ""
+    },
+    "latte": {
+      "title": "Café latté Illy",
+      "desc": ""
+    },
+    "cafe-glace": {
+      "title": "Café glacé",
+      "desc": "Illy avec lait"
+    },
+    "cafe-frappe": {
+      "title": "Café frappé",
+      "desc": "double expresso sans lait"
+    },
+    "cafe-illy": {
+      "title": "Café frappé",
+      "desc": "double expresso ILLY + glaçons"
+    },
+    "supplement": {
+      "title": "Supplément Lait d'avoine",
+      "desc": ""
+    }
   }
 }
