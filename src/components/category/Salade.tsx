@@ -51,7 +51,7 @@ const Salade = () => {
               className="object-cover w-[36%]"
             />
             <div className="py-2 w-[60%]">
-              <p className="font-semibold text-lg">{salade.title}</p>
+              <p className="font-semibold text-md">{salade.title}</p>
               <p className="italic text-gray-500 text-[12px]">{salade.desc}</p>
               <p className="text-[12px] text-gray-500 mt-2">
                 {salade.price} dhs
