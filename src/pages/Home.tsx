@@ -20,6 +20,7 @@ import Salade from "../components/category/Salade";
 import Soft from "../components/category/Soft";
 import Soupe from "../components/category/Soupe";
 import Wok from "../components/category/Wok";
+import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 
 const Home = () => {
@@ -99,6 +100,7 @@ const Home = () => {
           <Chaud />
         </section>
       </div>
+      <Footer />
     </div>
   );
 };
