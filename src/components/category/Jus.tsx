@@ -1,11 +1,13 @@
 import { useTranslation } from "react-i18next";
+import Orange from "../../assets/jus/orange.png";
+import OrangeGingembre from "../../assets/jus/orange-gingembre.png";
+import OrangeCarotte from "../../assets/jus/orange-carotte.png";
 import Citron from "../../assets/jus/citron.png";
 import CitronGingembre from "../../assets/jus/citron-gingembre.png";
 import CitronBasilic from "../../assets/jus/citron-basilic.png";
 import AvocatLait from "../../assets/jus/avocat-lait.png";
 import AvocatOrange from "../../assets/jus/avocat-orange.png";
 import Panache from "../../assets/jus/panache.png";
-import Generique from "../../assets/salades/generique.jpg";
 
 const Jus = () => {
   const { t } = useTranslation();
@@ -14,19 +16,19 @@ const Jus = () => {
       title: t("jus.orange-presse.title"),
       desc: t("jus.orange-presse.desc"),
       price: 25,
-      image: Generique,
+      image: Orange,
     },
     {
       title: t("jus.orange-carotte.title"),
       desc: t("jus.orange-carotte.desc"),
       price: 30,
-      image: Generique,
+      image: OrangeCarotte,
     },
     {
       title: t("jus.orange-gingembre.title"),
       desc: t("jus.orange-gingembre.desc"),
       price: 35,
-      image: Generique,
+      image: OrangeGingembre,
     },
     {
       title: t("jus.citron-presse.title"),

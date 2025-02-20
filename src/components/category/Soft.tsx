@@ -7,7 +7,8 @@ import Schweppes from "../../assets/soft/schweppes.png";
 import Sprite from "../../assets/soft/sprite.png";
 import BlueVirgin from "../../assets/soft/blue-virgin.png";
 import VirginCafe from "../../assets/soft/virgin-cafe.png";
-import Generique from "../../assets/salades/generique.jpg";
+import Eau from "../../assets/soft/eau.png";
+import Petillant from "../../assets/soft/petillant.png";
 
 const Soft = () => {
   const { t } = useTranslation();
@@ -70,13 +71,13 @@ const Soft = () => {
       title: t("soft.eau.title"),
       desc: t("soft.eau.desc"),
       price: "10 dhs / 25",
-      image: Generique,
+      image: Eau,
     },
     {
       title: t("soft.eau-petillante.title"),
       desc: t("soft.eau-petillante.desc"),
       price: "15 dhs / 30",
-      image: Generique,
+      image: Petillant,
     },
   ];
   return (
