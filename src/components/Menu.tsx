@@ -205,6 +205,15 @@ const Menu = () => {
           {t("enfant.title")}
         </button>
         <button
+          data-id="dej"
+          onClick={() => scrollToSection("dej")}
+          className={`px-2 py-2 text-white  ${
+            activeSection === "dej" ? "!text-[#7ba7d3] rounded" : " rounded"
+          }`}
+        >
+          {t("dej.title")}
+        </button>
+        <button
           data-id="dessert"
           onClick={() => scrollToSection("dessert")}
           className={`px-2 py-2 text-white  ${

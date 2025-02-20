@@ -1,6 +1,14 @@
 import { useTranslation } from "react-i18next";
 import Generique from "../../assets/salades/generique.jpg";
 import Supplement from "../../assets/chaud/supplement.png";
+import Chocolat from "../../assets/chaud/chocolat.png";
+import Earl from "../../assets/chaud/earl.png";
+import Royal from "../../assets/chaud/royal.png";
+import TheCorne from "../../assets/chaud/the-corne.png";
+import The from "../../assets/chaud/the.png";
+import CafeLatte from "../../assets/chaud/cafe-latte.png";
+import CafeFrappe from "../../assets/chaud/cafe-frappe.png";
+
 const Chaud = () => {
   const { t } = useTranslation();
   const chauds = [
@@ -8,36 +16,30 @@ const Chaud = () => {
       title: t("chaud.the-menthe.title"),
       desc: t("chaud.the-menthe.desc"),
       price: 20,
-      image: Generique,
+      image: The,
     },
     {
       title: t("chaud.the-corne.title"),
       desc: t("chaud.the-corne.desc"),
       price: 45,
-      image: Generique,
+      image: TheCorne,
     },
     {
       title: t("chaud.the-royal.title"),
       desc: t("chaud.the-royal.desc"),
       price: 30,
-      image: Generique,
+      image: Royal,
     },
     {
       title: t("chaud.the-earl.title"),
       desc: t("chaud.the-earl.desc"),
       price: 30,
-      image: Generique,
-    },
-    {
-      title: t("chaud.chocolat.title"),
-      desc: t("chaud.chocolat.desc"),
-      price: 30,
-      image: Generique,
+      image: Earl,
     },
     {
       title: t("chaud.nouss.title"),
       desc: t("chaud.nouss.desc"),
-      price: 25,
+      price: 30,
       image: Generique,
     },
     {
@@ -68,7 +70,7 @@ const Chaud = () => {
       title: t("chaud.latte.title"),
       desc: t("chaud.latte.desc"),
       price: 35,
-      image: Generique,
+      image: CafeLatte,
     },
     {
       title: t("chaud.cafe-glace.title"),
@@ -80,13 +82,13 @@ const Chaud = () => {
       title: t("chaud.cafe-frappe.title"),
       desc: t("chaud.cafe-frappe.desc"),
       price: 50,
-      image: Generique,
+      image: CafeFrappe,
     },
     {
-      title: t("chaud.cafe-illy.title"),
-      desc: t("chaud.cafe-illy.desc"),
-      price: 50,
-      image: Generique,
+      title: t("chaud.chocolat.title"),
+      desc: t("chaud.chocolat.desc"),
+      price: 30,
+      image: Chocolat,
     },
     {
       title: t("chaud.supplement.title"),

@@ -255,26 +255,103 @@
     "desc2": "Frites ou Spaghetti sauce tomates ou Spaghetti beurre & fromage",
     "desc3": "Glace 2 boules: Chocolat, Vanille, Nougat, Citron, Fraise, Framboise, Café"
   },
+  "dej": {
+    "title": "PETIT DÉJEUNER & BRUNCH"
+  },
   "dej-continental": {
     "title": "PETIT DÉJEUNER CONTINENTAL",
-    "desc": "",
-    "un": "",
-    "deux": "",
-    "trois": ""
+    "desc": "Boisson chaude (Expresso ILLY ou Nouss Nouss ou Thé à la Menthe ou Thé noir ou Chocolat au lait)",
+    "desc2": "Jus d’Orange",
+    "desc3": "Pain baguette, Beurre & Confiture"
   },
   "dej-marocain": {
     "title": "PETIT DÉJEUNER MAROCAIN",
-    "desc": "",
-    "un": "",
-    "deux": "",
-    "trois": ""
+    "desc": "Boisson chaude (Expresso ILLY ou Nouss Nouss ou Thé à la Menthe ou Thé noir ou Chocolat au lait)",
+    "desc2": "Jus d’Orange",
+    "desc3": "Raïf, Msemen, Harcha, Beurre & Miel ou Beurre & Confiture"
   },
   "brunch": {
     "title": "BRUNCH",
-    "desc": "",
-    "un": "",
-    "deux": "",
-    "trois": ""
+    "desc": "Boisson chaude (Expresso ILLY ou Nouss Nouss ou Thé à la Menthe ou Thé noir ou Chocolat au lait)",
+    "desc2": "Jus d’Orange",
+    "desc3": "Pain baguette, Beurre & Confiture ou Beurre & Miel",
+    "desc4": "Petits pains (2 pièces)",
+    "desc5": "Msemen",
+    "desc6": "Oeufs (Au plat, Brouillés, Omelette, Durs)",
+    "desc7": "Jambon de Dinde",
+    "desc8": "Fromage de Chèvre",
+    "desc9": "Salade Dattes & Oranges"
+  },
+  "complement": {
+    "title": "EN COMPLÉMENT",
+    "desc": {
+      "title": "Jus de Carotte Orange",
+      "price": "30"
+    },
+    "desc2": {
+      "title": "Petits Pains (2 pièces)",
+      "price": "15"
+    },
+    "desc3": {
+      "title": "Raïf, Msemen ou Harcha (la pièce)",
+      "price": "10"
+    },
+    "desc4": {
+      "title": "Oeufs (Au plat, Brouillés, Omelette, Durs)",
+      "price": "20"
+    },
+    "desc5": {
+      "title": "Amlou maison aux Amandes",
+      "price": "25"
+    },
+    "desc6": {
+      "title": "Fromage de Chèvre",
+      "price": "20"
+    },
+    "desc7": {
+      "title": "Nutella",
+      "price": "15"
+    },
+    "desc8": {
+      "title": "Salade Dattes & Oranges",
+      "price": "20"
+    },
+    "desc9": {
+      "title": "Salade de Fruits",
+      "price": "25"
+    },
+    "desc10": {
+      "title": "Fromage de Chèvre",
+      "price": "15"
+    },
+    "desc11": {
+      "title": "Oeufs durs ou Au plat ou Brouillés ou Nature",
+      "price": "25"
+    },
+    "desc12": {
+      "title": "Omelette au Khli3",
+      "price": "40"
+    },
+    "desc13": {
+      "title": "Soupe d’Avoine",
+      "price": "25"
+    },
+    "desc14": {
+      "title": "Frites",
+      "price": "30"
+    },
+    "desc15": {
+      "title": "Jambon de Dinde (2 tranches)",
+      "price": "15"
+    },
+    "desc16": {
+      "title": "Huile d’Olive",
+      "price": "15"
+    },
+    "desc17": {
+      "title": "Huile d’Argan",
+      "price": "35"
+    }
   },
   "desserts": {
     "title": "DESSERTS MAISON",
@@ -475,60 +552,57 @@
     "title": "BOISSONS CHAUDES",
     "desc": "",
     "the-menthe": {
-      "title": "Thé à la menthe",
+      "title": "Thé à la Menthe",
       "desc": ""
     },
     "the-corne": {
-      "title": "Thé à la menthe & cornes de gazelles",
-      "desc": ""
+      "title": "Thé à la Menthe & Cornes de Gazelles",
+      "desc": "2 pièces"
     },
     "the-royal": {
-      "title": "Thé royal aux épices",
+      "title": "Thé Royal aux épices",
       "desc": ""
     },
     "the-earl": {
       "title": "Thé Earl Grey",
       "desc": ""
     },
-    "chocolat": {
-      "title": "Chocolat chaud",
-      "desc": ""
-    },
     "nouss": {
-      "title": "Nouss nouss",
+      "title": "Nouss Nouss",
       "desc": "Café Illy & lait"
     },
+
     "cafe-epice": {
       "title": "Café aux épices",
       "desc": ""
     },
     "expresso": {
-      "title": "Expresso Illy",
+      "title": "Expresso ILLY",
       "desc": ""
     },
     "double": {
-      "title": "Double expresso Illy",
+      "title": "Double expresso ILLY",
       "desc": ""
     },
     "capuccino": {
-      "title": "Capuccino Illy",
+      "title": "Capuccino ILLY",
       "desc": ""
     },
     "latte": {
-      "title": "Café latté Illy",
+      "title": "Café Latte ILLY",
       "desc": ""
     },
     "cafe-glace": {
-      "title": "Café glacé",
-      "desc": "Illy avec lait"
+      "title": "Café Glacé ILLY",
+      "desc": "avec lait"
     },
     "cafe-frappe": {
-      "title": "Café frappé",
-      "desc": "double expresso sans lait"
-    },
-    "cafe-illy": {
-      "title": "Café frappé",
+      "title": "Café Frappé",
       "desc": "double expresso ILLY + glaçons"
+    },
+    "chocolat": {
+      "title": "Chocolat au lait",
+      "desc": ""
     },
     "supplement": {
       "title": "Supplément Lait d'avoine",

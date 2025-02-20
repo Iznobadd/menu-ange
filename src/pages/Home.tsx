@@ -15,6 +15,7 @@ import Omelette from "../components/category/Omelette";
 import Panini from "../components/category/Panini";
 import Pastilla from "../components/category/Pastilla";
 import Pate from "../components/category/Pate";
+import PetitDej from "../components/category/PetitDej";
 import Salade from "../components/category/Salade";
 import Soft from "../components/category/Soft";
 import Soupe from "../components/category/Soupe";
@@ -72,6 +73,9 @@ const Home = () => {
         </section>
         <section id="enfant">
           <Enfant />
+        </section>
+        <section id="dej">
+          <PetitDej />
         </section>
         <section id="dessert">
           <Dessert />

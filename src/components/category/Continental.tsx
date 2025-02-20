@@ -3,25 +3,24 @@ import Steak from "../../assets/enfant/steak.png";
 import Brochette from "../../assets/enfant/brochette.png";
 import React from "react";
 
-const Enfant = () => {
+const Continental = () => {
   const { t } = useTranslation();
-  const enfant = [
+  const continentals = [
     {
-      name: `${t("enfant.desc")} \n \n ${t("enfant.desc2")} \n \n ${t(
-        "enfant.desc3"
-      )}`,
-      price: 90,
+      name: `${t("dej-continental.desc")} \n ${t(
+        "dej-continental.desc2"
+      )}  \n ${t("dej-continental.desc3")}`,
+      price: 60,
     },
   ];
 
   return (
-    <div className="my-4">
-      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
-        {t("enfant.title")}
+    <div className="mb-4">
+      <h2 className="font-bold text-xl text-[#7ba7d3] px-4 my-4 !tracking-wide">
+        {t("dej-continental.title")}
+        <span className="!text-[17px] pl-4"> 60 dhs</span>
       </h2>
-      <div className="flex items-center mb-4">
-        <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
-      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="flex justify-between">
           <img src={Steak} alt="Steak" className="w-full h-32 object-contain" />
@@ -32,19 +31,17 @@ const Enfant = () => {
           />
         </div>
 
-        {enfant.map((enfants, index) => (
+        {continentals.map((continental, index) => (
           <div key={index} className="md:text-center">
             <div className="p-2">
               <p className="font-normal text-md text-left leading-tight">
-                {enfants.name.split("\n").map((line, i) => (
+                {continental.name.split("\n").map((line, i) => (
                   <React.Fragment key={i}>
                     {line}
                     <br />
+                    <br />
                   </React.Fragment>
                 ))}
-              </p>
-              <p className="text-[12px] text-gray-500 mt-2 text-left">
-                {enfants.price} dhs
               </p>
             </div>
           </div>
@@ -54,4 +51,4 @@ const Enfant = () => {
   );
 };
 
-export default Enfant;
+export default Continental;
