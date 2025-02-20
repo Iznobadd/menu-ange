@@ -255,6 +255,27 @@
     "desc2": "Frites ou Spaghetti sauce tomates ou Spaghetti beurre & fromage",
     "desc3": "Glace 2 boules: Chocolat, Vanille, Nougat, Citron, Fraise, Framboise, Café"
   },
+  "dej-continental": {
+    "title": "PETIT DÉJEUNER CONTINENTAL",
+    "desc": "",
+    "un": "",
+    "deux": "",
+    "trois": ""
+  },
+  "dej-marocain": {
+    "title": "PETIT DÉJEUNER MAROCAIN",
+    "desc": "",
+    "un": "",
+    "deux": "",
+    "trois": ""
+  },
+  "brunch": {
+    "title": "BRUNCH",
+    "desc": "",
+    "un": "",
+    "deux": "",
+    "trois": ""
+  },
   "desserts": {
     "title": "DESSERTS MAISON",
     "desc": "",
