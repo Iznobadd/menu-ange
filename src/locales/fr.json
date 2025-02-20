@@ -9,11 +9,11 @@
       "desc": "Mangue, Avocat, Dattes, Menthe"
     },
     "buddha": {
-      "title": "Buddha bowl",
+      "title": "Buddha Bowl",
       "desc": "Riz, Légumes, Mangue, Jaune d'oeuf"
     },
     "thai": {
-      "title": "Thaï au poulet",
+      "title": "Thaï au Poulet",
       "desc": ""
     },
     "anges": {
@@ -33,7 +33,7 @@
       "desc": ""
     },
     "boeuf": {
-      "title": "Filet de boeuf",
+      "title": "Filet de Boeuf",
       "desc": ""
     },
     "gambas": {
@@ -53,7 +53,7 @@
       "desc": ""
     },
     "boeuf": {
-      "title": "Filet de boeuf",
+      "title": "Filet de Boeuf",
       "desc": ""
     },
     "crevette": {
@@ -85,11 +85,11 @@
     "title": "BRUSCHETTAS",
     "desc": "Accompagnée d'une salade composée",
     "chevre": {
-      "title": "Chèvre, noix & miel",
+      "title": "Chèvre, Noix & Miel",
       "desc": ""
     },
     "jambon": {
-      "title": "Jambon de dinde au poivre & Pesto",
+      "title": "Jambon de Dinde au poivre & Pesto",
       "desc": ""
     },
     "poivrons": {
@@ -121,7 +121,7 @@
       "desc": "Légumes sautés, Fromage végan"
     },
     "epinard": {
-      "title": "Epinards sautés, brie & sésames grillés",
+      "title": "Épinards sautés, Brie & Sésames grillés",
       "desc": ""
     },
     "marocain": {
@@ -129,11 +129,11 @@
       "desc": "Légumes, Epices, Fromage, Kefta"
     },
     "poulet": {
-      "title": "Poulet, Curry & Ananas",
+      "title": "Poulet au curry",
       "desc": ""
     },
     "burger": {
-      "title": "Le Burger",
+      "title": "Comme un Burger",
       "desc": ""
     }
   },
@@ -181,6 +181,22 @@
       "desc": ""
     }
   },
+  "croques": {
+    "title": "CROQUE MONSIEUR",
+    "desc": "Salade composée ou Frites maison",
+    "legume": {
+      "title": "Légumes variés",
+      "desc": ""
+    },
+    "tomate": {
+      "title": "Tomates & Oignons",
+      "desc": ""
+    },
+    "parmesan": {
+      "title": "Copeaux de Parmesan",
+      "desc": ""
+    }
+  },
   "omelettes": {
     "title": "OMELETTES",
     "desc": "Accompagnées d'une salade composée",
@@ -217,7 +233,7 @@
     "title": "CAMEMBERT",
     "desc": "",
     "roti": {
-      "title": "Camembert rôti au miel",
+      "title": "Camembert Rôti au Miel",
       "desc": "Enveloppé de son pain maison & d’une salade verte croquante"
     }
   },
@@ -225,11 +241,11 @@
     "title": "SOUPES",
     "desc": "",
     "potiron": {
-      "title": "Potiron - Carottes & crème fraîche",
+      "title": "Potiron - Carottes & Crème fraîche",
       "desc": ""
     },
     "poisson": {
-      "title": "Poisson & Crevette avec rouille & croûtons",
+      "title": "Poisson & Crevette avec rouille & Croûtons",
       "desc": ""
     }
   },
@@ -243,35 +259,35 @@
     "title": "DESSERTS MAISON",
     "desc": "",
     "tiramisu-datte": {
-      "title": "Tiramisu aux dattes",
+      "title": "Tiramisu aux Dattes",
       "desc": ""
     },
     "tiramisu-citron": {
-      "title": "Tiramisu aux zestes de citron",
+      "title": "Tiramisu aux zestes de Citron",
       "desc": ""
     },
     "panna-pomme": {
-      "title": "Panna cotta aux pommes caramélisées",
+      "title": "Panna cotta aux Pommes caramélisées",
       "desc": ""
     },
     "panna-amlou": {
-      "title": "Panna cotta à l'amlou",
+      "title": "Panna cotta à l'Amlou",
       "desc": ""
     },
     "mousse": {
-      "title": "Mousse au chocolat noir",
+      "title": "Mousse au Chocolat noir",
       "desc": ""
     },
     "meli-melo": {
-      "title": "Méli-mélo de fruits de saison",
+      "title": "Méli Mélo de fruits de saison",
       "desc": ""
     },
     "corne": {
-      "title": "Cornes de gazelles (3pcs)",
+      "title": "Cornes de Gazelles (3 pièces)",
       "desc": ""
     },
     "biscuit": {
-      "title": "Biscuits Marocains traditionnels (5pcs)",
+      "title": "Biscuits Marocains traditionnels (5 pièces)",
       "desc": ""
     }
   },
@@ -283,7 +299,7 @@
       "desc": ""
     },
     "sucre": {
-      "title": "Sucre & citron",
+      "title": "Sucre & Citron",
       "desc": ""
     },
     "nutella": {
@@ -291,11 +307,11 @@
       "desc": ""
     },
     "banane": {
-      "title": "Nutella & banane",
+      "title": "Nutella & Banane",
       "desc": ""
     },
     "chocolat": {
-      "title": "Chocolat noir fondu",
+      "title": "Chocolat Noir fondu",
       "desc": ""
     },
     "suzette": {
@@ -307,11 +323,11 @@
       "desc": ""
     },
     "caramel": {
-      "title": "Caramel beurre salé",
+      "title": "Caramel Beurre salé",
       "desc": ""
     },
     "amlou": {
-      "title": "Amlou",
+      "title": "Amlou maison",
       "desc": ""
     }
   },
@@ -346,41 +362,49 @@
       "desc": ""
     }
   },
-  "soft": {
-    "title": "BOISSONS SOFT",
+  "jus": {
+    "title": "JUS MAISON",
     "desc": "",
-    "presse": {
-      "title": "Orange pressé | Citron pressé",
-      "desc": ""
-    },
-    "orange-gingembre": {
-      "title": "Orange gingembre",
+    "orange-presse": {
+      "title": "Orange pressée",
       "desc": ""
     },
     "orange-carotte": {
-      "title": "Orange carotte",
+      "title": "Orange Carotte",
+      "desc": ""
+    },
+    "orange-gingembre": {
+      "title": "Orange Gingembre",
+      "desc": ""
+    },
+    "citron-presse": {
+      "title": "Citron pressé",
       "desc": ""
     },
     "citron-gingembre": {
-      "title": "Citron gingembre",
+      "title": "Citron Gingembre",
       "desc": ""
     },
     "citron-basilic": {
-      "title": "Citron basilic",
-      "desc": ""
-    },
-    "panache": {
-      "title": "Panaché de fruits du jour",
-      "desc": ""
-    },
-    "avocat-orange": {
-      "title": "Avocat orange",
+      "title": "Citron Basilic",
       "desc": ""
     },
     "avocat-lait": {
-      "title": "Avocat lait",
+      "title": "Avocat Lait",
       "desc": ""
     },
+    "avocat-orange": {
+      "title": "Avocat Orange",
+      "desc": ""
+    },
+    "panache": {
+      "title": "Panaché de Fruits du jour",
+      "desc": ""
+    }
+  },
+  "soft": {
+    "title": "BOISSONS SOFT",
+    "desc": "",
     "virgin": {
       "title": "Blue Virgin Mojito",
       "desc": ""
@@ -390,20 +414,32 @@
       "desc": "Citron, expresso, sprite, menthe fraîche"
     },
     "coca": {
-      "title": "Coca-Cola | Coca-Cola zéro",
+      "title": "Coca-Cola Regular ou Zéro",
       "desc": ""
     },
-    "regular": {
-      "title": "Sprite | Schweppes Citron | Schweppes Tonic | Ice tea",
+    "sprite": {
+      "title": "Sprite",
       "desc": ""
+    },
+    "schweppes": {
+      "title": "Schweppes Tonic ou Citron",
+      "desc": ""
+    },
+    "ice-tea": {
+      "title": "Ice Tea",
+      "desc": ""
+    },
+    "biere": {
+      "title": "Bière San Miguel",
+      "desc": "Sans alcool"
     },
     "sirop-eau": {
-      "title": "Sirop à l'eau",
-      "desc": ""
+      "title": "Sirop MONIN à l'eau",
+      "desc": "Parfums sur demande"
     },
     "sirop-diabolo": {
-      "title": "Diabolo | Sirop au lait",
-      "desc": ""
+      "title": "Sirop MONIN Diabolo ou Lait",
+      "desc": "Parfums sur demande"
     },
     "eau": {
       "title": "Eau minérale",

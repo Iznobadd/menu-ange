@@ -164,6 +164,15 @@ const Menu = () => {
           {t("couscous.title")}
         </button>
         <button
+          data-id="croque"
+          onClick={() => scrollToSection("croque")}
+          className={`px-2 pt-2 text-white  ${
+            activeSection === "croque" ? "text-[#7ba7d3] rounded" : " rounded"
+          }`}
+        >
+          {t("croque.title")}
+        </button>
+        <button
           data-id="omelette"
           onClick={() => scrollToSection("omelette")}
           className={`px-2 pt-2 text-white  ${
@@ -227,6 +236,15 @@ const Menu = () => {
           }`}
         >
           {t("milkshakes.title")}
+        </button>
+        <button
+          data-id="jus"
+          onClick={() => scrollToSection("jus")}
+          className={`px-2 pt-2 text-white  ${
+            activeSection === "jus" ? "text-[#7ba7d3] rounded" : " rounded"
+          }`}
+        >
+          {t("jus.title")}
         </button>
         <button
           data-id="soft"

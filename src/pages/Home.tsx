@@ -5,9 +5,11 @@ import Camembert from "../components/category/Camembert";
 import Chaud from "../components/category/Chaud";
 import Couscous from "../components/category/Couscous";
 import Crepe from "../components/category/Crepe";
+import Croque from "../components/category/Croque";
 import Dessert from "../components/category/Dessert";
 import Enfant from "../components/category/Enfant";
 import Glace from "../components/category/Glace";
+import Jus from "../components/category/Jus";
 import Milkshake from "../components/category/Milkshake";
 import Omelette from "../components/category/Omelette";
 import Panini from "../components/category/Panini";
@@ -59,6 +61,9 @@ const Home = () => {
         <section id="couscous">
           <Couscous />
         </section>
+        <section id="croque">
+          <Croque />
+        </section>
         <section id="omelette">
           <Omelette />
         </section>
@@ -79,6 +84,9 @@ const Home = () => {
         </section>
         <section id="milkshake">
           <Milkshake />
+        </section>
+        <section id="jus">
+          <Jus />
         </section>
         <section id="soft">
           <Soft />
