@@ -68,7 +68,7 @@ const Menu = () => {
         <button
           data-id="salade"
           onClick={() => scrollToSection("salade")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "salade" ? "!text-[#7ba7d3]" : " rounded"
           }`}
         >
@@ -77,7 +77,7 @@ const Menu = () => {
         <button
           data-id="bruschetta"
           onClick={() => scrollToSection("bruschetta")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "bruschetta"
               ? "!text-[#7ba7d3] rounded"
               : " rounded"
@@ -88,7 +88,7 @@ const Menu = () => {
         <button
           data-id="camembert"
           onClick={() => scrollToSection("camembert")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "camembert"
               ? "!text-[#7ba7d3] rounded"
               : " rounded"
@@ -99,7 +99,7 @@ const Menu = () => {
         <button
           data-id="pate"
           onClick={() => scrollToSection("pate")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "pate" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -108,7 +108,7 @@ const Menu = () => {
         <button
           data-id="burger"
           onClick={() => scrollToSection("burger")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "burger" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -118,7 +118,7 @@ const Menu = () => {
         <button
           data-id="panini"
           onClick={() => scrollToSection("panini")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "panini" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -127,7 +127,7 @@ const Menu = () => {
         <button
           data-id="brochette"
           onClick={() => scrollToSection("brochette")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "brochette"
               ? "!text-[#7ba7d3] rounded"
               : " rounded"
@@ -138,7 +138,7 @@ const Menu = () => {
         <button
           data-id="pastilla"
           onClick={() => scrollToSection("pastilla")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "pastilla"
               ? "!text-[#7ba7d3] rounded"
               : " rounded"
@@ -149,7 +149,7 @@ const Menu = () => {
         <button
           data-id="wok"
           onClick={() => scrollToSection("wok")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "wok" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -158,7 +158,7 @@ const Menu = () => {
         <button
           data-id="couscous"
           onClick={() => scrollToSection("couscous")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "couscous"
               ? "!text-[#7ba7d3] rounded"
               : " rounded"
@@ -169,7 +169,7 @@ const Menu = () => {
         <button
           data-id="croque"
           onClick={() => scrollToSection("croque")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "croque" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -178,7 +178,7 @@ const Menu = () => {
         <button
           data-id="omelette"
           onClick={() => scrollToSection("omelette")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "omelette"
               ? "!text-[#7ba7d3] rounded"
               : " rounded"
@@ -189,7 +189,7 @@ const Menu = () => {
         <button
           data-id="soupe"
           onClick={() => scrollToSection("soupe")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "soupe" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -198,7 +198,7 @@ const Menu = () => {
         <button
           data-id="enfant"
           onClick={() => scrollToSection("enfant")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "enfant" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -207,7 +207,7 @@ const Menu = () => {
         <button
           data-id="dej"
           onClick={() => scrollToSection("dej")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "dej" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -216,7 +216,7 @@ const Menu = () => {
         <button
           data-id="dessert"
           onClick={() => scrollToSection("dessert")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "dessert" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -225,7 +225,7 @@ const Menu = () => {
         <button
           data-id="crepe"
           onClick={() => scrollToSection("crepe")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "crepe" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -234,7 +234,7 @@ const Menu = () => {
         <button
           data-id="glace"
           onClick={() => scrollToSection("glace")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "glace" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -243,7 +243,7 @@ const Menu = () => {
         <button
           data-id="milkshake"
           onClick={() => scrollToSection("milkshake")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "milkshake"
               ? "!text-[#7ba7d3] rounded"
               : " rounded"
@@ -254,7 +254,7 @@ const Menu = () => {
         <button
           data-id="jus"
           onClick={() => scrollToSection("jus")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "jus" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -263,7 +263,7 @@ const Menu = () => {
         <button
           data-id="soft"
           onClick={() => scrollToSection("soft")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "soft" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
@@ -272,7 +272,7 @@ const Menu = () => {
         <button
           data-id="chaud"
           onClick={() => scrollToSection("chaud")}
-          className={`px-2 py-2 text-white  ${
+          className={`px-2 pt-2 pb-1 text-white  ${
             activeSection === "chaud" ? "!text-[#7ba7d3] rounded" : " rounded"
           }`}
         >
