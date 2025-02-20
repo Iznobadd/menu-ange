@@ -142,7 +142,7 @@
     "desc": "Spaghettini | Tagliatelle | Penne | Linguini",
     "pesto": {
       "title": "Pesto",
-      "desc": ""
+      "desc": "Sauce pesto maison"
     },
     "creme": {
       "title": "Crème & Champignons",
@@ -162,7 +162,7 @@
     },
     "bolo": {
       "title": "Bolognaise",
-      "desc": ""
+      "desc": "Sauce tomate maison"
     }
   },
   "pastillas": {
