@@ -5,6 +5,8 @@ import Creme from "../../assets/pates/creme.png";
 import Mer from "../../assets/pates/mer.png";
 import Pesto from "../../assets/pates/pesto.png";
 import Puttanesca from "../../assets/pates/puttanesca.png";
+import Accompagnement from "../../assets/pates/accompagnement.png";
+
 const Pate = () => {
   const { t } = useTranslation();
   const pates = [
@@ -57,6 +59,9 @@ const Pate = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="text-center">
+          <img src={Accompagnement} className="w-2/3 inline-block" />
+        </div>
         {pates.map((pate, index) => (
           <div
             key={index}

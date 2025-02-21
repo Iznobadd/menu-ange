@@ -4,6 +4,7 @@ import Boeuf from "../../assets/burgers/boeuf.png";
 import Poisson from "../../assets/burgers/poisson.png";
 import Poulet from "../../assets/burgers/poulet.png";
 import Vegan from "../../assets/burgers/vegan.png";
+import Accompagnement from "../../assets/accompagnement2.png";
 const Burger = () => {
   const { t } = useTranslation();
   const burgers = [
@@ -44,6 +45,9 @@ const Burger = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="text-center">
+          <img src={Accompagnement} className="w-full inline-block" />
+        </div>
         {burgers.map((burger, index) => (
           <div
             key={index}

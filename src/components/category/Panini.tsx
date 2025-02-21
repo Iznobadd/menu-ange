@@ -7,6 +7,7 @@ import Epinard from "../../assets/paninis/epinard.png";
 import Marocain from "../../assets/paninis/marocain.png";
 import Poulet from "../../assets/paninis/poulet.png";
 import Burger from "../../assets/paninis/burger.png";
+import Accompagnement from "../../assets/accompagnement2.png";
 
 const Panini = () => {
   const { t } = useTranslation();
@@ -66,6 +67,9 @@ const Panini = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="text-center">
+          <img src={Accompagnement} className="w-full inline-block" />
+        </div>
         {paninis.map((panini, index) => (
           <div
             key={index}

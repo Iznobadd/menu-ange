@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import Boeuf from "../../assets/brochettes/boeuf.png";
 import Gambas from "../../assets/brochettes/gambas.png";
 import Poulet from "../../assets/brochettes/poulet.png";
-import Accompagnement from "../../assets/brochettes/accompagnement.png";
+import Accompagnement from "../../assets/accompagnement4.png";
 
 const Brochette = () => {
   const { t } = useTranslation();

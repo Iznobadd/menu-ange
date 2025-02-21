@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import Parmesan from "../../assets/omelettes/parmesan.png";
 import Tomate from "../../assets/omelettes/tomate.png";
 import Legume from "../../assets/omelettes/legume.png";
+import Accompagnement from "../../assets/accompagnement2.png";
 
 const Croque = () => {
   const { t } = useTranslation();
@@ -37,6 +38,9 @@ const Croque = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="text-center">
+          <img src={Accompagnement} className="w-full inline-block" />
+        </div>
         {croques.map((croque, index) => (
           <div
             key={index}
