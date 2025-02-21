@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
-import Steak from "../../assets/enfant/steak.png";
-import Brochette from "../../assets/enfant/brochette.png";
+import ContinentalImg from "../../assets/dej/continental.png";
 import React from "react";
 
 const Continental = () => {
@@ -23,11 +22,10 @@ const Continental = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="flex justify-between">
-          <img src={Steak} alt="Steak" className="w-full h-32 object-contain" />
           <img
-            src={Brochette}
-            alt="Brochette"
-            className="w-full h-32 object-contain"
+            src={ContinentalImg}
+            alt="Steak"
+            className="w-full h-48 object-contain"
           />
         </div>
 

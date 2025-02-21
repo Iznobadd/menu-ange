@@ -8,6 +8,11 @@ import TheCorne from "../../assets/chaud/the-corne.png";
 import The from "../../assets/chaud/the.png";
 import CafeLatte from "../../assets/chaud/cafe-latte.png";
 import CafeFrappe from "../../assets/chaud/cafe-frappe.png";
+import Capuccino from "../../assets/chaud/capuccino.png";
+import Double from "../../assets/chaud/double.png";
+import Epice from "../../assets/chaud/epice.png";
+import Expresso from "../../assets/chaud/expresso.png";
+import Nouss from "../../assets/chaud/nouss.png";
 
 const Chaud = () => {
   const { t } = useTranslation();
@@ -40,31 +45,31 @@ const Chaud = () => {
       title: t("chaud.nouss.title"),
       desc: t("chaud.nouss.desc"),
       price: 30,
-      image: Generique,
+      image: Nouss,
     },
     {
       title: t("chaud.cafe-epice.title"),
       desc: t("chaud.cafe-epice.desc"),
       price: 30,
-      image: Generique,
+      image: Epice,
     },
     {
       title: t("chaud.expresso.title"),
       desc: t("chaud.expresso.desc"),
       price: 25,
-      image: Generique,
+      image: Expresso,
     },
     {
       title: t("chaud.double.title"),
       desc: t("chaud.double.desc"),
       price: 45,
-      image: Generique,
+      image: Double,
     },
     {
       title: t("chaud.capuccino.title"),
       desc: t("chaud.capuccino.desc"),
       price: 35,
-      image: Generique,
+      image: Capuccino,
     },
     {
       title: t("chaud.latte.title"),
