@@ -46,7 +46,7 @@ const Brochette = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="text-center">
-          <img src={Accompagnement} className="w-2/3 inline-block" />
+          <img src={Accompagnement} className="w-full inline-block" />
         </div>
 
         {brochettes.map((brochette, index) => (

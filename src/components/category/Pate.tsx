@@ -59,9 +59,9 @@ const Pate = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div className="text-center">
+        {/* <div className="text-center">
           <img src={Accompagnement} className="w-2/3 inline-block" />
-        </div>
+        </div> */}
         {pates.map((pate, index) => (
           <div
             key={index}

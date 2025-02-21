@@ -13,45 +13,45 @@ const ListFlags = () => {
     navigate("/menu");
   };
   return (
-    <div className="flex justify-center gap-x-12 gap-y-6 flex-wrap px-8 my-8">
-      <div className="bg-gray-200 p-2 rounded">
+    <div className="flex justify-center gap-x-3 gap-y-6 flex-wrap px-8 my-8">
+      <div className=" p-2 rounded">
         <img
           src={ukFlag}
           alt="English"
           onClick={() => setLanguage("en")}
-          className="max-h-8 cursor-pointer"
+          className="max-h-6 cursor-pointer"
         />
       </div>
-      <div className="bg-gray-200 p-2 rounded">
+      <div className=" p-2 rounded">
         <img
           src={frFlag}
           alt="English"
           onClick={() => setLanguage("fr")}
-          className="max-h-8 cursor-pointer"
+          className="max-h-6 cursor-pointer"
         />
       </div>
-      <div className="bg-gray-200 p-2 rounded">
+      <div className=" p-2 rounded">
         <img
           src={itFlag}
           alt="English"
           onClick={() => setLanguage("it")}
-          className="max-h-8 cursor-pointer"
+          className="max-h-6 cursor-pointer"
         />
       </div>
-      <div className="bg-gray-200 p-2 rounded">
+      <div className=" p-2 rounded">
         <img
           src={esFlag}
           alt="English"
           onClick={() => setLanguage("es")}
-          className="max-h-8 cursor-pointer"
+          className="max-h-6 cursor-pointer"
         />
       </div>
-      <div className="bg-gray-200 p-2 rounded">
+      <div className=" p-2 rounded">
         <img
           src={grFlag}
           alt="English"
           onClick={() => setLanguage("gr")}
-          className="max-h-8 cursor-pointer"
+          className="max-h-6 cursor-pointer"
         />
       </div>
     </div>
