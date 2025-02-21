@@ -41,7 +41,7 @@ const Menu = () => {
             activeButton.scrollIntoView({
               behavior: "smooth",
               inline: "center",
-              block: "nearest",
+              block: "center",
             });
           }
         }
