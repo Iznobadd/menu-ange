@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import Boeuf from "../../assets/brochettes/boeuf.png";
 import Gambas from "../../assets/brochettes/gambas.png";
 import Poulet from "../../assets/brochettes/poulet.png";
+import Kefta from "../../assets/brochettes/kefta.png";
 import Accompagnement from "../../assets/accompagnement4.png";
 
 const Brochette = () => {
@@ -17,7 +18,7 @@ const Brochette = () => {
       title: t("brochettes.kefta.title"),
       desc: t("brochettes.kefta.desc"),
       price: 85,
-      image: Boeuf,
+      image: Kefta,
     },
     {
       title: t("brochettes.boeuf.title"),
