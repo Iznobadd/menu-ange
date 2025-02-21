@@ -16,19 +16,19 @@ const Language = () => {
     >
       <div className="flex mb-16">
         <motion.div
-          className="h-64 w-[85%] bg-cover bg-center"
+          className="h-48 w-[85%] bg-cover bg-center"
           style={{ backgroundImage: `url(${BgTop})` }}
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
         />
-        <div className="w-[15%] bg-[#7ba7d3] h-56"></div>
+        <div className="w-[15%] bg-[#7ba7d3] h-40"></div>
       </div>
       <div className="text-center">
         <motion.img
           src={Logo}
           alt="logo"
-          className="w-80 mx-auto"
+          className="w-64 mx-auto"
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
