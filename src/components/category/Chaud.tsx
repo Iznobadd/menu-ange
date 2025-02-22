@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import Generique from "../../assets/salades/generique.jpg";
 import Supplement from "../../assets/chaud/supplement.png";
 import Chocolat from "../../assets/chaud/chocolat.png";
 import Earl from "../../assets/chaud/earl.png";
@@ -81,7 +80,7 @@ const Chaud = () => {
       title: t("chaud.cafe-glace.title"),
       desc: t("chaud.cafe-glace.desc"),
       price: 35,
-      image: Generique,
+      image: CafeFrappe,
     },
     {
       title: t("chaud.cafe-frappe.title"),

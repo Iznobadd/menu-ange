@@ -43,16 +43,16 @@ const Dessert = () => {
       image: Mousse,
     },
     {
-      title: t("desserts.brioche.title"),
-      desc: t("desserts.brioche.desc"),
-      price: 75,
-      image: Brioche,
-    },
-    {
       title: t("desserts.meli-melo.title"),
       desc: t("desserts.meli-melo.desc"),
       price: 70,
       image: MeliMelo,
+    },
+    {
+      title: t("desserts.brioche.title"),
+      desc: t("desserts.brioche.desc"),
+      price: 75,
+      image: Brioche,
     },
     {
       title: t("desserts.corne.title"),
