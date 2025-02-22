@@ -15,6 +15,14 @@ const ListFlags = () => {
   return (
     <div className="flex justify-center gap-x-3 gap-y-6 flex-wrap px-4 my-8">
       <div className=" p-1 rounded">
+        <div className=" p-1 rounded">
+          <img
+            src={frFlag}
+            alt="Français"
+            onClick={() => setLanguage("fr")}
+            className="max-h-6 cursor-pointer"
+          />
+        </div>
         <img
           src={ukFlag}
           alt="English"
@@ -22,18 +30,11 @@ const ListFlags = () => {
           className="max-h-6 cursor-pointer"
         />
       </div>
-      <div className=" p-1 rounded">
-        <img
-          src={frFlag}
-          alt="English"
-          onClick={() => setLanguage("fr")}
-          className="max-h-6 cursor-pointer"
-        />
-      </div>
+
       <div className=" p-1 rounded">
         <img
           src={itFlag}
-          alt="English"
+          alt="Italiano"
           onClick={() => setLanguage("it")}
           className="max-h-6 cursor-pointer"
         />
@@ -41,7 +42,7 @@ const ListFlags = () => {
       <div className=" p-1 rounded">
         <img
           src={esFlag}
-          alt="English"
+          alt="Español"
           onClick={() => setLanguage("es")}
           className="max-h-6 cursor-pointer"
         />
@@ -49,7 +50,7 @@ const ListFlags = () => {
       <div className=" p-1 rounded">
         <img
           src={grFlag}
-          alt="English"
+          alt="Deutsch"
           onClick={() => setLanguage("gr")}
           className="max-h-6 cursor-pointer"
         />

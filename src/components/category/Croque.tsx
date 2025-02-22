@@ -38,9 +38,6 @@ const Croque = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div className="text-center">
-          <img src={Accompagnement} className="w-full inline-block" />
-        </div>
         {croques.map((croque, index) => (
           <div
             key={index}
