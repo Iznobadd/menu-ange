@@ -14,7 +14,7 @@ const Marocain = () => {
   ];
 
   return (
-    <div className="mb-4">
+    <div className="mb-4 mt-14">
       <h2 className="font-bold text-xl text-[#7ba7d3] px-4 my-4 !tracking-wide">
         {t("dej-marocain.title")}
         <span className="!text-[17px] pl-4"> 65 dhs</span>
