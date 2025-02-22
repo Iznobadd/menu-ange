@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import Continental from "./Continental";
 import Marocain from "./Marocain";
 import Brunch from "./Brunch";
+import Complement from "./Complement";
 
 const PetitDej = () => {
   const { t } = useTranslation();
@@ -17,6 +18,7 @@ const PetitDej = () => {
       <Continental />
       <Marocain />
       <Brunch />
+      <Complement />
     </div>
   );
 };
