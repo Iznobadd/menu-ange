@@ -51,6 +51,9 @@ const Home = () => {
         <section id="panini">
           <Panini />
         </section>
+        <section id="croque">
+          <Croque />
+        </section>
         <section id="brochette">
           <Brochette />
         </section>
@@ -62,9 +65,6 @@ const Home = () => {
         </section>
         <section id="couscous">
           <Couscous />
-        </section>
-        <section id="croque">
-          <Croque />
         </section>
         <section id="omelette">
           <Omelette />
