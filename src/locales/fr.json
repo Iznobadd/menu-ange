@@ -183,18 +183,18 @@
   },
   "croques": {
     "title": "CROQUE MONSIEUR",
-    "desc": "Salade composée ou Frites maison",
-    "legume": {
-      "title": "Légumes variés",
-      "desc": ""
+    "desc": "Accompagnées d'une salade composée",
+    "grison": {
+      "title": "Viande de Grison, Fromage raclette, Cornichons",
+      "desc": "Pain maison"
     },
-    "tomate": {
-      "title": "Tomates & Oignons",
-      "desc": ""
+    "brie": {
+      "title": "Brie, Épinard, Sésame grillés",
+      "desc": "Pain de mie aux graines"
     },
-    "parmesan": {
-      "title": "Copeaux de Parmesan",
-      "desc": ""
+    "poulet": {
+      "title": "Poulet rôti, Crème d'avocat, Cheddar",
+      "desc": "Pain de mie aux graines"
     }
   },
   "omelettes": {

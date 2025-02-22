@@ -1,29 +1,29 @@
 import { useTranslation } from "react-i18next";
-import Parmesan from "../../assets/omelettes/parmesan.png";
-import Tomate from "../../assets/omelettes/tomate.png";
-import Legume from "../../assets/omelettes/legume.png";
+import Grison from "../../assets/croques/grison.png";
+import Brie from "../../assets/croques/brie.png";
+import Poulet from "../../assets/croques/poulet.png";
 import Accompagnement from "../../assets/accompagnement2.png";
 
 const Croque = () => {
   const { t } = useTranslation();
   const croques = [
     {
-      title: t("croques.tomate.title"),
-      desc: t("croques.tomate.desc"),
-      price: 50,
-      image: Tomate,
+      title: t("croques.grison.title"),
+      desc: t("croques.grison.desc"),
+      price: 100,
+      image: Grison,
     },
     {
-      title: t("croques.parmesan.title"),
-      desc: t("croques.parmesan.desc"),
-      price: 65,
-      image: Parmesan,
+      title: t("croques.brie.title"),
+      desc: t("croques.brie.desc"),
+      price: 80,
+      image: Brie,
     },
     {
-      title: t("croques.legume.title"),
-      desc: t("croques.legume.desc"),
-      price: 50,
-      image: Legume,
+      title: t("croques.poulet.title"),
+      desc: t("croques.poulet.desc"),
+      price: 85,
+      image: Poulet,
     },
   ];
   return (
