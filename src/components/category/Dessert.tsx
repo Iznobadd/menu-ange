@@ -7,6 +7,7 @@ import PannaPomme from "../../assets/desserts/panna-pomme.png";
 import TiramisuCitron from "../../assets/desserts/tiramisu-citron.png";
 import TiramisuDatte from "../../assets/desserts/tiramisu-datte.png";
 import MeliMelo from "../../assets/desserts/meli-melo.png";
+import Brioche from "../../assets/desserts/brioche.png";
 
 const Dessert = () => {
   const { t } = useTranslation();
@@ -40,6 +41,12 @@ const Dessert = () => {
       desc: t("desserts.mousse.desc"),
       price: 70,
       image: Mousse,
+    },
+    {
+      title: t("desserts.brioche.title"),
+      desc: t("desserts.brioche.desc"),
+      price: 75,
+      image: Brioche,
     },
     {
       title: t("desserts.meli-melo.title"),
