@@ -15,14 +15,15 @@ const ListFlags = () => {
   return (
     <div className="flex justify-center gap-x-3 gap-y-6 flex-wrap px-4 my-8">
       <div className=" p-1 rounded">
-        <div className=" p-1 rounded">
-          <img
-            src={frFlag}
-            alt="Français"
-            onClick={() => setLanguage("fr")}
-            className="max-h-6 cursor-pointer"
-          />
-        </div>
+        <img
+          src={frFlag}
+          alt="Français"
+          onClick={() => setLanguage("fr")}
+          className="max-h-6 cursor-pointer"
+        />
+      </div>
+
+      <div className=" p-1 rounded">
         <img
           src={ukFlag}
           alt="English"

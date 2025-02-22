@@ -2,7 +2,6 @@ import { useTranslation } from "react-i18next";
 import Grison from "../../assets/croques/grison.png";
 import Brie from "../../assets/croques/brie.png";
 import Poulet from "../../assets/croques/poulet.png";
-import Accompagnement from "../../assets/accompagnement2.png";
 
 const Croque = () => {
   const { t } = useTranslation();
