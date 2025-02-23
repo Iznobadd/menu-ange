@@ -5,6 +5,7 @@ import Creme from "../../assets/pates/creme.png";
 import Mer from "../../assets/pates/mer.png";
 import Pesto from "../../assets/pates/pesto.png";
 import Puttanesca from "../../assets/pates/puttanesca.png";
+import Carbo from "../../assets/pates/carbo.png";
 
 const Pate = () => {
   const { t } = useTranslation();
@@ -25,7 +26,7 @@ const Pate = () => {
       title: t("pates.carbo.title"),
       desc: t("pates.carbo.desc"),
       price: 90,
-      image: Creme,
+      image: Carbo,
     },
     {
       title: t("pates.puttanesca.title"),
