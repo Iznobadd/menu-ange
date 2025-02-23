@@ -7,7 +7,7 @@ import Logo from "../assets/logo.png";
 
 const Language = () => {
   return (
-    <div className="flex h-screen relative">
+    <div className="flex h-[100svh] relative">
       <div className="min-w-[86%] h-full relative">
         <img src={Bg} className="w-full h-full" />
         <p className="absolute top-2 left-1/2 -translate-x-1/2 text-[14px] italic blinking">
@@ -17,7 +17,7 @@ const Language = () => {
           src={Logo}
           className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/3 w-2/3"
         />
-        <p className="absolute top-1/2 left-1/2 -translate-x-1/2 text-[11px] italic w-4/5 text-center">
+        <p className="absolute top-1/2 left-1/2 -translate-x-1/2 text-[14px] italic w-4/5 text-center">
           Un souffle d’épices, une lumière douce, le murmure de la médina… Ici,
           chaque assiette est une escapade, chaque moment une promesse.
           <br />
