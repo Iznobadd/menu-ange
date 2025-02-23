@@ -33,43 +33,43 @@ const Home = () => {
           des produits de qualité pour vous offrir des créations maison,
           empreintes d'authenticité et de saveurs uniques”
         </p>
-        <section id="salade">
+        <section id="salades">
           <Salade />
         </section>
-        <section id="bruschetta">
+        <section id="bruschettas">
           <Bruschetta />
         </section>
         <section id="camembert">
           <Camembert />
         </section>
-        <section id="pate">
+        <section id="pates">
           <Pate />
         </section>
-        <section id="burger">
+        <section id="burgers">
           <Burger />
         </section>
-        <section id="panini">
+        <section id="paninis">
           <Panini />
         </section>
-        <section id="croque">
+        <section id="croques">
           <Croque />
         </section>
-        <section id="brochette">
+        <section id="brochettes">
           <Brochette />
         </section>
-        <section id="pastilla">
+        <section id="pastillas">
           <Pastilla />
         </section>
-        <section id="wok">
+        <section id="woks">
           <Wok />
         </section>
         <section id="couscous">
           <Couscous />
         </section>
-        <section id="omelette">
+        <section id="omelettes">
           <Omelette />
         </section>
-        <section id="soupe">
+        <section id="soupes">
           <Soupe />
         </section>
         <section id="enfant">
@@ -78,16 +78,16 @@ const Home = () => {
         <section id="dej">
           <PetitDej />
         </section>
-        <section id="dessert">
+        <section id="desserts">
           <Dessert />
         </section>
-        <section id="crepe">
+        <section id="crepes">
           <Crepe />
         </section>
-        <section id="glace">
+        <section id="glaces">
           <Glace />
         </section>
-        <section id="milkshake">
+        <section id="milkshakes">
           <Milkshake />
         </section>
         <section id="jus">
