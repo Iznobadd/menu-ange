@@ -6,9 +6,9 @@ const Continental = () => {
   const { t } = useTranslation();
   const continentals = [
     {
-      name: `${t("dej-continental.desc")} \n ${t(
+      name: `▪ ${t("dej-continental.desc")} \n ▪ ${t(
         "dej-continental.desc2"
-      )}  \n ${t("dej-continental.desc3")}`,
+      )}  \n ▪ ${t("dej-continental.desc3")}`,
       price: 60,
     },
   ];

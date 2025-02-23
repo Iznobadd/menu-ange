@@ -6,9 +6,9 @@ const Marocain = () => {
   const { t } = useTranslation();
   const marocain = [
     {
-      name: `${t("dej-marocain.desc")} \n ${t("dej-marocain.desc2")}  \n ${t(
-        "dej-marocain.desc3"
-      )}`,
+      name: `▪ ${t("dej-marocain.desc")} \n ▪ ${t(
+        "dej-marocain.desc2"
+      )}  \n ▪ ${t("dej-marocain.desc3")}`,
       price: 60,
     },
   ];

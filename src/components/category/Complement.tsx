@@ -84,7 +84,7 @@ const Complement = () => {
           <div key={index} className="md:text-center">
             <div className="px-2 flex justify-between items-center">
               <p className="font-normal text-md text-left leading-tight">
-                {complement.name}
+                ▪ {complement.name}
               </p>
               <p className="text-[12px] text-gray-500">
                 {complement.price} dhs
