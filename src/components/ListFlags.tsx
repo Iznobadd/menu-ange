@@ -13,8 +13,8 @@ const ListFlags = () => {
     navigate("/menu");
   };
   return (
-    <div className="flex justify-center gap-x-3 gap-y-6 flex-wrap px-4 my-8">
-      <div className=" p-1 rounded">
+    <div className="flex justify-start items-center gap-x-3 flex-wrap my-8 px-1 gap-y-8">
+      <div className="rounded">
         <img
           src={frFlag}
           alt="Français"
@@ -23,7 +23,7 @@ const ListFlags = () => {
         />
       </div>
 
-      <div className=" p-1 rounded">
+      <div className="rounded">
         <img
           src={ukFlag}
           alt="English"
@@ -32,7 +32,7 @@ const ListFlags = () => {
         />
       </div>
 
-      <div className=" p-1 rounded">
+      <div className="rounded">
         <img
           src={itFlag}
           alt="Italiano"
@@ -40,7 +40,7 @@ const ListFlags = () => {
           className="max-h-6 cursor-pointer"
         />
       </div>
-      <div className=" p-1 rounded">
+      <div className="rounded">
         <img
           src={esFlag}
           alt="Español"
@@ -48,7 +48,7 @@ const ListFlags = () => {
           className="max-h-6 cursor-pointer"
         />
       </div>
-      <div className=" p-1 rounded">
+      <div className="rounded">
         <img
           src={grFlag}
           alt="Deutsch"

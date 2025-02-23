@@ -1,40 +1,19 @@
 import ListFlags from "../components/ListFlags";
-import Logo from "../assets/logo.png";
 import Insta from "../assets/insta.png";
 import Tiktok from "../assets/tiktok.png";
 import Google from "../assets/google.png";
+/* 
 import BgTop from "../assets/bg-top.png";
-import { motion } from "motion/react";
+import { motion } from "motion/react"; */
+import Bg from "../assets/bg.png";
 
 const Language = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-    >
-      <div className="flex mb-16">
-        <motion.div
-          className="h-48 w-[85%] bg-cover bg-center"
-          style={{ backgroundImage: `url(${BgTop})` }}
-          initial={{ scale: 0.9, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.5 }}
-        />
-        <div className="w-[15%] bg-[#7ba7d3] h-40"></div>
-      </div>
-      <div className="text-center">
-        <motion.img
-          src={Logo}
-          alt="logo"
-          className="w-64 mx-auto"
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-        />
+    <div className="flex h-screen relative">
+      <img src={Bg} className="w-[90%]" />
+      <div className="flex flex-col justify-between">
         <ListFlags />
-        <div className="px-8 mt-8 flex justify-between items-center bottom-0 absolute text-center left-1/2 -translate-x-1/2 gap-4">
+        <div className="px-1 flex justify-between items-center flex-wrap text-center gap-4 mb-8">
           {[Insta, Tiktok, Google].map((icon, index) => (
             <a
               key={index}
@@ -48,12 +27,12 @@ const Language = () => {
               target="_blank"
               className="inline-block text-center"
             >
-              <img src={icon} alt="" className="max-w-10" />
+              <img src={icon} alt="" className="max-w-full" />
             </a>
           ))}
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
