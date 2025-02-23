@@ -2,18 +2,22 @@ import ListFlags from "../components/ListFlags";
 import Insta from "../assets/insta.png";
 import Tiktok from "../assets/tiktok.png";
 import Google from "../assets/google.png";
-/* 
-import BgTop from "../assets/bg-top.png";
-import { motion } from "motion/react"; */
 import Bg from "../assets/bg.png";
+import Logo from "../assets/logo.png";
 
 const Language = () => {
   return (
     <div className="flex h-screen relative">
-      <img src={Bg} className="w-[90%]" />
-      <div className="flex flex-col justify-between">
-        <ListFlags />
-        <div className="px-1 flex justify-between items-center flex-wrap text-center gap-4 mb-8">
+      <div className="min-w-[86%] h-full relative">
+        <img src={Bg} className="w-full h-full" />
+        <p className="absolute top-2 left-1/2 -translate-x-1/2 text-[14px] italic blinking">
+          Choose your language
+        </p>
+        <img
+          src={Logo}
+          className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/3 w-2/3"
+        />
+        <div className="px-6 mt-8 flex justify-between items-center bottom-8 absolute text-center left-1/2 -translate-x-1/2 gap-4">
           {[Insta, Tiktok, Google].map((icon, index) => (
             <a
               key={index}
@@ -27,10 +31,14 @@ const Language = () => {
               target="_blank"
               className="inline-block text-center"
             >
-              <img src={icon} alt="" className="max-w-full" />
+              <img src={icon} alt="" className="max-w-8" />
             </a>
           ))}
         </div>
+      </div>
+
+      <div className="flex flex-col">
+        <ListFlags />
       </div>
     </div>
   );

@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import Tomate from "../../assets/paninis/tomate.png";
 import Legume from "../../assets/paninis/legume.png";
 import Vegan from "../../assets/paninis/vegan.png";
-import Epinard from "../../assets/paninis/epinard.png";
 import Marocain from "../../assets/paninis/marocain.png";
 import Poulet from "../../assets/paninis/poulet.png";
 import Burger from "../../assets/paninis/burger.png";
@@ -29,12 +28,6 @@ const Panini = () => {
       desc: t("paninis.vegan.desc"),
       price: 75,
       image: Vegan,
-    },
-    {
-      title: t("paninis.epinard.title"),
-      desc: t("paninis.epinard.desc"),
-      price: 85,
-      image: Epinard,
     },
     {
       title: t("paninis.marocain.title"),

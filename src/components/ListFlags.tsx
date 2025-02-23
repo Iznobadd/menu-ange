@@ -13,7 +13,7 @@ const ListFlags = () => {
     navigate("/menu");
   };
   return (
-    <div className="flex justify-start items-center gap-x-3 flex-wrap my-8 px-1 gap-y-8">
+    <div className="flex justify-center items-center gap-x-3 flex-wrap my-8 px-[2px] gap-y-8">
       <div className="rounded">
         <img
           src={frFlag}

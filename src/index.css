@@ -17,3 +17,13 @@ h2,
 h3 {
   letter-spacing: 3px;
 }
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blinking {
+  animation: blink 1s step-end infinite;
+}
