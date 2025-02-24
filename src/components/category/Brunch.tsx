@@ -9,10 +9,10 @@ const Brunch = () => {
       name: `▪ ${t("brunch.desc")} \n ▪ ${t("brunch.desc2")}  \n ▪ ${t(
         "brunch.desc3"
       )} \n ▪ ${t("brunch.desc4")} \n ▪ ${t("brunch.desc5")} \n ▪ ${t(
-        "brunch.desc3"
-      )} \n ▪ ${t("brunch.desc6")} \n ▪ ${t("brunch.desc7")} \n ▪ ${t(
-        "brunch.desc3"
-      )} \n ▪ ${t("brunch.desc8")} \n ▪ ${t("brunch.desc9")}`,
+        "brunch.desc6"
+      )} \n ▪ ${t("brunch.desc7")} \n ▪ ${t("brunch.desc8")} \n ▪ ${t(
+        "brunch.desc9"
+      )}`,
       price: 60,
     },
   ];
