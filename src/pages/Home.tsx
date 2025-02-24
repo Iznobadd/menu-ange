@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Brochette from "../components/category/Brochette";
 import Bruschetta from "../components/category/Bruschetta";
 import Burger from "../components/category/Burger";
@@ -24,15 +25,12 @@ import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <Menu />
       <div className="pt-[198px] px-2">
-        <p className="italic text-[14px] text-center mb-7 px-4">
-          “Là où le local rencontre l’excellence. Nous sélectionnons avec soin
-          des produits de qualité pour vous offrir des créations maison,
-          empreintes d'authenticité et de saveurs uniques”
-        </p>
+        <p className="italic text-[14px] text-center mb-7 px-4">{t("intro")}</p>
         <section id="salades">
           <Salade />
         </section>
