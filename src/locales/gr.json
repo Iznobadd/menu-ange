@@ -2,7 +2,7 @@
   "language": {
     "choose": "Klicken Sie auf die Flagge Ihrer Sprache"
   },
-  "intro": "„Wo das Lokale auf Exzellenz trifft. Wir wählen sorgfältig aus Qualitätsprodukte, um Ihnen hausgemachte Kreationen anzubieten, geprägt von Authentizität und einzigartigem Geschmack“.",
+  "intro": "„Wo Lokales auf Exzellenz trifft. Wir wählen sorgfältig Qualitätsprodukte aus, um Ihnen hausgemachte Kreationen voller Authentizität und einzigartigem Geschmack anzubieten“",
   "salades": {
     "title": "SALATE",
     "quinoa": {
@@ -94,7 +94,7 @@
       "desc": ""
     },
     "poivrons": {
-      "title": "Pfeffer & Feta",
+      "title": "Paprika & Feta",
       "desc": ""
     },
     "guacamole": {
@@ -140,7 +140,7 @@
   },
   "pates": {
     "title": "PASTA",
-    "desc": "Spaghettini | Tagliatelle | Penne | Linguini",
+    "desc": "Hausgemachte Saucen | Spaghettini, Tagliatelle, Penne oder Linguini",
     "pesto": {
       "title": "Pesto",
       "desc": "Hausgemachte Pesto-Sauce"
@@ -151,7 +151,7 @@
     },
     "carbo": {
       "title": "Carbonara",
-      "desc": "Ei"
+      "desc": "Halal-Ei, Sahne und Speck"
     },
     "puttanesca": {
       "title": "Puttanesca",
@@ -163,7 +163,7 @@
     },
     "bolo": {
       "title": "Bolognese",
-      "desc": "Hausgemachte Tomatensauce"
+      "desc": "Tomatensauce und Hackfleisch"
     }
   },
   "pastillas": {
@@ -190,7 +190,7 @@
       "desc": "Hausgemachtes Brot"
     },
     "brie": {
-      "title": "Brie, Spinat, gegrillter Sesam",
+      "title": "Brie, Spinat, gerösteter Sesam",
       "desc": "Geschnittenes Brot mit Körnern"
     },
     "poulet": {
@@ -225,6 +225,10 @@
       "title": "Huhn",
       "desc": ""
     },
+    "boeuf": {
+      "title": "Rindfleisch",
+      "desc": ""
+    },
     "agneau": {
       "title": "Lamm",
       "desc": "Auf Bestellung ab 4 Personen"
@@ -235,7 +239,7 @@
     "desc": "",
     "roti": {
       "title": "Mit Honig gerösteter Camembert",
-      "desc": "Eingewickelt in selbstgebackenes Brot und einen knackigen grünen Salat"
+      "desc": "Dazu selbstgebackenes Brot und ein knackiger grüner Salat"
     }
   },
   "soupes": {
@@ -436,7 +440,7 @@
   },
   "glaces": {
     "title": "EISCREME",
-    "desc": "Schokolade | Kaffee | Vanille | Nougat | Zitrone Himbeere | Erdbeere | Mango",
+    "desc": "Schokolade | Kaffee | Vanille | Nougat | Zitrone | Himbeere | Erdbeere | Mango | Pistazie",
     "une": "1 Ball",
     "deux": "2 Bälle",
     "trois": "3 Bälle"

@@ -27,3 +27,9 @@ h3 {
 .blinking {
   animation: blink 1s step-end infinite;
 }
+
+/* Applique un style particulier pour la langue arabe (et les autres langues RTL) */
+html[lang="ar"] {
+  direction: rtl !important; /* Change la direction du texte de droite à gauche */
+  text-align: right; /* Aligne le texte à droite */
+}

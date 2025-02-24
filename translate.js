@@ -2,7 +2,7 @@ import fs from "fs";
 
 const apiKey = "AIzaSyA5QWqCwVo0z5jh3duRYJU8ycNAHLzZZpQ";
 const sourceLang = "fr";
-const targetLangs = ["en", "de", "es", "it"];
+const targetLangs = ["en", "de", "es", "it", "ar"];
 
 const translateText = async (text, targetLang) => {
   if (typeof text !== "string") return text; // Ignore les objets et tableaux

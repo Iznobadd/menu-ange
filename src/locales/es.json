@@ -2,7 +2,7 @@
   "language": {
     "choose": "Haz clic en la bandera de tu idioma"
   },
-  "intro": "«Donde lo local se une a lo excelente. Seleccionamos cuidadosamente productos de calidad para ofrecerle creaciones caseras autenticidad y sabores únicos».",
+  "intro": "“Donde lo local se encuentra con la excelencia. Seleccionamos cuidadosamente productos de calidad para ofrecerte creaciones caseras, llenas de autenticidad y sabores únicos”",
   "salades": {
     "title": "ENSALADAS",
     "quinoa": {
@@ -94,7 +94,7 @@
       "desc": ""
     },
     "poivrons": {
-      "title": "Pimienta y queso feta",
+      "title": "Pimientos y queso feta",
       "desc": ""
     },
     "guacamole": {
@@ -140,7 +140,7 @@
   },
   "pates": {
     "title": "PASTAS",
-    "desc": "Espaguetis | Tallarines | Pasta | Pasta linguini",
+    "desc": "Salsas caseras | Espaguetis, Tagliatelle, Penne o Linguini",
     "pesto": {
       "title": "Pesto",
       "desc": "Salsa pesto casera"
@@ -151,7 +151,7 @@
     },
     "carbo": {
       "title": "Carbonara",
-      "desc": "huevo"
+      "desc": "Huevo, crema y tocino halal"
     },
     "puttanesca": {
       "title": "Puttanesca",
@@ -163,7 +163,7 @@
     },
     "bolo": {
       "title": "Boloñesa",
-      "desc": "Salsa de tomate casera"
+      "desc": "Salsa de tomate y carne picada"
     }
   },
   "pastillas": {
@@ -190,7 +190,7 @@
       "desc": "Pan casero"
     },
     "brie": {
-      "title": "Brie, espinacas y sésamo a la plancha",
+      "title": "Brie, espinacas y sésamo tostado",
       "desc": "Pan de molde con semillas"
     },
     "poulet": {
@@ -225,6 +225,10 @@
       "title": "Pollo",
       "desc": ""
     },
+    "boeuf": {
+      "title": "Carne de res",
+      "desc": ""
+    },
     "agneau": {
       "title": "Cordero",
       "desc": "A pedido a partir de 4 personas"
@@ -235,7 +239,7 @@
     "desc": "",
     "roti": {
       "title": "Camembert asado con miel",
-      "desc": "Envuelto en pan casero y ensalada verde crujiente."
+      "desc": "Acompañado de pan casero y una crujiente ensalada verde."
     }
   },
   "soupes": {
@@ -436,7 +440,7 @@
   },
   "glaces": {
     "title": "HELADO",
-    "desc": "Chocolate Café | Vainilla | Turrón | Frambuesa y limón | Fresa | mango",
+    "desc": "Chocolate Café | Vainilla | Turrón | Limón | Frambuesa | Fresa | Mango | Pistacho",
     "une": "1 pelota",
     "deux": "2 bolas",
     "trois": "3 bolas"

@@ -16,6 +16,12 @@ const Couscous = () => {
       image: Poulet,
     },
     {
+      title: t("couscous.boeuf.title"),
+      desc: t("couscous.boeuf.desc"),
+      price: 100,
+      image: Poulet,
+    },
+    {
       title: t("couscous.agneau.title"),
       desc: t("couscous.agneau.desc"),
       price: 120,

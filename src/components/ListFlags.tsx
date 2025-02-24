@@ -4,6 +4,8 @@ import itFlag from "../assets/flags/italy.svg";
 import esFlag from "../assets/flags/spain.svg";
 import grFlag from "../assets/flags/germany.svg";
 import frFlag from "../assets/flags/france.svg";
+import arFlag from "../assets/flags/morocco.png";
+
 import { useNavigate } from "react-router";
 const ListFlags = () => {
   const navigate = useNavigate();
@@ -29,6 +31,15 @@ const ListFlags = () => {
           alt="English"
           onClick={() => setLanguage("en")}
           className="max-h-6 cursor-pointer"
+        />
+      </div>
+
+      <div className="rounded">
+        <img
+          src={arFlag}
+          alt="Morocco"
+          onClick={() => setLanguage("ar")}
+          className="max-h-7 cursor-pointer"
         />
       </div>
 

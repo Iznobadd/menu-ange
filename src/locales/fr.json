@@ -94,7 +94,7 @@
       "desc": ""
     },
     "poivrons": {
-      "title": "Poivron & Feta",
+      "title": "Poivrons & Feta",
       "desc": ""
     },
     "guacamole": {
@@ -140,7 +140,7 @@
   },
   "pates": {
     "title": "PÂTES",
-    "desc": "Spaghettini | Tagliatelle | Penne | Linguini",
+    "desc": "Sauces maison | Spaghettini, Tagliatelle, Penne ou Linguini",
     "pesto": {
       "title": "Pesto",
       "desc": "Sauce pesto maison"
@@ -151,7 +151,7 @@
     },
     "carbo": {
       "title": "Carbonara",
-      "desc": "oeuf"
+      "desc": "Œuf, crème & lardons halal"
     },
     "puttanesca": {
       "title": "Puttanesca",
@@ -163,7 +163,7 @@
     },
     "bolo": {
       "title": "Bolognaise",
-      "desc": "Sauce tomate maison"
+      "desc": "Sauce tomate et viande hachée de bœuf"
     }
   },
   "pastillas": {
@@ -184,13 +184,13 @@
   },
   "croques": {
     "title": "CROQUE MONSIEUR",
-    "desc": "Accompagnées d'une salade composée",
+    "desc": "Accompagné d'une salade composée",
     "grison": {
-      "title": "Viande de Grison, Fromage raclette, Cornichons",
+      "title": "Viande des Grison, Fromage raclette, Cornichons",
       "desc": "Pain maison"
     },
     "brie": {
-      "title": "Brie, Épinard, Sésame grillés",
+      "title": "Brie, Épinard, Sésames grillés",
       "desc": "Pain de mie aux graines"
     },
     "poulet": {
@@ -200,7 +200,7 @@
   },
   "omelettes": {
     "title": "OMELETTES",
-    "desc": "Accompagnées d'une salade composée",
+    "desc": "Accompagnée d'une salade composée",
     "legume": {
       "title": "Légumes variés",
       "desc": ""
@@ -225,6 +225,10 @@
       "title": "Poulet",
       "desc": ""
     },
+    "boeuf": {
+      "title": "Boeuf",
+      "desc": ""
+    },
     "agneau": {
       "title": "Agneau",
       "desc": "Sur commande à partir de 4 personnes"
@@ -235,7 +239,7 @@
     "desc": "",
     "roti": {
       "title": "Camembert Rôti au Miel",
-      "desc": "Enveloppé de son pain maison & d’une salade verte croquante"
+      "desc": "Accompagné de son pain maison et d’une salade verte croquante"
     }
   },
   "soupes": {
@@ -246,7 +250,7 @@
       "desc": ""
     },
     "poisson": {
-      "title": "Poisson & Crevette avec rouille & Croûtons",
+      "title": "Poissons & Crevettes avec rouille & Croûtons",
       "desc": ""
     }
   },
@@ -436,7 +440,7 @@
   },
   "glaces": {
     "title": "GLACES",
-    "desc": "Chocolat | Café | Vanille | Nougat | Citron Framboise | Fraise | Mangue",
+    "desc": "Chocolat | Café | Vanille | Nougat | Citron | Framboise | Fraise | Mangue | Pistache",
     "une": "1 Boule",
     "deux": "2 Boules",
     "trois": "3 Boules"

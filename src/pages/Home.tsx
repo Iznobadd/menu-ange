@@ -23,9 +23,15 @@ import Soupe from "../components/category/Soupe";
 import Wok from "../components/category/Wok";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
+import i18next from "../utils/i18n";
+import { useEffect } from "react";
 
 const Home = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.documentElement.lang = i18next.language;
+  }, [i18next.language]);
   return (
     <div>
       <Menu />

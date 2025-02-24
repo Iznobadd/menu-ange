@@ -2,7 +2,7 @@
   "language": {
     "choose": "Clicca sulla bandiera della tua lingua"
   },
-  "intro": "“Dove il locale incontra l'eccellente. Selezioniamo con cura prodotti di qualità per offrirvi creazioni fatte in casa, autenticità e sapori unici”.",
+  "intro": "\"Dove il locale incontra l'eccellenza. Selezioniamo con cura prodotti di qualità per offrirti creazioni artigianali, ricche di genuinità e sapori unici”",
   "salades": {
     "title": "INSALATE",
     "quinoa": {
@@ -94,7 +94,7 @@
       "desc": ""
     },
     "poivrons": {
-      "title": "Pepe e feta",
+      "title": "Peperoni e feta",
       "desc": ""
     },
     "guacamole": {
@@ -140,7 +140,7 @@
   },
   "pates": {
     "title": "PASTA",
-    "desc": "Spaghettini | Tagliatelle | Penne | Linguine",
+    "desc": "Salse fatte in casa | Spaghettini, Tagliatelle, Penne o Linguine",
     "pesto": {
       "title": "Pesto",
       "desc": "Salsa pesto fatta in casa"
@@ -151,7 +151,7 @@
     },
     "carbo": {
       "title": "Carbonara",
-      "desc": "uovo"
+      "desc": "Uovo, panna e pancetta halal"
     },
     "puttanesca": {
       "title": "Puttanesca",
@@ -163,7 +163,7 @@
     },
     "bolo": {
       "title": "Bolognese",
-      "desc": "Salsa di pomodoro fatta in casa"
+      "desc": "Salsa di pomodoro e carne macinata"
     }
   },
   "pastillas": {
@@ -190,7 +190,7 @@
       "desc": "Pane fatto in casa"
     },
     "brie": {
-      "title": "Brie, spinaci, sesamo grigliato",
+      "title": "Brie, spinaci, sesamo tostato",
       "desc": "Pane a fette con semi"
     },
     "poulet": {
@@ -225,6 +225,10 @@
       "title": "Pollo",
       "desc": ""
     },
+    "boeuf": {
+      "title": "Manzo",
+      "desc": ""
+    },
     "agneau": {
       "title": "Agnello",
       "desc": "Su ordinazione da 4 persone"
@@ -235,7 +239,7 @@
     "desc": "",
     "roti": {
       "title": "Camembert arrostito al miele",
-      "desc": "Avvolto in pane fatto in casa e una croccante insalata verde"
+      "desc": "Accompagnato da pane fatto in casa e da una croccante insalata verde"
     }
   },
   "soupes": {
@@ -436,7 +440,7 @@
   },
   "glaces": {
     "title": "GELATO",
-    "desc": "Cioccolato | Caffè | Vaniglia | Torrone | Limone e lampone | Fragola | Mango",
+    "desc": "Cioccolato | Caffè | Vaniglia | Torrone | Limone | Lampone | Fragola | Mango | Pistacchio",
     "une": "1 palla",
     "deux": "2 palline",
     "trois": "3 palline"

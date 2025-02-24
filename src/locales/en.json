@@ -2,7 +2,7 @@
   "language": {
     "choose": "Click on your language flag"
   },
-  "intro": "“Where local meets excellent. We carefully select quality products to bring you homemade creations, authenticity and unique flavors”.",
+  "intro": "“Where local meets excellence. We carefully select quality products to offer you homemade creations, full of authenticity and unique flavors”",
   "salades": {
     "title": "SALADS",
     "quinoa": {
@@ -94,7 +94,7 @@
       "desc": ""
     },
     "poivrons": {
-      "title": "Pepper & Feta",
+      "title": "Peppers & Feta",
       "desc": ""
     },
     "guacamole": {
@@ -140,7 +140,7 @@
   },
   "pates": {
     "title": "PASTA",
-    "desc": "Spaghettini | Tagliatelle | Penne | Linguini",
+    "desc": "Homemade sauces | Spaghettini, Tagliatelle, Penne or Linguini",
     "pesto": {
       "title": "Pesto",
       "desc": "Homemade pesto sauce"
@@ -151,7 +151,7 @@
     },
     "carbo": {
       "title": "Carbonara",
-      "desc": "egg"
+      "desc": "Halal egg, cream & bacon"
     },
     "puttanesca": {
       "title": "Puttanesca",
@@ -163,7 +163,7 @@
     },
     "bolo": {
       "title": "Bolognese",
-      "desc": "Homemade tomato sauce"
+      "desc": "Tomato sauce and minced beef"
     }
   },
   "pastillas": {
@@ -190,7 +190,7 @@
       "desc": "Homemade bread"
     },
     "brie": {
-      "title": "Brie, Spinach, Grilled Sesame",
+      "title": "Brie, Spinach, Toasted Sesame",
       "desc": "Sliced bread with seeds"
     },
     "poulet": {
@@ -225,6 +225,10 @@
       "title": "Chicken",
       "desc": ""
     },
+    "boeuf": {
+      "title": "Beef",
+      "desc": ""
+    },
     "agneau": {
       "title": "Lamb",
       "desc": "On order from 4 people"
@@ -235,7 +239,7 @@
     "desc": "",
     "roti": {
       "title": "Honey Roasted Camembert",
-      "desc": "Wrapped in homemade bread & a crunchy green salad"
+      "desc": "Accompanied by homemade bread and a crunchy green salad"
     }
   },
   "soupes": {
@@ -436,7 +440,7 @@
   },
   "glaces": {
     "title": "ICE CREAM",
-    "desc": "Chocolate | Coffee | Vanilla | Nougat | Lemon Raspberry | Strawberry | Mango",
+    "desc": "Chocolate | Coffee | Vanilla | Nougat | Lemon | Raspberry | Strawberry | Mango | Pistachio",
     "une": "1 Ball",
     "deux": "2 Balls",
     "trois": "3 Balls"
