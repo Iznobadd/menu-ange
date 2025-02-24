@@ -3,164 +3,613 @@
     "choose": "Klicken Sie auf die Flagge Ihrer Sprache"
   },
   "salades": {
-    "title": "UNSERE SALATE",
-    "trilogie": "Orientalische Trilogie (Zaalouk, Marokkanischer Salat, Hummus)",
-    "taboule": "Quinoa-Taboulé",
-    "buddha": "Buddha bowl (Reis, Gemüse, Mango, Eigelb)",
-    "thai": "Thai mit Huhn",
-    "anges": "Les Anges (Huhn, Räucherlachs, Garnelen, Avocado, Zitrusfrüchte)"
+    "title": "SALATE",
+    "quinoa": {
+      "title": "Quinoa-Salat",
+      "desc": "Mango, Avocado, Datteln, Minze"
+    },
+    "buddha": {
+      "title": "Buddha-Schüssel",
+      "desc": "Reis, Gemüse, Mango, Eigelb"
+    },
+    "thai": {
+      "title": "Thailändisches Huhn",
+      "desc": ""
+    },
+    "anges": {
+      "title": "Die Engel",
+      "desc": "Huhn, Räucherlachs, Garnelen, Avocado, Zitrusfrüchte"
+    }
   },
   "brochettes": {
-    "title": "UNSERE SPIEßE",
-    "desc": "Mit Ihrer Wahl: Gemischter Salat, Pommes Frites, Gebratenes Gemüse oder Pilaw-Reis",
-    "poulet": "Hähnchen",
-    "kefta": "Kofta",
-    "boeuf": "Rinderfilet",
-    "gambas": "Garnelen"
+    "title": "Spieße",
+    "desc": "Gemischter Salat | Hausgemachte Pommes | Reis | Sautiertes Gemüse",
+    "poulet": {
+      "title": "Huhn",
+      "desc": ""
+    },
+    "kefta": {
+      "title": "Kefta",
+      "desc": ""
+    },
+    "boeuf": {
+      "title": "Rinderfilet",
+      "desc": ""
+    },
+    "gambas": {
+      "title": "Garnelen",
+      "desc": ""
+    }
   },
   "woks": {
-    "title": "UNSERE WOKS",
-    "legume": "Gemüse",
-    "poulet": "Hähnchen",
-    "boeuf": "Rinderfilet",
-    "crevette": "Garnelen",
-    "anges": "Die Engel (Kabeljau, Basmati-Reis, Gemüse, Austernsauce)"
+    "title": "WOKS",
+    "desc": "",
+    "legume": {
+      "title": "Gemüse",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Huhn",
+      "desc": ""
+    },
+    "boeuf": {
+      "title": "Rinderfilet",
+      "desc": ""
+    },
+    "crevette": {
+      "title": "Garnele",
+      "desc": ""
+    }
   },
   "burgers": {
-    "title": "UNSERE BURGER",
-    "desc": "Mit Ihrer Wahl: Gemischter Salat, Pommes Frites oder Gebratenes Gemüse",
-    "vegetarien": "Der Vegetarier",
-    "poulet": "Das Hähnchen",
-    "boeuf": "Das Rindfleisch",
-    "poisson": "Der Fisch (Kabeljaufilet)"
+    "title": "BURGER",
+    "desc": "Gemischter Salat oder hausgemachte Pommes",
+    "vegetarien": {
+      "title": "Vegetarier",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Huhn",
+      "desc": ""
+    },
+    "boeuf": {
+      "title": "Rindfleisch",
+      "desc": ""
+    },
+    "poisson": {
+      "title": "Fisch",
+      "desc": "Kabeljaurücken ohne Haut"
+    }
   },
   "bruschettas": {
-    "title": "UNSERE BRUSCHETTAS",
-    "desc": "Serviert mit einem gemischten Salat",
-    "chevre": "Ziegenkäse, Walnüsse & Honig",
-    "jambon": "Putenham mit Pfeffer & Pesto",
-    "poivrons": "Paprika & Feta",
-    "guacamole": "Guacamole & Garnelen",
-    "islandaise": "Die Island-Variante mit Räucherlachs"
+    "title": "BRUSCHETTAS",
+    "desc": "Dazu ein gemischter Salat",
+    "chevre": {
+      "title": "Ziege, Nüsse und Honig",
+      "desc": ""
+    },
+    "jambon": {
+      "title": "Putenschinken mit Paprika & Pesto",
+      "desc": ""
+    },
+    "poivrons": {
+      "title": "Pfeffer & Feta",
+      "desc": ""
+    },
+    "guacamole": {
+      "title": "Guacamole und Garnelen",
+      "desc": ""
+    },
+    "islandaise": {
+      "title": "Isländischer Räucherlachs",
+      "desc": ""
+    }
   },
   "paninis": {
-    "title": "UNSERE PANINIS",
-    "desc": "Mit Ihrer Wahl: Gemischter Salat, Pommes Frites oder Gebratenes Gemüse",
-    "tomate": "Gebratene Tomaten, Mozzarella & Pesto",
-    "legume": "Gebratenes Gemüse & Mozzarella",
-    "vegan": "Der Vegane (Gebratene Gemüse, Veganer Käse)",
-    "epinard": "Gebratener Spinat, Brie & geröstete Sesamsamen",
-    "marocain": "Der Marokkaner (Gemüse, Gewürze, Käse, Kefta)",
-    "poulet": "Hähnchen mit Curry",
-    "burger": "Wie ein Burger"
+    "title": "PANINIS",
+    "desc": "Gemischter Salat oder hausgemachte Pommes",
+    "tomate": {
+      "title": "Gebratene Tomaten, Mozzarella und Pesto",
+      "desc": ""
+    },
+    "legume": {
+      "title": "Gebratenes Gemüse & Mozzarella",
+      "desc": ""
+    },
+    "vegan": {
+      "title": "Der Veganer",
+      "desc": "Sautiertes Gemüse, Veganer Käse"
+    },
+    "epinard": {
+      "title": "Sautierter Spinat, Brie und gegrillter Sesam",
+      "desc": ""
+    },
+    "marocain": {
+      "title": "Der Marokkaner",
+      "desc": "Gemüse, Gewürze, Käse, Kefta"
+    },
+    "poulet": {
+      "title": "Hühnchen-Curry",
+      "desc": ""
+    },
+    "burger": {
+      "title": "Wie ein Burger",
+      "desc": ""
+    }
   },
   "pates": {
-    "title": "UNSERE NUDELN",
-    "desc": "Mit Ihrer Wahl: Spaghettini, Tagliatelle oder Linguine",
-    "pesto": "Mit Pesto",
-    "creme": "Mit Sahne und frischen Champignons",
-    "puttanesca": "Puttanesca-Art (Sardellen, Kapern, Knoblauch, Tomaten)",
-    "mer": "Mit Meeresfrüchten"
+    "title": "PASTA",
+    "desc": "Spaghettini | Tagliatelle | Penne | Linguini",
+    "pesto": {
+      "title": "Pesto",
+      "desc": "Hausgemachte Pesto-Sauce"
+    },
+    "creme": {
+      "title": "Sahne & Champignons",
+      "desc": ""
+    },
+    "carbo": {
+      "title": "Carbonara",
+      "desc": "Ei"
+    },
+    "puttanesca": {
+      "title": "Puttanesca",
+      "desc": "Sardellen, Kapern, Knoblauch, Tomaten"
+    },
+    "mer": {
+      "title": "Meeresfrüchte",
+      "desc": ""
+    },
+    "bolo": {
+      "title": "Bolognese",
+      "desc": "Hausgemachte Tomatensauce"
+    }
   },
   "pastillas": {
-    "title": "UNSERE PASTILLAS",
-    "desc": "Mit einem gemischten Salat serviert",
-    "legume": "Gemüse",
-    "poulet": "Hähnchen",
-    "mer": "Meeresfrüchte"
+    "title": "PASTILLEN",
+    "desc": "Dazu ein gemischter Salat",
+    "legume": {
+      "title": "Gemüse",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Huhn",
+      "desc": ""
+    },
+    "mer": {
+      "title": "Meeresfrüchte",
+      "desc": ""
+    }
+  },
+  "croques": {
+    "title": "CROQUE MONSIEUR",
+    "desc": "Dazu ein gemischter Salat",
+    "grison": {
+      "title": "Bündnerfleisch, Raclettekäse, Pickles",
+      "desc": "Hausgemachtes Brot"
+    },
+    "brie": {
+      "title": "Brie, Spinat, gegrillter Sesam",
+      "desc": "Geschnittenes Brot mit Körnern"
+    },
+    "poulet": {
+      "title": "Gebratenes Hähnchen, Avocadocreme, Cheddar",
+      "desc": "Geschnittenes Brot mit Körnern"
+    }
   },
   "omelettes": {
-    "title": "UNSERE OMELETTEN",
-    "desc": "Mit einem gemischten Salat serviert",
-    "legume": "Gemischtes Gemüse",
-    "tomate": "Tomaten & Zwiebeln",
-    "parmesan": "Parmesan in Scheiben"
+    "title": "OMELETTES",
+    "desc": "Dazu ein gemischter Salat",
+    "legume": {
+      "title": "Verschiedene Gemüsesorten",
+      "desc": ""
+    },
+    "tomate": {
+      "title": "Tomaten & Zwiebeln",
+      "desc": ""
+    },
+    "parmesan": {
+      "title": "Parmesanspäne",
+      "desc": ""
+    }
+  },
+  "couscous": {
+    "title": "COUSCOUS",
+    "desc": "Jeden Freitag",
+    "vege": {
+      "title": "Vegetarier",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Huhn",
+      "desc": ""
+    },
+    "agneau": {
+      "title": "Lamm",
+      "desc": "Auf Bestellung ab 4 Personen"
+    }
+  },
+  "camembert": {
+    "title": "CAMEMBERT",
+    "desc": "",
+    "roti": {
+      "title": "Mit Honig gerösteter Camembert",
+      "desc": "Eingewickelt in selbstgebackenes Brot und einen knackigen grünen Salat"
+    }
   },
   "soupes": {
-    "title": "UNSERE SUPPEN",
-    "potiron": "Kürbis - Karotten & frische Sahne",
-    "asiatique": "Asiatisch"
+    "title": "SUPPEN",
+    "desc": "",
+    "potiron": {
+      "title": "Kürbis - Karotten & Crème fraîche",
+      "desc": ""
+    },
+    "poisson": {
+      "title": "Fisch & Garnelen mit Rouille & Croutons",
+      "desc": ""
+    }
   },
   "enfant": {
     "title": "KINDERMENÜ",
-    "desc": "Hacksteak oder Hähnchenspieße",
-    "desc2": "Pommes Frites, Spaghetti mit Tomatensoße, oder Spaghetti mit Butter & Käse",
-    "desc3": "Eiscreme 2 Kugeln: Schokolade | Kaffee | Vanille | Nougat | Zitrone | Himbeere | Erdbeere"
+    "desc": "Hacksteak- oder Hähnchenspieße",
+    "desc2": "Pommes Frites oder Spaghetti mit Tomatensauce oder Spaghetti mit Butter und Käse",
+    "desc3": "2 Kugeln Eis: Schokolade, Vanille, Nougat, Zitrone, Erdbeere, Himbeere, Kaffee"
+  },
+  "dej": {
+    "title": "FRÜHSTÜCK & BRUNCH"
+  },
+  "dej-continental": {
+    "title": "KONTINENTALES FRÜHSTÜCK",
+    "desc": "Heißgetränk (ILLY Espresso oder Nouss Nouss oder Minztee oder Schwarztee oder Milchschokolade)",
+    "desc2": "Orangensaft",
+    "desc3": "Baguette, Butter und Marmelade"
+  },
+  "dej-marocain": {
+    "title": "MAROKKANISCHER FRÜHSTÜCK",
+    "desc": "Heißgetränk (ILLY Espresso oder Nouss Nouss oder Minztee oder Schwarztee oder Milchschokolade)",
+    "desc2": "Orangensaft",
+    "desc3": "Raif, Msemen, Harcha, Butter & Honig oder Butter & Marmelade"
+  },
+  "brunch": {
+    "title": "BRUNCH",
+    "desc": "Heißgetränk (ILLY Espresso oder Nouss Nouss oder Minztee oder Schwarztee oder Milchschokolade)",
+    "desc2": "Orangensaft",
+    "desc3": "Baguettebrot, Butter & Marmelade oder Butter & Honig",
+    "desc4": "Brötchen (2 Stück)",
+    "desc5": "Frau",
+    "desc6": "Eier (Spiegel-, Rühr-, Omelett- oder hartgekochte Eier)",
+    "desc7": "Putenschinken",
+    "desc8": "Ziegenkäse",
+    "desc9": "Dattel-Orangen-Salat"
+  },
+  "complement": {
+    "title": "ZUSÄTZLICH",
+    "desc": {
+      "title": "Orangen-Karottensaft",
+      "price": "30"
+    },
+    "desc2": {
+      "title": "Kleine Brote (2 Stück)",
+      "price": "15"
+    },
+    "desc3": {
+      "title": "Raif, Msemen oder Harcha (das Stück)",
+      "price": "10"
+    },
+    "desc4": {
+      "title": "Eier (Spiegelei, Rührei, Omelett, hartgekochte Eier)",
+      "price": "20"
+    },
+    "desc5": {
+      "title": "Hausgemachtes Amlou mit Mandeln",
+      "price": "25"
+    },
+    "desc6": {
+      "title": "Ziegenkäse",
+      "price": "20"
+    },
+    "desc7": {
+      "title": "Nutella",
+      "price": "15"
+    },
+    "desc8": {
+      "title": "Dattel-Orangen-Salat",
+      "price": "20"
+    },
+    "desc9": {
+      "title": "Obstsalat",
+      "price": "25"
+    },
+    "desc10": {
+      "title": "Ziegenkäse",
+      "price": "15"
+    },
+    "desc11": {
+      "title": "Hartgekochte, Spiegel-, Rühr- oder einfache Eier",
+      "price": "25"
+    },
+    "desc12": {
+      "title": "Omelett mit Khli3",
+      "price": "40"
+    },
+    "desc13": {
+      "title": "Haferflockensuppe",
+      "price": "25"
+    },
+    "desc14": {
+      "title": "Pommes frites",
+      "price": "30"
+    },
+    "desc15": {
+      "title": "Putenschinken (2 Scheiben)",
+      "price": "15"
+    },
+    "desc16": {
+      "title": "Olivenöl",
+      "price": "15"
+    },
+    "desc17": {
+      "title": "Arganöl",
+      "price": "35"
+    }
   },
   "desserts": {
-    "title": "UNSERE HAUSGEMACHTEN DESSERTS",
-    "tiramisu-datte": "Dattel-Tiramisu",
-    "tiramisu-citron": "Tiramisu mit Zitronenzeste",
-    "panna-pomme": "Panna Cotta mit karamellisierten Äpfeln",
-    "panna-amlou": "Panna Cotta mit Amlou",
-    "mousse": "Dunkle Schokoladenmousse",
-    "meli-melo": "Mischung aus saisonalen Früchten",
-    "corne": "Gazellenhörner (3 Stück)",
-    "biscuit": "Traditionelle marokkanische Kekse (5 Stück)"
+    "title": "HAUSGEMACHTE DESSERTS",
+    "desc": "",
+    "tiramisu-datte": {
+      "title": "Dattel-Tiramisu",
+      "desc": ""
+    },
+    "tiramisu-citron": {
+      "title": "Tiramisu mit Zitronenschale",
+      "desc": ""
+    },
+    "panna-pomme": {
+      "title": "Panna Cotta mit karamellisierten Äpfeln",
+      "desc": ""
+    },
+    "panna-amlou": {
+      "title": "Panna Cotta mit Amlou",
+      "desc": ""
+    },
+    "mousse": {
+      "title": "Dunkle Schokoladenmousse",
+      "desc": ""
+    },
+    "meli-melo": {
+      "title": "Saisonales Fruchtgemisch",
+      "desc": ""
+    },
+    "corne": {
+      "title": "Gazellenhörner (3 Stück)",
+      "desc": ""
+    },
+    "biscuit": {
+      "title": "Traditionelles marokkanisches Gebäck (5 Stück)",
+      "desc": ""
+    },
+    "brioche": {
+      "title": "French Toast und eine Kugel Eis",
+      "desc": ""
+    }
   },
   "crepes": {
-    "title": "UNSERE CRÊPES",
-    "sucre": "Zucker & Zitrone",
-    "nutella": "Nutella",
-    "banane": "Nutella & Banane",
-    "chocolat": "Schokolade",
-    "suzette": "Suzette (alkoholfrei)",
-    "miel": "Honig & Trockenfrüchte",
-    "caramel": "Gesalzenes Karamell",
-    "amlou": "Amlou"
+    "title": "CRÉPES",
+    "desc": "",
+    "compote": {
+      "title": "Apfel-Zimt-Kompott",
+      "desc": ""
+    },
+    "sucre": {
+      "title": "Zucker & Zitrone",
+      "desc": ""
+    },
+    "nutella": {
+      "title": "Nutella",
+      "desc": ""
+    },
+    "banane": {
+      "title": "Nutella & Banane",
+      "desc": ""
+    },
+    "chocolat": {
+      "title": "Geschmolzene dunkle Schokolade",
+      "desc": ""
+    },
+    "suzette": {
+      "title": "Suzette (alkoholfrei)",
+      "desc": ""
+    },
+    "miel": {
+      "title": "Honig & Trockenfrüchte",
+      "desc": ""
+    },
+    "caramel": {
+      "title": "Gesalzenes Butterkaramell",
+      "desc": ""
+    },
+    "amlou": {
+      "title": "Amlou-Haus",
+      "desc": ""
+    }
   },
   "glaces": {
-    "title": "UNSERE EISSORTEN",
-    "desc": "Schokolade | Kaffee | Vanille | Nougat | Zitrone | Himbeere | Erdbeere | Mango",
-    "une": "1 Kugel",
-    "deux": "2 Kugeln",
-    "trois": "3 Kugeln"
+    "title": "EISCREME",
+    "desc": "Schokolade | Kaffee | Vanille | Nougat | Zitrone Himbeere | Erdbeere | Mango",
+    "une": "1 Ball",
+    "deux": "2 Bälle",
+    "trois": "3 Bälle"
   },
   "milkshakes": {
-    "title": "UNSERE MILCHSHAKES",
-    "chocolat": "Schokolade",
-    "vanille": "Vanille",
-    "fraise": "Erdbeere",
-    "banane": "Banane",
-    "fruit": "Saisonale Früchte"
+    "title": "MILCHSHAKES",
+    "desc": "",
+    "chocolat": {
+      "title": "Schokolade",
+      "desc": ""
+    },
+    "vanille": {
+      "title": "Vanille",
+      "desc": ""
+    },
+    "fraise": {
+      "title": "Erdbeere",
+      "desc": ""
+    },
+    "banane": {
+      "title": "Banane",
+      "desc": ""
+    },
+    "fruit": {
+      "title": "Saisonale Früchte",
+      "desc": ""
+    }
+  },
+  "jus": {
+    "title": "HAUSGEMACHTER SAFT",
+    "desc": "",
+    "orange-presse": {
+      "title": "Ausgepresste Orange",
+      "desc": ""
+    },
+    "orange-carotte": {
+      "title": "Orange Karotte",
+      "desc": ""
+    },
+    "orange-gingembre": {
+      "title": "Orange Ingwer",
+      "desc": ""
+    },
+    "citron-presse": {
+      "title": "Ausgepresste Zitrone",
+      "desc": ""
+    },
+    "citron-gingembre": {
+      "title": "Zitrone-Ingwer",
+      "desc": ""
+    },
+    "citron-basilic": {
+      "title": "Zitronen-Basilikum",
+      "desc": ""
+    },
+    "avocat-lait": {
+      "title": "Avocadomilch",
+      "desc": ""
+    },
+    "avocat-orange": {
+      "title": "Orange Avocado",
+      "desc": ""
+    },
+    "panache": {
+      "title": "Gemischte Früchte des Tages",
+      "desc": ""
+    }
   },
   "soft": {
-    "title": "UNSERE ERFRISCHUNGSGETRÄNKE",
-    "desc": "Begleiten Sie Ihre Getränke: 5 hausgemachte marokkanische Kekse (40 DHS)",
-    "presse": "Frisch gepresster Orangensaft | Frisch gepresster Zitronensaft",
-    "orange-gingembre": "Orange mit Ingwer",
-    "orange-carotte": "Orange mit Karotte",
-    "citron-gingembre": "Zitrone mit Ingwer",
-    "citron-basilic": "Zitrone mit Basilikum",
-    "panache": "Gemischte Früchte des Tages",
-    "avocat-orange": "Avocado mit Orange",
-    "avocat-lait": "Avocado mit Milch",
-    "virgin": "Blue Virgin Mojito",
-    "virgin-cafe": "Virgin Mojito Café (Zitrone, Espresso, Sprite, frische Minze)",
-    "coca": "Coca-Cola | Coca-Cola Zero",
-    "regular": "Coca Regular | Coca Zero | Sprite | Schweppes Zitrone | Schweppes Tonic | Eistee",
-    "sirop-eau": "Sirup mit Wasser",
-    "sirop-diabolo": "Diabolo | Sirup mit Milch",
-    "eau": "Mineralwasser (50ml / 150ml)",
-    "eau-petillante": "Sprudelwasser (50ml / 100ml)"
+    "title": "ALKOHOLFREIE GETRÄNKE",
+    "desc": "",
+    "virgin": {
+      "title": "Blauer Virgin Mojito",
+      "desc": ""
+    },
+    "virgin-cafe": {
+      "title": "Virgin Mojito Café ",
+      "desc": "Zitrone, Espresso, Sprite, frische Minze"
+    },
+    "coca": {
+      "title": "Coca-Cola Regular oder Zero",
+      "desc": ""
+    },
+    "sprite": {
+      "title": "Sprite",
+      "desc": ""
+    },
+    "schweppes": {
+      "title": "Schweppes Tonic oder Zitrone",
+      "desc": ""
+    },
+    "ice-tea": {
+      "title": "Eistee",
+      "desc": ""
+    },
+    "biere": {
+      "title": "San Miguel Bier",
+      "desc": "Alkoholfrei"
+    },
+    "sirop-eau": {
+      "title": "MONIN Sirup mit Wasser",
+      "desc": "Parfüms auf Anfrage"
+    },
+    "sirop-diabolo": {
+      "title": "MONIN Diabolo oder Milchsirup",
+      "desc": "Parfüms auf Anfrage"
+    },
+    "eau": {
+      "title": "Mineralwasser",
+      "desc": "50ml / 150ml"
+    },
+    "eau-petillante": {
+      "title": "Sprudelwasser",
+      "desc": "50ml / 100ml"
+    }
   },
   "chaud": {
-    "title": "UNSERE HEISSGETRÄNKE",
-    "desc": "Begleiten Sie Ihre Getränke: 5 hausgemachte marokkanische Kekse (40 DHS)",
-    "the-menthe": "Minztee",
-    "the-corne": "Minztee & Gazellenhörner",
-    "the-royal": "Royaler Tee mit Gewürzen",
-    "the-earl": "Earl Grey Tee",
-    "chocolat": "Heiße Schokolade",
-    "nouss": "Nouss nouss (Illy Kaffee & Milch)",
-    "cafe-epice": "Kaffee mit Gewürzen",
-    "expresso": "Illy Espresso",
-    "double": "Doppelter Illy Espresso",
-    "capuccino": "Illy Cappuccino",
-    "latte": "Illy Milchkaffee",
-    "cafe-glace": "Eiskaffee (Illy mit Milch)",
-    "cafe-frappe": "Frappe Kaffee (doppelter Espresso ohne Milch)",
-    "cafe-illy": "Frappe Kaffee (doppelter Espresso ILLY)",
-    "supplement": "Zusatzt Laktosefreie Milch"
+    "title": "HEISSE GETRÄNKE",
+    "desc": "",
+    "the-menthe": {
+      "title": "Pfefferminztee",
+      "desc": ""
+    },
+    "the-corne": {
+      "title": "Minztee und Gazellenhörner",
+      "desc": "2 Zimmer"
+    },
+    "the-royal": {
+      "title": "Königlicher Gewürztee",
+      "desc": ""
+    },
+    "the-earl": {
+      "title": "Earl Grey Tee",
+      "desc": ""
+    },
+    "nouss": {
+      "title": "Wir Wir",
+      "desc": "Illy Kaffee & Milch"
+    },
+    "cafe-epice": {
+      "title": "Gewürzter Kaffee",
+      "desc": ""
+    },
+    "expresso": {
+      "title": "ILLY Espresso",
+      "desc": ""
+    },
+    "double": {
+      "title": "ILLY Doppelter Espresso",
+      "desc": ""
+    },
+    "capuccino": {
+      "title": "ILLY Cappuccino",
+      "desc": ""
+    },
+    "latte": {
+      "title": "ILLY Latte Kaffee",
+      "desc": ""
+    },
+    "cafe-glace": {
+      "title": "ILLY Eiskaffee",
+      "desc": "mit Milch"
+    },
+    "cafe-frappe": {
+      "title": "Frappé-Kaffee",
+      "desc": "doppelter ILLY Espresso + Eiswürfel"
+    },
+    "chocolat": {
+      "title": "Vollmilchschokolade",
+      "desc": ""
+    },
+    "supplement": {
+      "title": "Hafermilch-Ergänzung",
+      "desc": ""
+    }
   }
 }

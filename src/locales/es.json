@@ -1,166 +1,615 @@
 {
   "language": {
-    "choose": "Haga clic en la bandera de su idioma"
+    "choose": "Haz clic en la bandera de tu idioma"
   },
   "salades": {
-    "title": "NUESTRAS ENSALADAS",
-    "trilogie": "Trilogía oriental (Zaalouk, ensalada marroquí, Hummus)",
-    "taboule": "Tabulé de quinoa",
-    "buddha": "Buddha bowl (Arroz, Verduras, Mango, Yema de huevo)",
-    "thai": "Thai con pollo",
-    "anges": "Les Anges (Pollo, Salmón ahumado, Gambas, Aguacate, Cítricos)"
+    "title": "ENSALADAS",
+    "quinoa": {
+      "title": "Ensalada de quinoa",
+      "desc": "Mango, aguacate, dátiles, menta"
+    },
+    "buddha": {
+      "title": "Cuenco de Buda",
+      "desc": "Arroz, Verduras, Mango, Yema de huevo"
+    },
+    "thai": {
+      "title": "Pollo tailandés",
+      "desc": ""
+    },
+    "anges": {
+      "title": "Los Ángeles",
+      "desc": "Pollo, salmón ahumado, camarones, aguacate, cítricos"
+    }
   },
   "brochettes": {
-    "title": "NUESTRAS BROCHETAS",
-    "desc": "Con tu elección: Ensalada mixta, Patatas fritas, Verduras salteadas o Arroz pilaf",
-    "poulet": "Pollo",
-    "kefta": "Kofta",
-    "boeuf": "Solomillo de ternera",
-    "gambas": "Gambas"
+    "title": "BROCHETAS",
+    "desc": "Ensalada mixta | Papas fritas caseras | Arroz | Verduras salteadas",
+    "poulet": {
+      "title": "Pollo",
+      "desc": ""
+    },
+    "kefta": {
+      "title": "Kefta",
+      "desc": ""
+    },
+    "boeuf": {
+      "title": "Filete de res",
+      "desc": ""
+    },
+    "gambas": {
+      "title": "Camarones",
+      "desc": ""
+    }
   },
   "woks": {
-    "title": "NUESTROS WOKS",
-    "legume": "Verduras",
-    "poulet": "Pollo",
-    "boeuf": "Solomillo de ternera",
-    "crevette": "Gambas",
-    "anges": "Los Ángeles (Bacalao, Arroz basmati, Verduras, Salsa de ostras)"
+    "title": "TRABAJOS",
+    "desc": "",
+    "legume": {
+      "title": "Verduras",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Pollo",
+      "desc": ""
+    },
+    "boeuf": {
+      "title": "Filete de res",
+      "desc": ""
+    },
+    "crevette": {
+      "title": "Camarón",
+      "desc": ""
+    }
   },
   "burgers": {
-    "title": "NUESTROS BURGERS",
-    "desc": "Con tu elección: Ensalada mixta, Patatas fritas, o Verduras salteadas",
-    "vegetarien": "El Vegetariano",
-    "poulet": "El Pollo",
-    "boeuf": "La Carne de Res",
-    "poisson": "El Pescado (Filete de bacalao)"
+    "title": "HAMBURGUESAS",
+    "desc": "Ensalada mixta o patatas fritas caseras",
+    "vegetarien": {
+      "title": "Vegetariano",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Pollo",
+      "desc": ""
+    },
+    "boeuf": {
+      "title": "Carne de res",
+      "desc": ""
+    },
+    "poisson": {
+      "title": "Pez",
+      "desc": "Lomo de bacalao sin piel"
+    }
   },
   "bruschettas": {
-    "title": "NUESTRAS BRUSCHETTAS",
-    "desc": "Acompañadas de una ensalada mixta",
-    "chevre": "Queso de cabra, nueces & miel",
-    "jambon": "Jamón de pavo con pimienta & pesto",
-    "poivrons": "Pimientos & Feta",
-    "guacamole": "Guacamole & gambas",
-    "islandaise": "La islandesa con salmón ahumado"
+    "title": "BRUSCHETAS",
+    "desc": "Acompañado de ensalada mixta",
+    "chevre": {
+      "title": "Cabra, nueces y miel",
+      "desc": ""
+    },
+    "jambon": {
+      "title": "Jamón de pavo con pimienta y pesto",
+      "desc": ""
+    },
+    "poivrons": {
+      "title": "Pimienta y queso feta",
+      "desc": ""
+    },
+    "guacamole": {
+      "title": "Guacamole y camarones",
+      "desc": ""
+    },
+    "islandaise": {
+      "title": "Salmón ahumado islandés",
+      "desc": ""
+    }
   },
   "paninis": {
-    "title": "NUESTROS PANINIS",
-    "desc": "Con tu elección: Ensalada mixta, Patatas fritas, o Verduras salteadas",
-    "tomate": "Tomates salteados, Mozzarella & pesto",
-    "legume": "Verduras salteadas & Mozzarella",
-    "vegan": "El Vegano (Verduras salteadas, Queso vegano)",
-    "epinard": "Espinacas salteadas, Brie & semillas de sésamo tostadas",
-    "marocain": "El Marroquí (Verduras, Especias, Queso, Kefta)",
-    "poulet": "Pollo al curry",
-    "burger": "Como una hamburguesa"
+    "title": "PANINIS",
+    "desc": "Ensalada mixta o patatas fritas caseras",
+    "tomate": {
+      "title": "Tomates fritos, mozzarella y pesto",
+      "desc": ""
+    },
+    "legume": {
+      "title": "Verduras fritas y mozzarella",
+      "desc": ""
+    },
+    "vegan": {
+      "title": "El vegano",
+      "desc": "Verduras salteadas, queso vegano"
+    },
+    "epinard": {
+      "title": "Espinacas salteadas, queso brie y sésamo a la plancha",
+      "desc": ""
+    },
+    "marocain": {
+      "title": "El marroquí",
+      "desc": "Verduras, especias, queso, kefta"
+    },
+    "poulet": {
+      "title": "Pollo al curry",
+      "desc": ""
+    },
+    "burger": {
+      "title": "Como una hamburguesa",
+      "desc": ""
+    }
   },
   "pates": {
-    "title": "NUESTRAS PASTAS",
-    "desc": "Con tu elección: Spaghettini, Tagliatelle o Linguine",
-    "pesto": "Con pesto",
-    "creme": "Con crema y champiñones frescos",
-    "puttanesca": "Estilo puttanesca (Anchoas, Alcaparras, Ajo, Tomates)",
-    "mer": "Con mariscos"
+    "title": "PASTAS",
+    "desc": "Espaguetis | Tallarines | Pasta | Pasta linguini",
+    "pesto": {
+      "title": "Pesto",
+      "desc": "Salsa pesto casera"
+    },
+    "creme": {
+      "title": "Crema y champiñones",
+      "desc": ""
+    },
+    "carbo": {
+      "title": "Carbonara",
+      "desc": "huevo"
+    },
+    "puttanesca": {
+      "title": "Puttanesca",
+      "desc": "Anchoas, Alcaparras, Ajo, Tomates"
+    },
+    "mer": {
+      "title": "Mariscos",
+      "desc": ""
+    },
+    "bolo": {
+      "title": "Boloñesa",
+      "desc": "Salsa de tomate casera"
+    }
   },
   "pastillas": {
-    "title": "NUESTRAS PASTILLAS",
-    "desc": "Acompañadas de una ensalada mixta",
-    "legume": "Verduras",
-    "poulet": "Pollo",
-    "mer": "Mariscos"
+    "title": "PASTILLAS",
+    "desc": "Acompañado de ensalada mixta",
+    "legume": {
+      "title": "Verduras",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Pollo",
+      "desc": ""
+    },
+    "mer": {
+      "title": "Mariscos",
+      "desc": ""
+    }
+  },
+  "croques": {
+    "title": "CROQUE-MONSIEU",
+    "desc": "Acompañado de ensalada mixta",
+    "grison": {
+      "title": "Carne de los Grisones, queso para raclette, encurtidos",
+      "desc": "Pan casero"
+    },
+    "brie": {
+      "title": "Brie, espinacas y sésamo a la plancha",
+      "desc": "Pan de molde con semillas"
+    },
+    "poulet": {
+      "title": "Pollo asado, crema de aguacate, queso cheddar",
+      "desc": "Pan de molde con semillas"
+    }
   },
   "omelettes": {
-    "title": "NUESTRAS TORTILLAS",
-    "desc": "Acompañadas de una ensalada mixta",
-    "legume": "Verduras mixtas",
-    "tomate": "Tomates y cebollas",
-    "parmesan": "Parmesano en láminas"
+    "title": "TORTILLAS",
+    "desc": "Acompañado de ensalada mixta",
+    "legume": {
+      "title": "Verduras variadas",
+      "desc": ""
+    },
+    "tomate": {
+      "title": "Tomates y cebollas",
+      "desc": ""
+    },
+    "parmesan": {
+      "title": "Virutas de parmesano",
+      "desc": ""
+    }
+  },
+  "couscous": {
+    "title": "CUSCÚS",
+    "desc": "Todos los viernes",
+    "vege": {
+      "title": "Vegetariano",
+      "desc": ""
+    },
+    "poulet": {
+      "title": "Pollo",
+      "desc": ""
+    },
+    "agneau": {
+      "title": "Cordero",
+      "desc": "A pedido a partir de 4 personas"
+    }
+  },
+  "camembert": {
+    "title": "QUESO CAMEMBERT",
+    "desc": "",
+    "roti": {
+      "title": "Camembert asado con miel",
+      "desc": "Envuelto en pan casero y ensalada verde crujiente."
+    }
   },
   "soupes": {
-    "title": "NUESTRAS SOPAS",
-    "potiron": "Calabaza - Zanahorias & crema fresca",
-    "asiatique": "Estilo asiático"
+    "title": "SOPAS",
+    "desc": "",
+    "potiron": {
+      "title": "Calabaza, zanahorias y crema fresca",
+      "desc": ""
+    },
+    "poisson": {
+      "title": "Pescado y camarones con rouille y crutones",
+      "desc": ""
+    }
   },
   "enfant": {
     "title": "MENÚ INFANTIL",
-    "desc": "Filete de carne molida o Brochetas de pollo",
-    "desc2": "Papas fritas, Espaguetis con salsa de tomate, o Espaguetis con mantequilla y queso",
-    "desc3": "Helado de 2 bolas: Chocolate | Café | Vainilla | Nougat | Limón | Frambuesa | Fresa"
+    "desc": "Brochetas de carne picada o pollo",
+    "desc2": "Papas fritas o espaguetis con salsa de tomate o espaguetis con mantequilla y queso",
+    "desc3": "2 bolas de helado: Chocolate, Vainilla, Turrón, Limón, Fresa, Frambuesa, Café"
+  },
+  "dej": {
+    "title": "DESAYUNO Y BRUNCH"
+  },
+  "dej-continental": {
+    "title": "DESAYUNO CONTINENTAL",
+    "desc": "Bebida caliente (Espresso ILLY o Nouss Nouss o Té de menta o Té negro o Chocolate con leche)",
+    "desc2": "Zumo de naranja",
+    "desc3": "Pan baguette, mantequilla y mermelada"
+  },
+  "dej-marocain": {
+    "title": "DESAYUNO MARROQUÍ",
+    "desc": "Bebida caliente (Espresso ILLY o Nouss Nouss o Té de menta o Té negro o Chocolate con leche)",
+    "desc2": "Zumo de naranja",
+    "desc3": "Raif, Msemen, Harcha, Mantequilla y miel o Mantequilla y mermelada"
+  },
+  "brunch": {
+    "title": "DESALMUERZO",
+    "desc": "Bebida caliente (Espresso ILLY o Nouss Nouss o Té de menta o Té negro o Chocolate con leche)",
+    "desc2": "Zumo de naranja",
+    "desc3": "Pan baguette, mantequilla y mermelada o mantequilla y miel",
+    "desc4": "Bollos (2 piezas)",
+    "desc5": "Semen de mi mujer",
+    "desc6": "Huevos (fritos, revueltos, en tortilla o duros)",
+    "desc7": "Jamón de pavo",
+    "desc8": "Queso de cabra",
+    "desc9": "Ensalada de dátiles y naranja"
+  },
+  "complement": {
+    "title": "ADEMÁS",
+    "desc": {
+      "title": "Jugo de naranja y zanahoria",
+      "price": "30"
+    },
+    "desc2": {
+      "title": "Panes pequeños (2 piezas)",
+      "price": "15"
+    },
+    "desc3": {
+      "title": "Raif, Msemen o Harcha (la obra)",
+      "price": "10"
+    },
+    "desc4": {
+      "title": "Huevos (fritos, revueltos, en tortilla, duros)",
+      "price": "20"
+    },
+    "desc5": {
+      "title": "Amlou casero con almendras",
+      "price": "25"
+    },
+    "desc6": {
+      "title": "Queso de cabra",
+      "price": "20"
+    },
+    "desc7": {
+      "title": "Nutella",
+      "price": "15"
+    },
+    "desc8": {
+      "title": "Ensalada de dátiles y naranja",
+      "price": "20"
+    },
+    "desc9": {
+      "title": "Ensalada de fruta",
+      "price": "25"
+    },
+    "desc10": {
+      "title": "Queso de cabra",
+      "price": "15"
+    },
+    "desc11": {
+      "title": "Huevos duros, fritos, revueltos o simples.",
+      "price": "25"
+    },
+    "desc12": {
+      "title": "Tortilla con Khli3",
+      "price": "40"
+    },
+    "desc13": {
+      "title": "Sopa de avena",
+      "price": "25"
+    },
+    "desc14": {
+      "title": "papas fritas",
+      "price": "30"
+    },
+    "desc15": {
+      "title": "Jamón de pavo (2 lonchas)",
+      "price": "15"
+    },
+    "desc16": {
+      "title": "Aceite de oliva",
+      "price": "15"
+    },
+    "desc17": {
+      "title": "Aceite de argán",
+      "price": "35"
+    }
   },
   "desserts": {
-    "title": "NUESTROS POSTRES CASEROS",
-    "tiramisu-datte": "Tiramisú de dátiles",
-    "tiramisu-citron": "Tiramisú de ralladura de limón",
-    "panna-pomme": "Panna cotta con manzanas caramelizadas",
-    "panna-amlou": "Panna cotta con amlou",
-    "mousse": "Mousse de chocolate negro",
-    "meli-melo": "Mezcla de frutas de temporada",
-    "corne": "Cuernos de gacela (3 unidades)",
-    "biscuit": "Galletas marroquíes tradicionales (5 unidades)"
+    "title": "POSTRES CASEROS",
+    "desc": "",
+    "tiramisu-datte": {
+      "title": "Tiramisú de dátiles",
+      "desc": ""
+    },
+    "tiramisu-citron": {
+      "title": "Tiramisú con ralladura de limón",
+      "desc": ""
+    },
+    "panna-pomme": {
+      "title": "Panna cotta con manzanas caramelizadas",
+      "desc": ""
+    },
+    "panna-amlou": {
+      "title": "Panna cotta con amlou",
+      "desc": ""
+    },
+    "mousse": {
+      "title": "Mousse de chocolate negro",
+      "desc": ""
+    },
+    "meli-melo": {
+      "title": "Mezcla de frutas de temporada",
+      "desc": ""
+    },
+    "corne": {
+      "title": "Cuernos de gacela (3 piezas)",
+      "desc": ""
+    },
+    "biscuit": {
+      "title": "Galletas tradicionales marroquíes (5 piezas)",
+      "desc": ""
+    },
+    "brioche": {
+      "title": "Tostada francesa y bola de helado",
+      "desc": ""
+    }
   },
   "crepes": {
-    "title": "NUESTRAS CRÊPES",
-    "sucre": "Azúcar y limón",
-    "nutella": "Nutella",
-    "banane": "Nutella y plátano",
-    "chocolat": "Chocolate",
-    "suzette": "Suzette (sin alcohol)",
-    "miel": "Miel y frutos secos",
-    "caramel": "Caramelo salado",
-    "amlou": "Amlou"
+    "title": "CREPES",
+    "desc": "",
+    "compote": {
+      "title": "Compota de manzana y canela",
+      "desc": ""
+    },
+    "sucre": {
+      "title": "Azúcar y limón",
+      "desc": ""
+    },
+    "nutella": {
+      "title": "Nutella",
+      "desc": ""
+    },
+    "banane": {
+      "title": "Nutella y plátano",
+      "desc": ""
+    },
+    "chocolat": {
+      "title": "Chocolate negro derretido",
+      "desc": ""
+    },
+    "suzette": {
+      "title": "Suzette (sin alcohol)",
+      "desc": ""
+    },
+    "miel": {
+      "title": "Miel y frutos secos",
+      "desc": ""
+    },
+    "caramel": {
+      "title": "Caramelo de mantequilla salada",
+      "desc": ""
+    },
+    "amlou": {
+      "title": "Casa Amlou",
+      "desc": ""
+    }
   },
   "glaces": {
-    "title": "NUESTROS HELADOS",
-    "desc": "Chocolate | Café | Vainilla | Turrón | Limón | Frambuesa | Fresa | Mango",
-    "une": "1 bola",
+    "title": "HELADO",
+    "desc": "Chocolate Café | Vainilla | Turrón | Frambuesa y limón | Fresa | mango",
+    "une": "1 pelota",
     "deux": "2 bolas",
     "trois": "3 bolas"
   },
   "milkshakes": {
-    "title": "NUESTROS BATIDOS",
-    "chocolat": "Chocolate",
-    "vanille": "Vainilla",
-    "fraise": "Fresa",
-    "banane": "Plátano",
-    "fruit": "Frutas de temporada"
+    "title": "BATIDOS DE LECHE",
+    "desc": "",
+    "chocolat": {
+      "title": "Chocolate",
+      "desc": ""
+    },
+    "vanille": {
+      "title": "Vainilla",
+      "desc": ""
+    },
+    "fraise": {
+      "title": "Fresa",
+      "desc": ""
+    },
+    "banane": {
+      "title": "Banana",
+      "desc": ""
+    },
+    "fruit": {
+      "title": "Frutas de temporada",
+      "desc": ""
+    }
+  },
+  "jus": {
+    "title": "JUGO CASERO",
+    "desc": "",
+    "orange-presse": {
+      "title": "Naranja exprimida",
+      "desc": ""
+    },
+    "orange-carotte": {
+      "title": "Zanahoria naranja",
+      "desc": ""
+    },
+    "orange-gingembre": {
+      "title": "Naranja y jengibre",
+      "desc": ""
+    },
+    "citron-presse": {
+      "title": "Limón exprimido",
+      "desc": ""
+    },
+    "citron-gingembre": {
+      "title": "Limón y jengibre",
+      "desc": ""
+    },
+    "citron-basilic": {
+      "title": "Albahaca limón",
+      "desc": ""
+    },
+    "avocat-lait": {
+      "title": "Leche de aguacate",
+      "desc": ""
+    },
+    "avocat-orange": {
+      "title": "Aguacate naranja",
+      "desc": ""
+    },
+    "panache": {
+      "title": "Frutas mixtas del día",
+      "desc": ""
+    }
   },
   "soft": {
-    "title": "NUESTRAS BEBIDAS SIN ALCOHOL",
-    "desc": "Acompaña tus bebidas: 5 Galletas marroquíes caseras (40 DHS)",
-    "presse": "Naranja exprimida | Limón exprimido",
-    "orange-gingembre": "Naranja con jengibre",
-    "orange-carotte": "Naranja con zanahoria",
-    "citron-gingembre": "Limón con jengibre",
-    "citron-basilic": "Limón con albahaca",
-    "panache": "Frutas mixtas del día",
-    "avocat-orange": "Aguacate con naranja",
-    "avocat-lait": "Aguacate con leche",
-    "virgin": "Blue Virgin Mojito",
-    "virgin-cafe": "Virgin Mojito Café (Limón, espresso, sprite, menta fresca)",
-    "coca": "Coca-Cola | Coca-Cola Zero",
-    "regular": "Coca Regular | Coca Zero | Sprite | Schweppes Limón | Schweppes Tonic | Té helado",
-    "sirop-eau": "Jarabe con agua",
-    "sirop-diabolo": "Diabolo | Jarabe con leche",
-    "eau": "Agua mineral (50ml / 150ml)",
-    "eau-petillante": "Agua con gas (50ml / 100ml)"
+    "title": "BEBIDAS REFRESCAS",
+    "desc": "",
+    "virgin": {
+      "title": "Mojito virgen azul",
+      "desc": ""
+    },
+    "virgin-cafe": {
+      "title": "Café Mojito Virgen ",
+      "desc": "Limón, espresso, gaseosa, menta fresca"
+    },
+    "coca": {
+      "title": "Coca-Cola regular o cero",
+      "desc": ""
+    },
+    "sprite": {
+      "title": "Duende",
+      "desc": ""
+    },
+    "schweppes": {
+      "title": "Schweppes Tónica o Limón",
+      "desc": ""
+    },
+    "ice-tea": {
+      "title": "Té helado",
+      "desc": ""
+    },
+    "biere": {
+      "title": "Cerveza San Miguel",
+      "desc": "Sin alcohol"
+    },
+    "sirop-eau": {
+      "title": "Jarabe MONIN con agua",
+      "desc": "Perfumes bajo pedido"
+    },
+    "sirop-diabolo": {
+      "title": "MONIN Diabolo o jarabe de leche",
+      "desc": "Perfumes bajo pedido"
+    },
+    "eau": {
+      "title": "Agua mineral",
+      "desc": "50 ml / 150 ml"
+    },
+    "eau-petillante": {
+      "title": "Agua con gas",
+      "desc": "50 ml / 100 ml"
+    }
   },
   "chaud": {
-    "title": "NUESTRAS BEBIDAS CALIENTES",
-    "desc": "Acompaña tus bebidas: 5 Galletas marroquíes caseras (40 DHS)",
-    "the-menthe": "Té de menta",
-    "the-corne": "Té de menta & cuernos de gacela",
-    "the-royal": "Té real con especias",
-    "the-earl": "Té Earl Grey",
-    "chocolat": "Chocolate caliente",
-    "nouss": "Nouss nouss (Café Illy & leche)",
-    "cafe-epice": "Café con especias",
-    "expresso": "Espresso Illy",
-    "double": "Doble espresso Illy",
-    "capuccino": "Capuchino Illy",
-    "latte": "Café con leche Illy",
-    "cafe-glace": "Café helado (Illy con leche)",
-    "cafe-frappe": "Café frappé (doble espresso sin leche)",
-    "cafe-illy": "Café frappé (doble espresso ILLY)",
-    "supplement": "Suplemento Leche de avena"
+    "title": "BEBIDAS CALIENTES",
+    "desc": "",
+    "the-menthe": {
+      "title": "Té de menta",
+      "desc": ""
+    },
+    "the-corne": {
+      "title": "Té de menta y cuernos de gacela",
+      "desc": "2 habitaciones"
+    },
+    "the-royal": {
+      "title": "Té de especias reales",
+      "desc": ""
+    },
+    "the-earl": {
+      "title": "Té Earl Grey",
+      "desc": ""
+    },
+    "nouss": {
+      "title": "Nosotros Nosotros",
+      "desc": "Café y leche Illy"
+    },
+    "cafe-epice": {
+      "title": "Café con especias",
+      "desc": ""
+    },
+    "expresso": {
+      "title": "Café expreso ILLY",
+      "desc": ""
+    },
+    "double": {
+      "title": "ILLY Doble Espresso",
+      "desc": ""
+    },
+    "capuccino": {
+      "title": "Capuchino ILLY",
+      "desc": ""
+    },
+    "latte": {
+      "title": "Café con leche ILLY",
+      "desc": ""
+    },
+    "cafe-glace": {
+      "title": "Café helado ILLY",
+      "desc": "con leche"
+    },
+    "cafe-frappe": {
+      "title": "Café Frappé",
+      "desc": "Doble espresso ILLY + cubitos de hielo"
+    },
+    "chocolat": {
+      "title": "Chocolate con leche",
+      "desc": ""
+    },
+    "supplement": {
+      "title": "Suplemento de leche de avena",
+      "desc": ""
+    }
   }
 }

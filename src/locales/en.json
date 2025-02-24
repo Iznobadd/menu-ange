@@ -1,29 +1,29 @@
 {
   "language": {
-    "choose": "Click on the flag of your language"
+    "choose": "Click on your language flag"
   },
   "salades": {
-    "title": "Salads",
+    "title": "SALADS",
     "quinoa": {
-      "title": "Quinoa salad",
-      "desc": "Mango, lawyer, dates, mint"
+      "title": "Quinoa Salad",
+      "desc": "Mango, Avocado, Dates, Mint"
     },
     "buddha": {
       "title": "Buddha Bowl",
-      "desc": "Rice, vegetables, mango, egg yolk"
+      "desc": "Rice, Vegetables, Mango, Egg yolk"
     },
     "thai": {
-      "title": "Thai chicken",
+      "title": "Thai Chicken",
       "desc": ""
     },
     "anges": {
-      "title": "The angels",
-      "desc": "Chicken, smoked salmon, shrimp, avocado, citrus"
+      "title": "The Angels",
+      "desc": "Chicken, Smoked Salmon, Shrimp, Avocado, Citrus"
     }
   },
   "brochettes": {
-    "title": "Skewers",
-    "desc": "Salad composed | ",
+    "title": "SKEWERS",
+    "desc": "Mixed salad | Homemade fries | Rice | Sautéed vegetables",
     "poulet": {
       "title": "Chicken",
       "desc": ""
@@ -33,7 +33,7 @@
       "desc": ""
     },
     "boeuf": {
-      "title": "Beef net",
+      "title": "Beef fillet",
       "desc": ""
     },
     "gambas": {
@@ -42,7 +42,7 @@
     }
   },
   "woks": {
-    "title": "Woks",
+    "title": "WOKS",
     "desc": "",
     "legume": {
       "title": "Vegetables",
@@ -53,7 +53,7 @@
       "desc": ""
     },
     "boeuf": {
-      "title": "Beef net",
+      "title": "Beef fillet",
       "desc": ""
     },
     "crevette": {
@@ -62,8 +62,8 @@
     }
   },
   "burgers": {
-    "title": "Burgers",
-    "desc": "Compound or homemade fries salad",
+    "title": "BURGERS",
+    "desc": "Mixed salad or homemade fries",
     "vegetarien": {
       "title": "Vegetarian",
       "desc": ""
@@ -78,22 +78,22 @@
     },
     "poisson": {
       "title": "Fish",
-      "desc": "Skinless cod back"
+      "desc": "Skinless Cod Back"
     }
   },
   "bruschettas": {
-    "title": "Bruschettas",
-    "desc": "Accompanied by a composed salad",
+    "title": "BRUSCHETTAS",
+    "desc": "Accompanied by a mixed salad",
     "chevre": {
-      "title": "Goat, nuts & honey",
+      "title": "Goat, Nuts & Honey",
       "desc": ""
     },
     "jambon": {
-      "title": "Pepper turkey & pesto ham",
+      "title": "Turkey Ham with Pepper & Pesto",
       "desc": ""
     },
     "poivrons": {
-      "title": "Pepper & feta",
+      "title": "Pepper & Feta",
       "desc": ""
     },
     "guacamole": {
@@ -101,45 +101,45 @@
       "desc": ""
     },
     "islandaise": {
-      "title": "The Icelandic Smoked Salmon",
+      "title": "Icelandic Smoked Salmon",
       "desc": ""
     }
   },
   "paninis": {
-    "title": "Paninis",
-    "desc": "Compound or homemade fries salad",
+    "title": "PANINIS",
+    "desc": "Mixed salad or homemade fries",
     "tomate": {
-      "title": "Fried tomatoes, Mozzarella & Pesto",
+      "title": "Fried tomatoes, mozzarella & pesto",
       "desc": ""
     },
     "legume": {
-      "title": "Fried vegetables & mozzarella",
+      "title": "Fried vegetables & Mozzarella",
       "desc": ""
     },
     "vegan": {
-      "title": "Vegan",
-      "desc": "Sautéed vegetables, vegan cheese"
+      "title": "The Vegan",
+      "desc": "Sautéed vegetables, Vegan cheese"
     },
     "epinard": {
-      "title": "Sautéed spinach, grilled brie & sesames",
+      "title": "Sautéed Spinach, Brie & Grilled Sesame",
       "desc": ""
     },
     "marocain": {
       "title": "The Moroccan",
-      "desc": "Vegetables, spices, cheese, kefta"
+      "desc": "Vegetables, Spices, Cheese, Kefta"
     },
     "poulet": {
-      "title": "Curry chicken",
+      "title": "Chicken curry",
       "desc": ""
     },
     "burger": {
-      "title": "Like a burger",
+      "title": "Like a Burger",
       "desc": ""
     }
   },
   "pates": {
     "title": "PASTA",
-    "desc": "Spaghettini | ",
+    "desc": "Spaghettini | Tagliatelle | Penne | Linguini",
     "pesto": {
       "title": "Pesto",
       "desc": "Homemade pesto sauce"
@@ -154,7 +154,7 @@
     },
     "puttanesca": {
       "title": "Puttanesca",
-      "desc": "Anchovies, capers, garlic, tomatoes"
+      "desc": "Anchovies, Capers, Garlic, Tomatoes"
     },
     "mer": {
       "title": "Seafood",
@@ -166,8 +166,8 @@
     }
   },
   "pastillas": {
-    "title": "Pastillas",
-    "desc": "Accompanied by a composed salad",
+    "title": "PASTILLAS",
+    "desc": "Accompanied by a mixed salad",
     "legume": {
       "title": "Vegetables",
       "desc": ""
@@ -182,30 +182,30 @@
     }
   },
   "croques": {
-    "title": "Croque sir",
-    "desc": "Accompanied by a composed salad",
+    "title": "CROQUE MONSIEUR",
+    "desc": "Accompanied by a mixed salad",
     "grison": {
-      "title": "Grison meat, raclette cheese, pickles",
+      "title": "Grisons meat, Raclette cheese, Pickles",
       "desc": "Homemade bread"
     },
     "brie": {
-      "title": "Brie, spinach, grilled sesame",
-      "desc": "Seeding bread with seeds"
+      "title": "Brie, Spinach, Grilled Sesame",
+      "desc": "Sliced bread with seeds"
     },
     "poulet": {
       "title": "Roast chicken, avocado cream, cheddar",
-      "desc": "Seeding bread with seeds"
+      "desc": "Sliced bread with seeds"
     }
   },
   "omelettes": {
-    "title": "Omelets",
-    "desc": "Accompanied by a composed salad",
+    "title": "OMELETTES",
+    "desc": "Accompanied by a mixed salad",
     "legume": {
-      "title": "Varied vegetables",
+      "title": "Assorted vegetables",
       "desc": ""
     },
     "tomate": {
-      "title": "Tomatoes & onions",
+      "title": "Tomatoes & Onions",
       "desc": ""
     },
     "parmesan": {
@@ -214,7 +214,7 @@
     }
   },
   "couscous": {
-    "title": "Couscous",
+    "title": "COUSCOUS",
     "desc": "Every Friday",
     "vege": {
       "title": "Vegetarian",
@@ -233,79 +233,79 @@
     "title": "CAMEMBERT",
     "desc": "",
     "roti": {
-      "title": "Honey roasted camerat",
-      "desc": "Wrapped in your homemade bread & a crunchy green salad"
+      "title": "Honey Roasted Camembert",
+      "desc": "Wrapped in homemade bread & a crunchy green salad"
     }
   },
   "soupes": {
-    "title": "Soups",
+    "title": "SOUPS",
     "desc": "",
     "potiron": {
-      "title": "Pumpkin - Carrots & Cream",
+      "title": "Pumpkin - Carrots & Crème fraîche",
       "desc": ""
     },
     "poisson": {
-      "title": "Fish & shrimp with rust & croutons",
+      "title": "Fish & Shrimp with Rouille & Croutons",
       "desc": ""
     }
   },
   "enfant": {
-    "title": "Children's menu",
-    "desc": "Chopped steak or chicken skewers",
-    "desc2": "Fries or spaghetti tomato or spaghetti butter & cheese sauce",
-    "desc3": "Ice 2 balls: chocolate, vanilla, nougat, lemon, strawberry, raspberry, coffee"
+    "title": "CHILDREN'S MENU",
+    "desc": "Minced Steak or Chicken Skewers",
+    "desc2": "Fries or Spaghetti with tomato sauce or Spaghetti with butter and cheese",
+    "desc3": "2 scoops of ice cream: Chocolate, Vanilla, Nougat, Lemon, Strawberry, Raspberry, Coffee"
   },
   "dej": {
-    "title": "Breakfast & brunch"
+    "title": "BREAKFAST & BRUNCH"
   },
   "dej-continental": {
     "title": "CONTINENTAL BREAKFAST",
-    "desc": "Hot drink (Illy or us or mint tea or black tea or milk chocolate)",
-    "desc2": "Orange juice",
-    "desc3": "Baguette, butter & jam"
+    "desc": "Hot drink (ILLY Espresso or Nouss Nouss or Mint Tea or Black Tea or Milk Chocolate)",
+    "desc2": "Orange Juice",
+    "desc3": "Baguette Bread, Butter & Jam"
   },
   "dej-marocain": {
-    "title": "Moroccan breakfast",
-    "desc": "Hot drink (Illy or us or mint tea or black tea or milk chocolate)",
-    "desc2": "Orange juice",
-    "desc3": "Raïf, Msemen, Harcha, butter & honey or butter & jam"
+    "title": "MOROCCAN BREAKFAST",
+    "desc": "Hot drink (ILLY Espresso or Nouss Nouss or Mint Tea or Black Tea or Milk Chocolate)",
+    "desc2": "Orange Juice",
+    "desc3": "Raif, Msemen, Harcha, Butter & Honey or Butter & Jam"
   },
   "brunch": {
     "title": "BRUNCH",
-    "desc": "Hot drink (Illy or us or mint tea or black tea or milk chocolate)",
-    "desc2": "Orange juice",
-    "desc3": "Baguette, butter & jam or butter & honey",
-    "desc4": "Breads (2 rooms)",
+    "desc": "Hot drink (ILLY Espresso or Nouss Nouss or Mint Tea or Black Tea or Milk Chocolate)",
+    "desc2": "Orange Juice",
+    "desc3": "Baguette bread, Butter & Jam or Butter & Honey",
+    "desc4": "Buns (2 pieces)",
     "desc5": "Msemen",
-    "desc6": "Eggs (flat, scrambled, omelet or hard)",
-    "desc7": "Turkey ham",
-    "desc8": "Goat cheese",
-    "desc9": "Dates & oranges salad"
+    "desc6": "Eggs (Fried, Scrambled, Omelet or Hard Boiled)",
+    "desc7": "Turkey Ham",
+    "desc8": "Goat Cheese",
+    "desc9": "Date & Orange Salad"
   },
   "complement": {
-    "title": "In addition",
+    "title": "IN ADDITION",
     "desc": {
-      "title": "Orange carrot juice",
+      "title": "Orange Carrot Juice",
       "price": "30"
     },
     "desc2": {
-      "title": "Breads (2 rooms)",
+      "title": "Small Breads (2 pieces)",
       "price": "15"
     },
     "desc3": {
-      "title": "Raïf, Msemen or Harcha (the part)",
+      "title": "Raif, Msemen or Harcha (the play)",
       "price": "10"
     },
     "desc4": {
-      "title": "Eggs (flat, scrambled, omelet, hard)",
+      "title": "Eggs (Fried, Scrambled, Omelet, Hard Boiled)",
       "price": "20"
     },
     "desc5": {
-      "title": "Amlou Maison Aux Amandes",
+      "title": "Homemade Amlou with Almonds",
       "price": "25"
     },
     "desc6": {
-      "title": "Goat cheese",
+      "title": "Goat Cheese",
       "price": "20"
     },
     "desc7": {
@@ -313,7 +313,7 @@
       "price": "15"
     },
     "desc8": {
-      "title": "Dates & oranges salad",
+      "title": "Date & Orange Salad",
       "price": "20"
     },
     "desc9": {
@@ -321,75 +321,75 @@
       "price": "25"
     },
     "desc10": {
-      "title": "Goat cheese",
+      "title": "Goat Cheese",
       "price": "15"
     },
     "desc11": {
-      "title": "Hard eggs, flat, scrambled or natural",
+      "title": "Hard-boiled, fried, scrambled or plain eggs",
       "price": "25"
     },
     "desc12": {
-      "title": "Omelet at Khli3",
+      "title": "Omelette with Khli3",
       "price": "40"
     },
     "desc13": {
-      "title": "Oat soup",
+      "title": "Oatmeal Soup",
       "price": "25"
     },
     "desc14": {
-      "title": "Fries",
+      "title": "French fries",
       "price": "30"
     },
     "desc15": {
-      "title": "Turkey ham (2 slices)",
+      "title": "Turkey Ham (2 slices)",
       "price": "15"
     },
     "desc16": {
-      "title": "Olive oil",
+      "title": "Olive Oil",
       "price": "15"
     },
     "desc17": {
-      "title": "Argan oil",
+      "title": "Argan Oil",
       "price": "35"
     }
   },
   "desserts": {
-    "title": "Homemade desserts",
+    "title": "HOMEMADE DESSERTS",
     "desc": "",
     "tiramisu-datte": {
-      "title": "Dates tiramisu",
+      "title": "Date Tiramisu",
       "desc": ""
     },
     "tiramisu-citron": {
-      "title": "Lemon zest tiramisu",
+      "title": "Tiramisu with lemon zest",
       "desc": ""
     },
     "panna-pomme": {
-      "title": "Panna Cotta with caramelized apples",
+      "title": "Panna cotta with caramelized apples",
       "desc": ""
     },
     "panna-amlou": {
-      "title": "Panna Cotta at Amlou",
+      "title": "Panna cotta with Amlou",
       "desc": ""
     },
     "mousse": {
-      "title": "Dark chocolate mousse",
+      "title": "Dark Chocolate Mousse",
       "desc": ""
     },
     "meli-melo": {
-      "title": "Méli Mélo of seasonal fruit",
+      "title": "Seasonal Fruit Medley",
       "desc": ""
     },
     "corne": {
-      "title": "Gazelle horns (3 pieces)",
+      "title": "Gazelle Horns (3 pieces)",
       "desc": ""
     },
     "biscuit": {
-      "title": "Traditional Moroccan cookies (5 pieces)",
+      "title": "Traditional Moroccan biscuits (5 pieces)",
       "desc": ""
     },
     "brioche": {
-      "title": "Lost brioche & ice ball",
+      "title": "French toast & ice cream scoop",
       "desc": ""
     }
   },
@@ -397,11 +397,11 @@
     "title": "CREPES",
     "desc": "",
     "compote": {
-      "title": "Apple & cinnamon compote",
+      "title": "Apple & Cinnamon Compote",
       "desc": ""
     },
     "sucre": {
-      "title": "Sugar & lemon",
+      "title": "Sugar & Lemon",
       "desc": ""
     },
     "nutella": {
@@ -409,23 +409,23 @@
       "desc": ""
     },
     "banane": {
-      "title": "Nutella & banana",
+      "title": "Nutella & Banana",
       "desc": ""
     },
     "chocolat": {
-      "title": "Faded dark chocolate",
+      "title": "Melted Dark Chocolate",
       "desc": ""
     },
     "suzette": {
-      "title": "Suzette (alcohol -free)",
+      "title": "Suzette (alcohol-free)",
       "desc": ""
     },
     "miel": {
-      "title": "Honey & dried fruits",
+      "title": "Honey & Dried Fruits",
       "desc": ""
     },
     "caramel": {
-      "title": "Salted butter caramel",
+      "title": "Salted Butter Caramel",
       "desc": ""
     },
     "amlou": {
@@ -434,14 +434,14 @@
     }
   },
   "glaces": {
-    "title": "Ice cream",
-    "desc": "Chocolate | ",
-    "une": "1 ball",
-    "deux": "2 balls",
-    "trois": "3 balls"
+    "title": "ICE CREAM",
+    "desc": "Chocolate | Coffee | Vanilla | Nougat | Lemon Raspberry | Strawberry | Mango",
+    "une": "1 Ball",
+    "deux": "2 Balls",
+    "trois": "3 Balls"
   },
   "milkshakes": {
-    "title": "Milkshakes",
+    "title": "MILKSHAKES",
     "desc": "",
     "chocolat": {
       "title": "Chocolate",
@@ -465,58 +465,58 @@
     }
   },
   "jus": {
-    "title": "Homemade juice",
+    "title": "HOMEMADE JUICE",
     "desc": "",
     "orange-presse": {
-      "title": "Orange pressed",
+      "title": "Squeezed orange",
       "desc": ""
     },
     "orange-carotte": {
-      "title": "Orange carrot",
+      "title": "Orange Carrot",
       "desc": ""
     },
     "orange-gingembre": {
-      "title": "Orange ginger",
+      "title": "Orange Ginger",
       "desc": ""
     },
     "citron-presse": {
-      "title": "Lemon in a hurry",
+      "title": "Squeezed lemon",
       "desc": ""
     },
     "citron-gingembre": {
-      "title": "Ginger lemon",
+      "title": "Lemon Ginger",
       "desc": ""
     },
     "citron-basilic": {
-      "title": "Lemon basil",
+      "title": "Lemon Basil",
       "desc": ""
     },
     "avocat-lait": {
-      "title": "Milk avocado",
+      "title": "Avocado Milk",
       "desc": ""
     },
     "avocat-orange": {
-      "title": "Orange lawyer",
+      "title": "Orange Avocado",
       "desc": ""
     },
     "panache": {
-      "title": "Bathered fruit of the day",
+      "title": "Mixed Fruits of the Day",
       "desc": ""
     }
   },
   "soft": {
-    "title": "Soft drinks",
+    "title": "SOFT DRINKS",
     "desc": "",
     "virgin": {
       "title": "Blue Virgin Mojito",
       "desc": ""
     },
     "virgin-cafe": {
-      "title": "Virgin Mojito Café ",
+      "title": "Virgin Mojito Cafe",
       "desc": "Lemon, espresso, sprite, fresh mint"
     },
     "coca": {
-      "title": "Coca-Cola Regular or zero",
+      "title": "Coca-Cola Regular or Zero",
       "desc": ""
     },
     "sprite": {
@@ -532,15 +532,15 @@
       "desc": ""
     },
     "biere": {
-      "title": "San Miguel beer",
-      "desc": "Alcoholless"
+      "title": "San Miguel Beer",
+      "desc": "Alcohol free"
     },
     "sirop-eau": {
-      "title": "Monin water syrup",
+      "title": "MONIN syrup with water",
       "desc": "Perfumes on request"
     },
     "sirop-diabolo": {
-      "title": "Diabolo or milk Monin syrup",
+      "title": "MONIN Diabolo or Milk Syrup",
       "desc": "Perfumes on request"
     },
     "eau": {
@@ -553,62 +553,62 @@
     }
   },
   "chaud": {
-    "title": "Hot drinks",
+    "title": "HOT DRINKS",
     "desc": "",
     "the-menthe": {
-      "title": "Mint tea",
+      "title": "Mint Tea",
       "desc": ""
     },
     "the-corne": {
-      "title": "Mint tea & gazelle horns",
+      "title": "Mint Tea & Gazelle Horns",
       "desc": "2 rooms"
     },
     "the-royal": {
-      "title": "Royal tea with spices",
+      "title": "Royal Spice Tea",
       "desc": ""
     },
     "the-earl": {
-      "title": "Earl Gray tea",
+      "title": "Earl Grey Tea",
       "desc": ""
     },
     "nouss": {
-      "title": "We us",
-      "desc": "Illy & milk coffee"
+      "title": "We We",
+      "desc": "Illy Coffee & Milk"
     },
     "cafe-epice": {
-      "title": "Spice coffee",
+      "title": "Spiced Coffee",
       "desc": ""
     },
     "expresso": {
-      "title": "Expresso Illy",
+      "title": "ILLY Espresso",
       "desc": ""
     },
     "double": {
-      "title": "Double Expresso Illy",
+      "title": "ILLY Double Espresso",
       "desc": ""
     },
     "capuccino": {
-      "title": "Capuccino Illy",
+      "title": "ILLY Cappuccino",
       "desc": ""
     },
     "latte": {
-      "title": "Café Latte Illy",
+      "title": "ILLY Latte Coffee",
       "desc": ""
     },
     "cafe-glace": {
-      "title": "Illy iced coffee",
-      "desc": "milk"
+      "title": "ILLY Iced Coffee",
+      "desc": "with milk"
     },
     "cafe-frappe": {
-      "title": "Hit coffee",
-      "desc": "Double Expresso Illy + ice cubes"
+      "title": "Frappé Coffee",
+      "desc": "double ILLY espresso + ice cubes"
     },
     "chocolat": {
       "title": "Milk chocolate",
       "desc": ""
     },
     "supplement": {
-      "title": "Oat milk supplement",
+      "title": "Oat Milk Supplement",
       "desc": ""
     }
   }
