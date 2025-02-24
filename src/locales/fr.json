@@ -265,19 +265,19 @@
   },
   "dej-continental": {
     "title": "PETIT DÉJEUNER CONTINENTAL",
-    "desc": "Boisson chaude (Expresso ILLY ou Nouss Nouss ou Thé à la Menthe ou Thé noir ou Chocolat au lait)",
+    "desc": "Boisson chaude (Expresso ILLY, Nouss Nouss, Thé à la Menthe, Thé noir ou Chocolat au lait)",
     "desc2": "Jus d’Orange",
     "desc3": "Pain baguette, Beurre & Confiture"
   },
   "dej-marocain": {
     "title": "PETIT DÉJEUNER MAROCAIN",
-    "desc": "Boisson chaude (Expresso ILLY ou Nouss Nouss ou Thé à la Menthe ou Thé noir ou Chocolat au lait)",
+    "desc": "Boisson chaude (Expresso ILLY, Nouss Nouss, Thé à la Menthe, Thé noir ou Chocolat au lait)",
     "desc2": "Jus d’Orange",
     "desc3": "Raïf, Msemen, Harcha, Beurre & Miel ou Beurre & Confiture"
   },
   "brunch": {
     "title": "BRUNCH",
-    "desc": "Boisson chaude (Expresso ILLY ou Nouss Nouss ou Thé à la Menthe ou Thé noir ou Chocolat au lait)",
+    "desc": "Boisson chaude (Expresso ILLY, Nouss Nouss, Thé à la Menthe, Thé noir ou Chocolat au lait)",
     "desc2": "Jus d’Orange",
     "desc3": "Pain baguette, Beurre & Confiture ou Beurre & Miel",
     "desc4": "Petits pains (2 pièces)",

@@ -265,19 +265,19 @@
   },
   "dej-continental": {
     "title": "CONTINENTAL BREAKFAST",
-    "desc": "Hot drink (ILLY Espresso or Nouss Nouss or Mint Tea or Black Tea or Milk Chocolate)",
+    "desc": "Hot drink (ILLY Espresso, Nouss Nouss, Mint Tea, Black Tea or Milk Chocolate)",
     "desc2": "Orange Juice",
     "desc3": "Baguette Bread, Butter & Jam"
   },
   "dej-marocain": {
     "title": "MOROCCAN BREAKFAST",
-    "desc": "Hot drink (ILLY Espresso or Nouss Nouss or Mint Tea or Black Tea or Milk Chocolate)",
+    "desc": "Hot drink (ILLY Espresso, Nouss Nouss, Mint Tea, Black Tea or Milk Chocolate)",
     "desc2": "Orange Juice",
     "desc3": "Raif, Msemen, Harcha, Butter & Honey or Butter & Jam"
   },
   "brunch": {
     "title": "BRUNCH",
-    "desc": "Hot drink (ILLY Espresso or Nouss Nouss or Mint Tea or Black Tea or Milk Chocolate)",
+    "desc": "Hot drink (ILLY Espresso, Nouss Nouss, Mint Tea, Black Tea or Milk Chocolate)",
     "desc2": "Orange Juice",
     "desc3": "Baguette bread, Butter & Jam or Butter & Honey",
     "desc4": "Buns (2 pieces)",

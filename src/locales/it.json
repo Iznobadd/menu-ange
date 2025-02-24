@@ -265,19 +265,19 @@
   },
   "dej-continental": {
     "title": "COLAZIONE CONTINENTALE",
-    "desc": "Bevanda calda (ILLY Espresso o Nouss Nouss o Tè alla menta o Tè nero o Cioccolato al latte)",
+    "desc": "Bevanda calda (ILLY Espresso, Nouss Nouss, Tè alla menta, Tè nero o Cioccolato al latte)",
     "desc2": "Succo d'arancia",
     "desc3": "Pane baguette, burro e marmellata"
   },
   "dej-marocain": {
     "title": "COLAZIONE MAROCCHINA",
-    "desc": "Bevanda calda (ILLY Espresso o Nouss Nouss o Tè alla menta o Tè nero o Cioccolato al latte)",
+    "desc": "Bevanda calda (ILLY Espresso, Nouss Nouss, Tè alla menta, Tè nero o Cioccolato al latte)",
     "desc2": "Succo d'arancia",
     "desc3": "Raif, Msemen, Harcha, burro e miele o burro e marmellata"
   },
   "brunch": {
     "title": "BRUNCH",
-    "desc": "Bevanda calda (ILLY Espresso o Nouss Nouss o Tè alla menta o Tè nero o Cioccolato al latte)",
+    "desc": "Bevanda calda (ILLY Espresso, Nouss Nouss, Tè alla menta, Tè nero o Cioccolato al latte)",
     "desc2": "Succo d'arancia",
     "desc3": "Pane baguette, burro e marmellata o burro e miele",
     "desc4": "Panini (2 pezzi)",

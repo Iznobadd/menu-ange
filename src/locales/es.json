@@ -265,19 +265,19 @@
   },
   "dej-continental": {
     "title": "DESAYUNO CONTINENTAL",
-    "desc": "Bebida caliente (Espresso ILLY o Nouss Nouss o Té de menta o Té negro o Chocolate con leche)",
+    "desc": "Bebida caliente (Espresso ILLY, Nouss Nouss, Té de menta, Té negro o Chocolate con leche)",
     "desc2": "Zumo de naranja",
     "desc3": "Pan baguette, mantequilla y mermelada"
   },
   "dej-marocain": {
     "title": "DESAYUNO MARROQUÍ",
-    "desc": "Bebida caliente (Espresso ILLY o Nouss Nouss o Té de menta o Té negro o Chocolate con leche)",
+    "desc": "Bebida caliente (Espresso ILLY, Nouss Nouss, Té de menta, Té negro o Chocolate con leche)",
     "desc2": "Zumo de naranja",
     "desc3": "Raif, Msemen, Harcha, Mantequilla y miel o Mantequilla y mermelada"
   },
   "brunch": {
     "title": "DESALMUERZO",
-    "desc": "Bebida caliente (Espresso ILLY o Nouss Nouss o Té de menta o Té negro o Chocolate con leche)",
+    "desc": "Bebida caliente (Espresso ILLY, Nouss Nouss, Té de menta, Té negro o Chocolate con leche)",
     "desc2": "Zumo de naranja",
     "desc3": "Pan baguette, mantequilla y mermelada o mantequilla y miel",
     "desc4": "Bollos (2 piezas)",
