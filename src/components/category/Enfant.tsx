@@ -7,7 +7,7 @@ const Enfant = () => {
   const { t } = useTranslation();
   const enfant = [
     {
-      name: `${t("enfant.desc")} \n \n ${t("enfant.desc2")} \n \n ${t(
+      name: `▪ ${t("enfant.desc")} \n \n ▪ ${t("enfant.desc2")} \n \n ▪ ${t(
         "enfant.desc3"
       )}`,
       price: 90,

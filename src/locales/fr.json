@@ -151,7 +151,7 @@
     },
     "carbo": {
       "title": "Carbonara",
-      "desc": "Œuf, crème & lardons halal"
+      "desc": "Oeuf, Crème & Lardons halal"
     },
     "puttanesca": {
       "title": "Puttanesca",
@@ -163,7 +163,7 @@
     },
     "bolo": {
       "title": "Bolognaise",
-      "desc": "Sauce tomate et viande hachée de bœuf"
+      "desc": "Sauce tomate & Viande hachée de Bœuf"
     }
   },
   "pastillas": {
@@ -300,10 +300,6 @@
     "desc3": {
       "title": "Raïf, Msemen ou Harcha (la pièce)",
       "price": "10"
-    },
-    "desc4": {
-      "title": "Oeufs (Au plat, Brouillés, Omelette, Durs)",
-      "price": "20"
     },
     "desc5": {
       "title": "Amlou maison aux Amandes",

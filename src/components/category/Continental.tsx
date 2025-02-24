@@ -32,7 +32,7 @@ const Continental = () => {
         {continentals.map((continental, index) => (
           <div key={index} className="md:text-center">
             <div className="p-2">
-              <p className="font-normal text-md text-left leading-tight">
+              <p className="font-normal text-md leading-tight">
                 {continental.name.split("\n").map((line, i) => (
                   <React.Fragment key={i}>
                     {line}

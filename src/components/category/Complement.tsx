@@ -16,10 +16,6 @@ const Complement = () => {
       price: t("complement.desc3.price"),
     },
     {
-      name: t("complement.desc4.title"),
-      price: t("complement.desc4.price"),
-    },
-    {
       name: t("complement.desc5.title"),
       price: t("complement.desc5.price"),
     },
@@ -83,7 +79,7 @@ const Complement = () => {
         {complements.map((complement, index) => (
           <div key={index} className="md:text-center">
             <div className="px-2 flex justify-between items-center">
-              <p className="font-normal text-md text-left leading-tight">
+              <p className="font-normal text-md leading-tight">
                 ▪ {complement.name}
               </p>
               <p className="text-[12px] text-gray-500">
