@@ -23,7 +23,7 @@
     }
   },
   "brochettes": {
-    "title": "SPIEßE",
+    "title": "Spieße",
     "desc": "Gemischter Salat | Hausgemachte Pommes | Reis | Sautiertes Gemüse",
     "poulet": {
       "title": "Huhn",
@@ -163,7 +163,7 @@
     },
     "bolo": {
       "title": "Bolognese",
-      "desc": "Tomatensauce und Hackfleisch"
+      "desc": "Tomatensauce & Hackfleisch"
     }
   },
   "pastillas": {
@@ -267,7 +267,7 @@
     "title": "KONTINENTALES FRÜHSTÜCK",
     "desc": "Heißgetränk (ILLY Espresso oder Nouss Nouss oder Minztee oder Schwarztee oder Milchschokolade)",
     "desc2": "Orangensaft",
-    "desc3": "Baguette, Butter und Marmelade"
+    "desc3": "Baguette, Brot, Butter und Marmelade"
   },
   "dej-marocain": {
     "title": "MAROKKANISCHER FRÜHSTÜCK",
@@ -301,10 +301,6 @@
       "title": "Raif, Msemen oder Harcha (das Stück)",
       "price": "10"
     },
-    "desc4": {
-      "title": "Eier (Spiegelei, Rührei, Omelett, hartgekochte Eier)",
-      "price": "20"
-    },
     "desc5": {
       "title": "Hausgemachtes Amlou mit Mandeln",
       "price": "25"
@@ -330,7 +326,7 @@
       "price": "15"
     },
     "desc11": {
-      "title": "Hartgekochte, Spiegel-, Rühr- oder einfache Eier",
+      "title": "2 Eier (hartgekocht, Spiegelei, Rührei oder pur)",
       "price": "25"
     },
     "desc12": {

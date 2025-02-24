@@ -70,7 +70,7 @@ const Soft = () => {
     {
       title: t("soft.eau.title"),
       desc: t("soft.eau.desc"),
-      price: "10 dhs / 25",
+      price: "15 dhs / 25",
       image: Eau,
     },
     {

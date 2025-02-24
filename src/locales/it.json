@@ -301,10 +301,6 @@
       "title": "Raif, Msemen o Harcha (il gioco)",
       "price": "10"
     },
-    "desc4": {
-      "title": "Uova (fritte, strapazzate, frittate, sode)",
-      "price": "20"
-    },
     "desc5": {
       "title": "Amlou fatto in casa con mandorle",
       "price": "25"
@@ -330,7 +326,7 @@
       "price": "15"
     },
     "desc11": {
-      "title": "Uova sode, fritte, strapazzate o semplici",
+      "title": "2 Uova (sode, fritte, strapazzate o semplici)",
       "price": "25"
     },
     "desc12": {

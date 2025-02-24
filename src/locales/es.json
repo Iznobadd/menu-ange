@@ -301,10 +301,6 @@
       "title": "Raif, Msemen o Harcha (la obra)",
       "price": "10"
     },
-    "desc4": {
-      "title": "Huevos (fritos, revueltos, en tortilla, duros)",
-      "price": "20"
-    },
     "desc5": {
       "title": "Amlou casero con almendras",
       "price": "25"
@@ -330,7 +326,7 @@
       "price": "15"
     },
     "desc11": {
-      "title": "Huevos duros, fritos, revueltos o simples.",
+      "title": "2 huevos (duros, fritos, revueltos o simples)",
       "price": "25"
     },
     "desc12": {
@@ -374,7 +370,7 @@
       "desc": ""
     },
     "panna-amlou": {
-      "title": "Panna cotta con amlou",
+      "title": "Panna cotta con Amlou",
       "desc": ""
     },
     "mousse": {

@@ -151,7 +151,7 @@
     },
     "carbo": {
       "title": "Carbonara",
-      "desc": "Halal egg, cream & bacon"
+      "desc": "Halal Egg, Cream & Bacon"
     },
     "puttanesca": {
       "title": "Puttanesca",
@@ -163,7 +163,7 @@
     },
     "bolo": {
       "title": "Bolognese",
-      "desc": "Tomato sauce and minced beef"
+      "desc": "Tomato sauce & minced beef"
     }
   },
   "pastillas": {
@@ -301,10 +301,6 @@
       "title": "Raif, Msemen or Harcha (the play)",
       "price": "10"
     },
-    "desc4": {
-      "title": "Eggs (Fried, Scrambled, Omelet, Hard Boiled)",
-      "price": "20"
-    },
     "desc5": {
       "title": "Homemade Amlou with Almonds",
       "price": "25"
@@ -330,7 +326,7 @@
       "price": "15"
     },
     "desc11": {
-      "title": "Hard-boiled, fried, scrambled or plain eggs",
+      "title": "2 Eggs (hard-boiled, fried, scrambled or plain)",
       "price": "25"
     },
     "desc12": {

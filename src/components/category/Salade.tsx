@@ -10,7 +10,7 @@ const Salade = () => {
     {
       title: t("salades.quinoa.title"),
       desc: t("salades.quinoa.desc"),
-      price: 85,
+      price: 90,
       image: Quinoa,
     },
     {
@@ -22,7 +22,7 @@ const Salade = () => {
     {
       title: t("salades.thai.title"),
       desc: t("salades.thai.desc"),
-      price: 90,
+      price: 95,
       image: Thai,
     },
     {
