@@ -53,8 +53,8 @@ const Pate = () => {
         {t("pates.title")}
       </h2>
       <div className="flex items-center mb-4">
-        <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
-        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-3">
+        <div className="w-[40px] min-w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
+        <p className="px-4 text-[#7ba7d3] text-[13px] -mt-1">
           {t("pates.desc")}
         </p>
       </div>
