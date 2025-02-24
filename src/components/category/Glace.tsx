@@ -3,11 +3,12 @@ import GlaceImg from "../../assets/glaces/glace.png";
 
 const Glace = () => {
   const { t } = useTranslation();
+  const pglace = {
+    name: t("glaces.une"),
+    price: 20,
+  };
+
   const glaces = [
-    {
-      name: t("glaces.une"),
-      price: 20,
-    },
     {
       name: t("glaces.deux"),
       price: 35,
@@ -32,13 +33,19 @@ const Glace = () => {
         <div className=" md:text-center flex justify-between items-center">
           <img src={GlaceImg} alt="Glace" className="object-cover w-[40%]" />
           <div className="py-2 w-[55%]">
+            <div className="flex justify-start gap-8 items-center">
+              <p className="font-semibold text-md">{pglace.name}</p>
+              <p className="text-[12px] text-gray-500 text-right pl-[6px]">
+                {pglace.price} dhs
+              </p>
+            </div>
             {glaces.map((glace, index) => (
               <div
                 className="flex justify-start gap-8 items-center"
                 key={index}
               >
                 <p className="font-semibold text-md">{glace.name}</p>
-                <p className="text-[12px] text-gray-500">{glace.price} dhs</p>
+                <p className="text-[12px] text-gray-500 ">{glace.price} dhs</p>
               </div>
             ))}
           </div>
