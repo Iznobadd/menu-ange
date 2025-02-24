@@ -9,7 +9,7 @@ const PetitDej = () => {
 
   return (
     <div className="my-4">
-      <h2 className="font-bold text-[26px] text-[#7ba7d3] px-4 mt-16">
+      <h2 className="font-bold text-3xl text-[#7ba7d3] px-4 mt-16">
         {t("dej.title")}
       </h2>
       <div className="flex items-center mb-4">
