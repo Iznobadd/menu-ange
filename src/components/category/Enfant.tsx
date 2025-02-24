@@ -35,7 +35,7 @@ const Enfant = () => {
         {enfant.map((enfants, index) => (
           <div key={index} className="md:text-center">
             <div className="p-2">
-              <p className="font-normal text-md text-left leading-tight">
+              <p className="font-normal text-md leading-tight">
                 {enfants.name.split("\n").map((line, i) => (
                   <React.Fragment key={i}>
                     {line}
@@ -43,7 +43,7 @@ const Enfant = () => {
                   </React.Fragment>
                 ))}
               </p>
-              <p className="text-[12px] text-gray-500 mt-2 text-left">
+              <p className="text-[12px] text-gray-500 mt-2">
                 {enfants.price} dhs
               </p>
             </div>
