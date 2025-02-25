@@ -36,15 +36,6 @@ const ListFlags = () => {
 
       <div className="rounded">
         <img
-          src={arFlag}
-          alt="Morocco"
-          onClick={() => setLanguage("ar")}
-          className="max-h-7 cursor-pointer"
-        />
-      </div>
-
-      <div className="rounded">
-        <img
           src={itFlag}
           alt="Italiano"
           onClick={() => setLanguage("it")}
@@ -65,6 +56,14 @@ const ListFlags = () => {
           alt="Deutsch"
           onClick={() => setLanguage("gr")}
           className="max-h-6 cursor-pointer"
+        />
+      </div>
+      <div className="rounded">
+        <img
+          src={arFlag}
+          alt="Morocco"
+          onClick={() => setLanguage("ar")}
+          className="max-h-7 cursor-pointer"
         />
       </div>
     </div>
