@@ -10,14 +10,14 @@ const Language = () => {
     <div className="flex h-[100svh] relative">
       <div className="min-w-[86%] h-full relative">
         <img src={Bg} className="w-full h-full" />
-        <p className="absolute top-2 left-1/2 -translate-x-1/2 text-[14px] blinking text-[#7ba7d3]">
+        <p className="absolute top-2 left-1/2 -translate-x-1/2 text-[14px] blinking text-[#7ba7d3] md:text-[20px]">
           Choose your language
         </p>
         <img
           src={Logo}
           className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/3 w-2/3"
         />
-        <p className="absolute top-1/2 left-1/2 -translate-x-1/2 text-[11.5px] italic w-4/5 text-center mt-4">
+        <p className="absolute top-1/2 left-1/2 -translate-x-1/2 text-[11.5px] italic w-4/5 text-center mt-4 md:hidden">
           Un souffle d’épices, une lumière douce, le murmure de la Médina… Ici,
           chaque assiette est une escapade, chaque moment une promesse.
           <br />
@@ -38,7 +38,7 @@ const Language = () => {
               target="_blank"
               className="inline-block text-center"
             >
-              <img src={icon} alt="" className="max-w-8" />
+              <img src={icon} alt="" className="max-w-8 md:max-w-16" />
             </a>
           ))}
         </div>

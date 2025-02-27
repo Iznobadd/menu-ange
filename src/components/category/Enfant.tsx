@@ -22,8 +22,8 @@ const Enfant = () => {
       <div className="flex items-center mb-4">
         <div className="w-[40px] h-[3px] bg-[#7ba7d3] mt-1 mb-4 ml-4"></div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div className="flex justify-between">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="flex justify-between md:order-2">
           <img src={Steak} alt="Steak" className="w-full h-32 object-contain" />
           <img
             src={Brochette}
@@ -33,7 +33,7 @@ const Enfant = () => {
         </div>
 
         {enfant.map((enfants, index) => (
-          <div key={index} className="md:text-center">
+          <div key={index}>
             <div className="p-2">
               <p className="font-normal text-md leading-tight">
                 {enfants.name.split("\n").map((line, i) => (

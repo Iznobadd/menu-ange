@@ -21,7 +21,7 @@ const ListFlags = () => {
           src={frFlag}
           alt="Français"
           onClick={() => setLanguage("fr")}
-          className="max-h-6 cursor-pointer"
+          className="max-h-6 cursor-pointer md:max-h-16"
         />
       </div>
 
@@ -30,7 +30,7 @@ const ListFlags = () => {
           src={ukFlag}
           alt="English"
           onClick={() => setLanguage("en")}
-          className="max-h-6 cursor-pointer"
+          className="max-h-6 cursor-pointer md:max-h-16"
         />
       </div>
 
@@ -39,7 +39,7 @@ const ListFlags = () => {
           src={itFlag}
           alt="Italiano"
           onClick={() => setLanguage("it")}
-          className="max-h-6 cursor-pointer"
+          className="max-h-6 cursor-pointer md:max-h-16"
         />
       </div>
       <div className="rounded">
@@ -47,7 +47,7 @@ const ListFlags = () => {
           src={esFlag}
           alt="Español"
           onClick={() => setLanguage("es")}
-          className="max-h-6 cursor-pointer"
+          className="max-h-6 cursor-pointer md:max-h-16"
         />
       </div>
       <div className="rounded">
@@ -55,7 +55,7 @@ const ListFlags = () => {
           src={grFlag}
           alt="Deutsch"
           onClick={() => setLanguage("gr")}
-          className="max-h-6 cursor-pointer"
+          className="max-h-6 cursor-pointer md:max-h-16"
         />
       </div>
       <div className="rounded">
@@ -63,7 +63,7 @@ const ListFlags = () => {
           src={arFlag}
           alt="Morocco"
           onClick={() => setLanguage("ar")}
-          className="max-h-7 cursor-pointer"
+          className="max-h-7 cursor-pointer md:max-h-20"
         />
       </div>
     </div>

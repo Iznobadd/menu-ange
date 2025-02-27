@@ -34,7 +34,7 @@ const Brunch = () => {
         </div>
 
         {brunchs.map((brunch, index) => (
-          <div key={index} className="md:text-center">
+          <div key={index}>
             <div className="p-2">
               <p className="font-normal text-md leading-tight">
                 {brunch.name.split("\n").map((line, i) => (

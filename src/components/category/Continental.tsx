@@ -30,7 +30,7 @@ const Continental = () => {
         </div>
 
         {continentals.map((continental, index) => (
-          <div key={index} className="md:text-center">
+          <div key={index}>
             <div className="p-2">
               <p className="font-normal text-md leading-tight">
                 {continental.name.split("\n").map((line, i) => (

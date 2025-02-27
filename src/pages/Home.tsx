@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <div>
       <Menu />
-      <div className="pt-[198px] px-2">
+      <div className="pt-[198px] px-2 md:px-16">
         <p className="italic text-[14px] text-center mb-7 px-4">{t("intro")}</p>
         <section id="salades">
           <Salade />

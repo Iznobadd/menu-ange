@@ -77,7 +77,7 @@ const Complement = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {complements.map((complement, index) => (
-          <div key={index} className="md:text-center">
+          <div key={index}>
             <div className="px-2 flex justify-between items-center">
               <p className="font-normal text-md leading-tight">
                 ▪ {complement.name}
