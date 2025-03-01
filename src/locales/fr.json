@@ -127,10 +127,10 @@
     },
     "marocain": {
       "title": "Le Marocain",
-      "desc": "Légumes, Epices, Fromage, Kefta"
+      "desc": "Légumes, Épices, Fromage, Kefta"
     },
     "poulet": {
-      "title": "Poulet au curry",
+      "title": "Poulet au Curry",
       "desc": ""
     },
     "burger": {
@@ -186,7 +186,7 @@
     "title": "CROQUE MONSIEUR",
     "desc": "Accompagné d'une salade composée",
     "grison": {
-      "title": "Viande des Grison, Fromage raclette, Cornichons",
+      "title": "Viande des Grisons, Fromage raclette, Cornichons",
       "desc": "Pain maison"
     },
     "brie": {
@@ -610,7 +610,7 @@
       "desc": ""
     },
     "supplement": {
-      "title": "Supplément Lait d'avoine",
+      "title": "Supplément Lait d'Amande et d'Avoine",
       "desc": ""
     }
   }
