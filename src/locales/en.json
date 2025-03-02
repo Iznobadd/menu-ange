@@ -2,7 +2,7 @@
   "language": {
     "choose": "Click on your language flag"
   },
-  "intro": "“Where local meets excellence. We carefully select quality products to offer you homemade creations, full of authenticity and unique flavors”",
+  "intro": "“Where local production meets excellence. We carefully select quality products to offer you homemade creations, full of authenticity and unique flavors”",
   "salades": {
     "title": "SALADS",
     "quinoa": {
@@ -130,7 +130,7 @@
       "desc": "Vegetables, Spices, Cheese, Kefta"
     },
     "poulet": {
-      "title": "Chicken curry",
+      "title": "Chicken Curry",
       "desc": ""
     },
     "burger": {
@@ -143,7 +143,7 @@
     "desc": "Homemade sauces | Spaghettini, Tagliatelle, Penne or Linguini",
     "pesto": {
       "title": "Pesto",
-      "desc": "Homemade pesto sauce"
+      "desc": "Basil, Garlic, Parmesan, Olive oil"
     },
     "creme": {
       "title": "Cream & Mushrooms",
@@ -184,7 +184,7 @@
   },
   "croques": {
     "title": "CROQUE MONSIEUR",
-    "desc": "Accompanied by a mixed salad",
+    "desc": "Mixed salad or homemade fries",
     "grison": {
       "title": "Grisons meat, Raclette cheese, Pickles",
       "desc": "Homemade bread"
@@ -326,7 +326,7 @@
       "price": "15"
     },
     "desc11": {
-      "title": "2 Eggs (hard-boiled, fried, scrambled or plain)",
+      "title": "2 Eggs (Hard-boiled, Fried, Scrambled or Plain)",
       "price": "25"
     },
     "desc12": {
@@ -609,7 +609,7 @@
       "desc": ""
     },
     "supplement": {
-      "title": "Oat Milk Supplement",
+      "title": "Almond Milk and Oat Supplement",
       "desc": ""
     }
   }

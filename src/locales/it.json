@@ -2,7 +2,7 @@
   "language": {
     "choose": "Clicca sulla bandiera della tua lingua"
   },
-  "intro": "\"Dove il locale incontra l'eccellenza. Selezioniamo con cura prodotti di qualità per offrirti creazioni artigianali, ricche di genuinità e sapori unici”",
+  "intro": "“Dove la produzione locale incontra l’eccellenza. Selezioniamo con cura prodotti di qualità per offrirti creazioni artigianali, ricche di genuinità e sapori unici”",
   "salades": {
     "title": "INSALATE",
     "quinoa": {
@@ -143,7 +143,7 @@
     "desc": "Salse fatte in casa | Spaghettini, Tagliatelle, Penne o Linguine",
     "pesto": {
       "title": "Pesto",
-      "desc": "Salsa pesto fatta in casa"
+      "desc": "Basilico, Aglio, Parmigiano, Olio d'oliva"
     },
     "creme": {
       "title": "Crema e funghi",
@@ -184,7 +184,7 @@
   },
   "croques": {
     "title": "CROQUE-MONSIEUR",
-    "desc": "Accompagnato da un'insalata mista",
+    "desc": "Insalata mista o patatine fritte fatte in casa",
     "grison": {
       "title": "Carne dei Grigioni, Formaggio Raclette, Sottaceti",
       "desc": "Pane fatto in casa"
@@ -298,7 +298,7 @@
       "price": "15"
     },
     "desc3": {
-      "title": "Raif, Msemen o Harcha (il gioco)",
+      "title": "Raif, Msemen o Harcha (il dramma)",
       "price": "10"
     },
     "desc5": {
@@ -326,7 +326,7 @@
       "price": "15"
     },
     "desc11": {
-      "title": "2 Uova (sode, fritte, strapazzate o semplici)",
+      "title": "2 uova (sode, fritte, strapazzate o semplici)",
       "price": "25"
     },
     "desc12": {
@@ -581,7 +581,7 @@
       "desc": ""
     },
     "expresso": {
-      "title": "ILLY Espresso",
+      "title": "Espresso ILLY",
       "desc": ""
     },
     "double": {
@@ -609,7 +609,7 @@
       "desc": ""
     },
     "supplement": {
-      "title": "Integratore di latte d'avena",
+      "title": "Integratore di latte di mandorle e avena",
       "desc": ""
     }
   }

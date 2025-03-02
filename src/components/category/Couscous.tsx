@@ -4,15 +4,9 @@ const Couscous = () => {
   const { t } = useTranslation();
   const couscous = [
     {
-      title: t("couscous.agneau.title"),
-      desc: t("couscous.agneau.desc"),
-      price: 120,
-      image: Poulet,
-    },
-    {
-      title: t("couscous.boeuf.title"),
-      desc: t("couscous.boeuf.desc"),
-      price: 100,
+      title: t("couscous.vege.title"),
+      desc: t("couscous.vege.desc"),
+      price: 80,
       image: Poulet,
     },
     {
@@ -22,9 +16,15 @@ const Couscous = () => {
       image: Poulet,
     },
     {
-      title: t("couscous.vege.title"),
-      desc: t("couscous.vege.desc"),
-      price: 80,
+      title: t("couscous.boeuf.title"),
+      desc: t("couscous.boeuf.desc"),
+      price: 100,
+      image: Poulet,
+    },
+    {
+      title: t("couscous.agneau.title"),
+      desc: t("couscous.agneau.desc"),
+      price: 120,
       image: Poulet,
     },
   ];

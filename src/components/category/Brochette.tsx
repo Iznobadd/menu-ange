@@ -44,11 +44,16 @@ const Brochette = () => {
           {t("brochettes.desc")}
         </p>
       </div>
+      <div className="text-center">
+        <img
+          src={Accompagnement}
+          className="w-1/4 hidden md:block mx-auto mb-8"
+        />
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div className="text-center">
+        <div className="text-center md:hidden">
           <img src={Accompagnement} className="w-full inline-block" />
         </div>
-
         {brochettes.map((brochette, index) => (
           <div
             key={index}

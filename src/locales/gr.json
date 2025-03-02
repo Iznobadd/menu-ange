@@ -2,7 +2,7 @@
   "language": {
     "choose": "Klicken Sie auf die Flagge Ihrer Sprache"
   },
-  "intro": "„Wo Lokales auf Exzellenz trifft. Wir wählen sorgfältig Qualitätsprodukte aus, um Ihnen hausgemachte Kreationen voller Authentizität und einzigartigem Geschmack anzubieten“",
+  "intro": "„Wo lokale Produktion auf Exzellenz trifft. Wir wählen sorgfältig Qualitätsprodukte aus, um Ihnen hausgemachte Kreationen voller Authentizität und einzigartigem Geschmack anzubieten“",
   "salades": {
     "title": "SALATE",
     "quinoa": {
@@ -23,7 +23,7 @@
     }
   },
   "brochettes": {
-    "title": "Spieße",
+    "title": "SPIEßE",
     "desc": "Gemischter Salat | Hausgemachte Pommes | Reis | Sautiertes Gemüse",
     "poulet": {
       "title": "Huhn",
@@ -143,7 +143,7 @@
     "desc": "Hausgemachte Saucen | Spaghettini, Tagliatelle, Penne oder Linguini",
     "pesto": {
       "title": "Pesto",
-      "desc": "Hausgemachte Pesto-Sauce"
+      "desc": "Basilikum, Knoblauch, Parmesan, Olivenöl"
     },
     "creme": {
       "title": "Sahne & Champignons",
@@ -184,7 +184,7 @@
   },
   "croques": {
     "title": "CROQUE MONSIEUR",
-    "desc": "Dazu ein gemischter Salat",
+    "desc": "Gemischter Salat oder hausgemachte Pommes",
     "grison": {
       "title": "Bündnerfleisch, Raclettekäse, Pickles",
       "desc": "Hausgemachtes Brot"
@@ -326,7 +326,7 @@
       "price": "15"
     },
     "desc11": {
-      "title": "2 Eier (hartgekocht, Spiegelei, Rührei oder pur)",
+      "title": "2 Eier (hartgekocht, Spiegelei, Rührei oder Natur)",
       "price": "25"
     },
     "desc12": {
@@ -609,7 +609,7 @@
       "desc": ""
     },
     "supplement": {
-      "title": "Hafermilch-Ergänzung",
+      "title": "Nahrungsergänzungsmittel mit Mandelmilch und Hafer",
       "desc": ""
     }
   }

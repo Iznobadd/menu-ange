@@ -2,7 +2,7 @@
   "language": {
     "choose": "Cliquez sur le drapeau de votre langue"
   },
-  "intro": "“Là où le local rencontre l’excellence. Nous sélectionnons avec soin des produits de qualité pour vous offrir des créations maison, empreintes d'authenticité et de saveurs uniques”",
+  "intro": "“Là où la production locale rencontre l’excellence. Nous sélectionnons avec soin des produits de qualité pour vous offrir des créations maison, empreintes d'authenticité et de saveurs uniques”",
   "salades": {
     "title": "SALADES",
     "quinoa": {
@@ -143,7 +143,7 @@
     "desc": "Sauces maison | Spaghettini, Tagliatelle, Penne ou Linguini",
     "pesto": {
       "title": "Pesto",
-      "desc": "Sauce pesto maison"
+      "desc": "Basilic, Ail, Parmesan, Huile d’olive"
     },
     "creme": {
       "title": "Crème & Champignons",
@@ -184,7 +184,7 @@
   },
   "croques": {
     "title": "CROQUE MONSIEUR",
-    "desc": "Accompagné d'une salade composée",
+    "desc": "Salade composée ou Frites maison",
     "grison": {
       "title": "Viande des Grisons, Fromage raclette, Cornichons",
       "desc": "Pain maison"

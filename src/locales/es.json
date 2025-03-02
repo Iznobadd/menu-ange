@@ -2,11 +2,11 @@
   "language": {
     "choose": "Haz clic en la bandera de tu idioma"
   },
-  "intro": "“Donde lo local se encuentra con la excelencia. Seleccionamos cuidadosamente productos de calidad para ofrecerte creaciones caseras, llenas de autenticidad y sabores únicos”",
+  "intro": "“Donde la producción local se encuentra con la excelencia. Seleccionamos cuidadosamente productos de calidad para ofrecerte creaciones caseras, llenas de autenticidad y sabores únicos”",
   "salades": {
     "title": "ENSALADAS",
     "quinoa": {
-      "title": "Ensalada de quinoa",
+      "title": "Ensalada de quinua",
       "desc": "Mango, aguacate, dátiles, menta"
     },
     "buddha": {
@@ -90,7 +90,7 @@
       "desc": ""
     },
     "jambon": {
-      "title": "Jamón de pavo con pimienta y pesto",
+      "title": "Jamón de pavo con pimientos y pesto",
       "desc": ""
     },
     "poivrons": {
@@ -143,7 +143,7 @@
     "desc": "Salsas caseras | Espaguetis, Tagliatelle, Penne o Linguini",
     "pesto": {
       "title": "Pesto",
-      "desc": "Salsa pesto casera"
+      "desc": "Albahaca, ajo, parmesano, aceite de oliva"
     },
     "creme": {
       "title": "Crema y champiñones",
@@ -184,7 +184,7 @@
   },
   "croques": {
     "title": "CROQUE-MONSIEU",
-    "desc": "Acompañado de ensalada mixta",
+    "desc": "Ensalada mixta o patatas fritas caseras",
     "grison": {
       "title": "Carne de los Grisones, queso para raclette, encurtidos",
       "desc": "Pan casero"
@@ -265,19 +265,19 @@
   },
   "dej-continental": {
     "title": "DESAYUNO CONTINENTAL",
-    "desc": "Bebida caliente (Espresso ILLY, Nouss Nouss, Té de menta, Té negro o Chocolate con leche)",
+    "desc": "Bebida caliente (ILLY Espresso, Nouss Nouss, Té con menta, Té negro o Chocolate con leche)",
     "desc2": "Zumo de naranja",
     "desc3": "Pan baguette, mantequilla y mermelada"
   },
   "dej-marocain": {
     "title": "DESAYUNO MARROQUÍ",
-    "desc": "Bebida caliente (Espresso ILLY, Nouss Nouss, Té de menta, Té negro o Chocolate con leche)",
+    "desc": "Bebida caliente (ILLY Espresso, Nouss Nouss, Té con menta, Té negro o Chocolate con leche)",
     "desc2": "Zumo de naranja",
     "desc3": "Raif, Msemen, Harcha, Mantequilla y miel o Mantequilla y mermelada"
   },
   "brunch": {
     "title": "DESALMUERZO",
-    "desc": "Bebida caliente (Espresso ILLY, Nouss Nouss, Té de menta, Té negro o Chocolate con leche)",
+    "desc": "Bebida caliente (ILLY Espresso, Nouss Nouss, Té con menta, Té negro o Chocolate con leche)",
     "desc2": "Zumo de naranja",
     "desc3": "Pan baguette, mantequilla y mermelada o mantequilla y miel",
     "desc4": "Bollos (2 piezas)",
@@ -342,7 +342,7 @@
       "price": "30"
     },
     "desc15": {
-      "title": "Jamón de pavo (2 lonchas)",
+      "title": "Jamón de pavo (2 rebanadas)",
       "price": "15"
     },
     "desc16": {
@@ -370,7 +370,7 @@
       "desc": ""
     },
     "panna-amlou": {
-      "title": "Panna cotta con Amlou",
+      "title": "Panna cotta con amlou",
       "desc": ""
     },
     "mousse": {
@@ -609,7 +609,7 @@
       "desc": ""
     },
     "supplement": {
-      "title": "Suplemento de leche de avena",
+      "title": "Suplemento de leche de almendras y avena",
       "desc": ""
     }
   }
