@@ -2,7 +2,7 @@
   "language": {
     "choose": "Clicca sulla bandiera della tua lingua"
   },
-  "intro": "“Dove la produzione locale incontra l’eccellenza. Selezioniamo con cura prodotti di qualità per offrirti creazioni artigianali, ricche di genuinità e sapori unici”",
+  "intro": "\"Dove la produzione locale incontra l'eccellenza. Selezioniamo con cura prodotti di qualità per offrirvi creazioni artigianali, intrise di autenticità e sapori unici.\"",
   "salades": {
     "title": "INSALATE",
     "quinoa": {
@@ -11,7 +11,7 @@
     },
     "buddha": {
       "title": "Ciotola del Buddha",
-      "desc": "Riso, Verdure, Mango, Tuorlo d'uovo"
+      "desc": "Riso, verdure, mango, tuorlo d'uovo"
     },
     "thai": {
       "title": "Pollo tailandese",
@@ -19,7 +19,7 @@
     },
     "anges": {
       "title": "Gli angeli",
-      "desc": "Pollo, salmone affumicato, gamberetti, avocado, agrumi"
+      "desc": "Pollo, salmone affumicato, gamberi, avocado, agrumi"
     }
   },
   "brochettes": {
@@ -30,11 +30,11 @@
       "desc": ""
     },
     "kefta": {
-      "title": "Cefalonia",
+      "title": "Kefta",
       "desc": ""
     },
     "boeuf": {
-      "title": "Filetto di manzo",
+      "title": "filetto di manzo",
       "desc": ""
     },
     "gambas": {
@@ -43,7 +43,7 @@
     }
   },
   "woks": {
-    "title": "WOKS",
+    "title": "WOK",
     "desc": "",
     "legume": {
       "title": "Verdure",
@@ -54,7 +54,7 @@
       "desc": ""
     },
     "boeuf": {
-      "title": "Filetto di manzo",
+      "title": "filetto di manzo",
       "desc": ""
     },
     "crevette": {
@@ -98,7 +98,7 @@
       "desc": ""
     },
     "guacamole": {
-      "title": "Guacamole e gamberetti",
+      "title": "Guacamole e gamberi",
       "desc": ""
     },
     "islandaise": {
@@ -110,24 +110,24 @@
     "title": "PANINI",
     "desc": "Insalata mista o patatine fritte fatte in casa",
     "tomate": {
-      "title": "Pomodori fritti, mozzarella e pesto",
+      "title": "Pomodori, mozzarella e pesto saltati in padella",
       "desc": ""
     },
     "legume": {
-      "title": "Verdure fritte e mozzarella",
+      "title": "Verdure saltate in padella e mozzarella",
       "desc": ""
     },
     "vegan": {
-      "title": "Il Vegano",
-      "desc": "Verdure saltate, Formaggio vegano"
+      "title": "Il vegano",
+      "desc": "Verdure saltate, formaggio vegano"
     },
     "epinard": {
-      "title": "Spinaci saltati, brie e sesamo grigliato",
+      "title": "Spinaci saltati, brie e semi di sesamo tostati",
       "desc": ""
     },
     "marocain": {
       "title": "Il marocchino",
-      "desc": "Verdure, spezie, formaggio, Kefta"
+      "desc": "Verdure, formaggio, Kefta"
     },
     "poulet": {
       "title": "Pollo al curry",
@@ -143,7 +143,7 @@
     "desc": "Salse fatte in casa | Spaghettini, Tagliatelle, Penne o Linguine",
     "pesto": {
       "title": "Pesto",
-      "desc": "Basilico, Aglio, Parmigiano, Olio d'oliva"
+      "desc": "Basilico, aglio, parmigiano, olio d'oliva"
     },
     "creme": {
       "title": "Crema e funghi",
@@ -151,7 +151,7 @@
     },
     "carbo": {
       "title": "Carbonara",
-      "desc": "Uovo, panna e pancetta halal"
+      "desc": "Uova, panna e pancetta Halal"
     },
     "puttanesca": {
       "title": "Puttanesca",
@@ -167,7 +167,7 @@
     }
   },
   "pastillas": {
-    "title": "PASTIGLIA",
+    "title": "PASTILLE",
     "desc": "Accompagnato da un'insalata mista",
     "legume": {
       "title": "Verdure",
@@ -186,8 +186,8 @@
     "title": "CROQUE-MONSIEUR",
     "desc": "Insalata mista o patatine fritte fatte in casa",
     "grison": {
-      "title": "Carne dei Grigioni, Formaggio Raclette, Sottaceti",
-      "desc": "Pane fatto in casa"
+      "title": "Carne dei Grigioni, Formaggio da raclette, Sottaceti",
+      "desc": "pane fatto in casa"
     },
     "brie": {
       "title": "Brie, spinaci, sesamo tostato",
@@ -202,7 +202,7 @@
     "title": "FRITTATE",
     "desc": "Accompagnato da un'insalata mista",
     "legume": {
-      "title": "Verdure assortite",
+      "title": "Verdure miste",
       "desc": ""
     },
     "tomate": {
@@ -210,7 +210,7 @@
       "desc": ""
     },
     "parmesan": {
-      "title": "Scaglie di parmigiano",
+      "title": "scaglie di parmigiano",
       "desc": ""
     }
   },
@@ -238,15 +238,15 @@
     "title": "CAMEMBERT",
     "desc": "",
     "roti": {
-      "title": "Camembert arrostito al miele",
-      "desc": "Accompagnato da pane fatto in casa e da una croccante insalata verde"
+      "title": "Camembert tostato al miele",
+      "desc": "Servito con pane fatto in casa e un'insalata verde croccante"
     }
   },
   "soupes": {
     "title": "ZUPPE",
     "desc": "",
     "potiron": {
-      "title": "Zucca - Carote e Panna acida",
+      "title": "Zucca - Carote e Panna Acida",
       "desc": ""
     },
     "poisson": {
@@ -256,8 +256,8 @@
   },
   "enfant": {
     "title": "MENU PER BAMBINI",
-    "desc": "Spiedini di carne macinata o di pollo",
-    "desc2": "Patatine fritte o spaghetti al pomodoro o spaghetti al burro e formaggio",
+    "desc": "Spiedini di carne macinata o di pollo con patatine fritte, verdure saltate o insalata mista",
+    "desc2": "o Spaghetti al pomodoro o Spaghetti al burro e formaggio",
     "desc3": "2 palline di gelato: Cioccolato, Vaniglia, Torrone, Limone, Fragola, Lampone, Caffè"
   },
   "dej": {
@@ -266,39 +266,39 @@
   "dej-continental": {
     "title": "COLAZIONE CONTINENTALE",
     "desc": "Bevanda calda (ILLY Espresso, Nouss Nouss, Tè alla menta, Tè nero o Cioccolato al latte)",
-    "desc2": "Succo d'arancia",
+    "desc2": "succo d'arancia",
     "desc3": "Pane baguette, burro e marmellata"
   },
   "dej-marocain": {
     "title": "COLAZIONE MAROCCHINA",
     "desc": "Bevanda calda (ILLY Espresso, Nouss Nouss, Tè alla menta, Tè nero o Cioccolato al latte)",
-    "desc2": "Succo d'arancia",
-    "desc3": "Raif, Msemen, Harcha, burro e miele o burro e marmellata"
+    "desc2": "succo d'arancia",
+    "desc3": "Raif, Msemen, Harcha, Burro e Miele o Burro e Marmellata"
   },
   "brunch": {
     "title": "BRUNCH",
     "desc": "Bevanda calda (ILLY Espresso, Nouss Nouss, Tè alla menta, Tè nero o Cioccolato al latte)",
-    "desc2": "Succo d'arancia",
+    "desc2": "succo d'arancia",
     "desc3": "Pane baguette, burro e marmellata o burro e miele",
-    "desc4": "Panini (2 pezzi)",
+    "desc4": "Rotoli (2 pezzi)",
     "desc5": "Msemen",
-    "desc6": "2 Uova (fritte, strapazzate, frittate o sode)",
+    "desc6": "2 uova (fritte, strapazzate, frittata o sode)",
     "desc7": "Prosciutto di tacchino",
-    "desc8": "Formaggio di capra",
+    "desc8": "formaggio di capra",
     "desc9": "Insalata di datteri e arance"
   },
   "complement": {
-    "title": "IN AGGIUNTA",
+    "title": "INOLTRE",
     "desc": {
-      "title": "Succo di carota all'arancia",
+      "title": "Succo di carota e arancia",
       "price": "30"
     },
     "desc2": {
-      "title": "Panini piccoli (2 pezzi)",
+      "title": "Rotoli piccoli (2 pezzi)",
       "price": "15"
     },
     "desc3": {
-      "title": "Raif, Msemen o Harcha (il dramma)",
+      "title": "Raif, Msemen o Harcha (la commedia)",
       "price": "10"
     },
     "desc5": {
@@ -306,7 +306,7 @@
       "price": "25"
     },
     "desc6": {
-      "title": "Formaggio di capra",
+      "title": "formaggio di capra",
       "price": "20"
     },
     "desc7": {
@@ -322,7 +322,7 @@
       "price": "25"
     },
     "desc10": {
-      "title": "Formaggio di capra",
+      "title": "formaggio di capra",
       "price": "15"
     },
     "desc11": {
@@ -378,7 +378,7 @@
       "desc": ""
     },
     "meli-melo": {
-      "title": "Misto di frutta di stagione",
+      "title": "Mix di frutta di stagione",
       "desc": ""
     },
     "corne": {
@@ -390,7 +390,7 @@
       "desc": ""
     },
     "brioche": {
-      "title": "French toast e pallina di gelato",
+      "title": "Toast alla francese e pallina di gelato",
       "desc": ""
     }
   },
@@ -414,11 +414,11 @@
       "desc": ""
     },
     "chocolat": {
-      "title": "Cioccolato fondente fuso",
+      "title": "cioccolato fondente fuso",
       "desc": ""
     },
     "suzette": {
-      "title": "Suzette (senza alcol)",
+      "title": "Suzette (analcolica)",
       "desc": ""
     },
     "miel": {
@@ -442,7 +442,7 @@
     "trois": "3 palline"
   },
   "milkshakes": {
-    "title": "FRULLATI",
+    "title": "FRAPPE'",
     "desc": "",
     "chocolat": {
       "title": "Cioccolato",
@@ -477,7 +477,7 @@
       "desc": ""
     },
     "orange-gingembre": {
-      "title": "Zenzero arancia",
+      "title": "Zenzero all'arancia",
       "desc": ""
     },
     "citron-presse": {
@@ -513,8 +513,8 @@
       "desc": ""
     },
     "virgin-cafe": {
-      "title": "Caffè Virgin Mojito ",
-      "desc": "Limone, espresso, sprite, menta fresca"
+      "title": "Virgin Mojito Café ",
+      "desc": "Limone, espresso, Sprite, menta fresca"
     },
     "coca": {
       "title": "Coca-Cola normale o zero",
@@ -525,7 +525,7 @@
       "desc": ""
     },
     "schweppes": {
-      "title": "Schweppes Tonic o Limone",
+      "title": "Schweppes Tonic o Lemon",
       "desc": ""
     },
     "ice-tea": {
@@ -541,7 +541,7 @@
       "desc": "Profumi su richiesta"
     },
     "sirop-diabolo": {
-      "title": "MONIN Diabolo o sciroppo di latte",
+      "title": "Sciroppo o latte Diabolo MONIN",
       "desc": "Profumi su richiesta"
     },
     "eau": {
@@ -573,23 +573,23 @@
       "desc": ""
     },
     "nouss": {
-      "title": "Noi Noi",
-      "desc": "Caffè e latte Illy"
+      "title": "Noi noi",
+      "desc": "Illy Caffè e Latte"
     },
     "cafe-epice": {
       "title": "Caffè speziato",
       "desc": ""
     },
     "expresso": {
-      "title": "Espresso ILLY",
+      "title": "ILLY Espresso",
       "desc": ""
     },
     "double": {
-      "title": "ILLY Doppio Espresso",
+      "title": "Doppio espresso ILLY",
       "desc": ""
     },
     "capuccino": {
-      "title": "Cappuccino ILLY",
+      "title": "ILLY Cappuccino",
       "desc": ""
     },
     "latte": {
@@ -598,14 +598,14 @@
     },
     "cafe-glace": {
       "title": "Caffè freddo ILLY",
-      "desc": "con latte"
+      "desc": "con il latte"
     },
     "cafe-frappe": {
-      "title": "Caffè Frappé",
+      "title": "Caffè frappé",
       "desc": "doppio espresso ILLY + cubetti di ghiaccio"
     },
     "chocolat": {
-      "title": "Cioccolato al latte",
+      "title": "cioccolato al latte",
       "desc": ""
     },
     "supplement": {

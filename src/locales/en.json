@@ -2,7 +2,7 @@
   "language": {
     "choose": "Click on your language flag"
   },
-  "intro": "“Where local production meets excellence. We carefully select quality products to offer you homemade creations, full of authenticity and unique flavors”",
+  "intro": "“Where local production meets excellence. We carefully select quality products to offer you homemade creations, imbued with authenticity and unique flavors.”",
   "salades": {
     "title": "SALADS",
     "quinoa": {
@@ -11,7 +11,7 @@
     },
     "buddha": {
       "title": "Buddha Bowl",
-      "desc": "Rice, Vegetables, Mango, Egg yolk"
+      "desc": "Rice, Vegetables, Mango, Egg Yolk"
     },
     "thai": {
       "title": "Thai Chicken",
@@ -34,7 +34,7 @@
       "desc": ""
     },
     "boeuf": {
-      "title": "Beef fillet",
+      "title": "Beef Fillet",
       "desc": ""
     },
     "gambas": {
@@ -54,7 +54,7 @@
       "desc": ""
     },
     "boeuf": {
-      "title": "Beef fillet",
+      "title": "Beef Fillet",
       "desc": ""
     },
     "crevette": {
@@ -110,11 +110,11 @@
     "title": "PANINIS",
     "desc": "Mixed salad or homemade fries",
     "tomate": {
-      "title": "Fried tomatoes, mozzarella & pesto",
+      "title": "Pan-fried tomatoes, mozzarella & pesto",
       "desc": ""
     },
     "legume": {
-      "title": "Fried vegetables & Mozzarella",
+      "title": "Pan-fried vegetables & mozzarella",
       "desc": ""
     },
     "vegan": {
@@ -122,12 +122,12 @@
       "desc": "Sautéed vegetables, Vegan cheese"
     },
     "epinard": {
-      "title": "Sautéed Spinach, Brie & Grilled Sesame",
+      "title": "Sautéed spinach, Brie & toasted sesame seeds",
       "desc": ""
     },
     "marocain": {
       "title": "The Moroccan",
-      "desc": "Vegetables, Spices, Cheese, Kefta"
+      "desc": "Vegetables, Cheese, Kefta"
     },
     "poulet": {
       "title": "Chicken Curry",
@@ -194,7 +194,7 @@
       "desc": "Sliced bread with seeds"
     },
     "poulet": {
-      "title": "Roast chicken, avocado cream, cheddar",
+      "title": "Roasted chicken, avocado cream, cheddar",
       "desc": "Sliced bread with seeds"
     }
   },
@@ -202,7 +202,7 @@
     "title": "OMELETTES",
     "desc": "Accompanied by a mixed salad",
     "legume": {
-      "title": "Assorted vegetables",
+      "title": "Mixed vegetables",
       "desc": ""
     },
     "tomate": {
@@ -239,14 +239,14 @@
     "desc": "",
     "roti": {
       "title": "Honey Roasted Camembert",
-      "desc": "Accompanied by homemade bread and a crunchy green salad"
+      "desc": "Served with homemade bread and a crisp green salad"
     }
   },
   "soupes": {
     "title": "SOUPS",
     "desc": "",
     "potiron": {
-      "title": "Pumpkin - Carrots & Crème fraîche",
+      "title": "Pumpkin - Carrots & Sour Cream",
       "desc": ""
     },
     "poisson": {
@@ -256,8 +256,8 @@
   },
   "enfant": {
     "title": "CHILDREN'S MENU",
-    "desc": "Minced Steak or Chicken Skewers",
-    "desc2": "Fries or Spaghetti with tomato sauce or Spaghetti with butter and cheese",
+    "desc": "Minced steak or chicken skewers with fries, sautéed vegetables or mixed salad",
+    "desc2": "or Spaghetti with tomato sauce or Spaghetti with butter and cheese",
     "desc3": "2 scoops of ice cream: Chocolate, Vanilla, Nougat, Lemon, Strawberry, Raspberry, Coffee"
   },
   "dej": {
@@ -266,23 +266,23 @@
   "dej-continental": {
     "title": "CONTINENTAL BREAKFAST",
     "desc": "Hot drink (ILLY Espresso, Nouss Nouss, Mint Tea, Black Tea or Milk Chocolate)",
-    "desc2": "Orange Juice",
-    "desc3": "Baguette Bread, Butter & Jam"
+    "desc2": "Orange juice",
+    "desc3": "Baguette bread, butter & jam"
   },
   "dej-marocain": {
     "title": "MOROCCAN BREAKFAST",
     "desc": "Hot drink (ILLY Espresso, Nouss Nouss, Mint Tea, Black Tea or Milk Chocolate)",
-    "desc2": "Orange Juice",
+    "desc2": "Orange juice",
     "desc3": "Raif, Msemen, Harcha, Butter & Honey or Butter & Jam"
   },
   "brunch": {
     "title": "BRUNCH",
     "desc": "Hot drink (ILLY Espresso, Nouss Nouss, Mint Tea, Black Tea or Milk Chocolate)",
-    "desc2": "Orange Juice",
+    "desc2": "Orange juice",
     "desc3": "Baguette bread, Butter & Jam or Butter & Honey",
-    "desc4": "Buns (2 pieces)",
+    "desc4": "Rolls (2 pieces)",
     "desc5": "Msemen",
-    "desc6": "2 Eggs (Fried, Scrambled, Omelet or Hard Boiled)",
+    "desc6": "2 Eggs (Fried, Scrambled, Omelette or Hard-boiled)",
     "desc7": "Turkey Ham",
     "desc8": "Goat Cheese",
     "desc9": "Date & Orange Salad"
@@ -294,7 +294,7 @@
       "price": "30"
     },
     "desc2": {
-      "title": "Small Breads (2 pieces)",
+      "title": "Small rolls (2 pieces)",
       "price": "15"
     },
     "desc3": {
@@ -414,7 +414,7 @@
       "desc": ""
     },
     "chocolat": {
-      "title": "Melted Dark Chocolate",
+      "title": "Melted dark chocolate",
       "desc": ""
     },
     "suzette": {
@@ -513,7 +513,7 @@
       "desc": ""
     },
     "virgin-cafe": {
-      "title": "Virgin Mojito Cafe",
+      "title": "Virgin Mojito Café",
       "desc": "Lemon, espresso, sprite, fresh mint"
     },
     "coca": {
@@ -529,19 +529,19 @@
       "desc": ""
     },
     "ice-tea": {
-      "title": "Ice Tea",
+      "title": "Iced Tea",
       "desc": ""
     },
     "biere": {
       "title": "San Miguel Beer",
-      "desc": "Alcohol free"
+      "desc": "Alcohol-free"
     },
     "sirop-eau": {
       "title": "MONIN syrup with water",
       "desc": "Perfumes on request"
     },
     "sirop-diabolo": {
-      "title": "MONIN Diabolo or Milk Syrup",
+      "title": "MONIN Diabolo Syrup or Milk",
       "desc": "Perfumes on request"
     },
     "eau": {
@@ -569,7 +569,7 @@
       "desc": ""
     },
     "the-earl": {
-      "title": "Earl Grey Tea",
+      "title": "Earl Grey tea",
       "desc": ""
     },
     "nouss": {
@@ -585,7 +585,7 @@
       "desc": ""
     },
     "double": {
-      "title": "ILLY Double Espresso",
+      "title": "Double ILLY espresso",
       "desc": ""
     },
     "capuccino": {
@@ -609,7 +609,7 @@
       "desc": ""
     },
     "supplement": {
-      "title": "Almond Milk and Oat Supplement",
+      "title": "Almond and Oat Milk Supplement",
       "desc": ""
     }
   }

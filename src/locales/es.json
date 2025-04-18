@@ -2,16 +2,16 @@
   "language": {
     "choose": "Haz clic en la bandera de tu idioma"
   },
-  "intro": "“Donde la producción local se encuentra con la excelencia. Seleccionamos cuidadosamente productos de calidad para ofrecerte creaciones caseras, llenas de autenticidad y sabores únicos”",
+  "intro": "Donde la producción local se une a la excelencia. Seleccionamos cuidadosamente productos de calidad para ofrecerle creaciones caseras, impregnadas de autenticidad y sabores únicos.",
   "salades": {
     "title": "ENSALADAS",
     "quinoa": {
-      "title": "Ensalada de quinua",
+      "title": "Ensalada de quinoa",
       "desc": "Mango, aguacate, dátiles, menta"
     },
     "buddha": {
       "title": "Cuenco de Buda",
-      "desc": "Arroz, Verduras, Mango, Yema de huevo"
+      "desc": "Arroz, verduras, mango, yema de huevo"
     },
     "thai": {
       "title": "Pollo tailandés",
@@ -24,7 +24,7 @@
   },
   "brochettes": {
     "title": "BROCHETAS",
-    "desc": "Ensalada mixta | Papas fritas caseras | Arroz | Verduras salteadas",
+    "desc": "Ensalada mixta | Papas Fritas Caseras | Arroz | verduras salteadas",
     "poulet": {
       "title": "Pollo",
       "desc": ""
@@ -38,7 +38,7 @@
       "desc": ""
     },
     "gambas": {
-      "title": "Camarones",
+      "title": "Gambas",
       "desc": ""
     }
   },
@@ -83,14 +83,14 @@
     }
   },
   "bruschettas": {
-    "title": "BRUSCHETAS",
+    "title": "BRUSCHETTAS",
     "desc": "Acompañado de ensalada mixta",
     "chevre": {
       "title": "Cabra, nueces y miel",
       "desc": ""
     },
     "jambon": {
-      "title": "Jamón de pavo con pimientos y pesto",
+      "title": "Jamón de pavo con pimienta y pesto",
       "desc": ""
     },
     "poivrons": {
@@ -110,11 +110,11 @@
     "title": "PANINIS",
     "desc": "Ensalada mixta o patatas fritas caseras",
     "tomate": {
-      "title": "Tomates fritos, mozzarella y pesto",
+      "title": "Tomates salteados, mozzarella y pesto",
       "desc": ""
     },
     "legume": {
-      "title": "Verduras fritas y mozzarella",
+      "title": "Verduras salteadas y mozzarella",
       "desc": ""
     },
     "vegan": {
@@ -122,12 +122,12 @@
       "desc": "Verduras salteadas, queso vegano"
     },
     "epinard": {
-      "title": "Espinacas salteadas, queso brie y sésamo a la plancha",
+      "title": "Espinacas salteadas, queso brie y semillas de sésamo tostadas",
       "desc": ""
     },
     "marocain": {
       "title": "El marroquí",
-      "desc": "Verduras, especias, queso, kefta"
+      "desc": "Verduras, queso, kefta"
     },
     "poulet": {
       "title": "Pollo al curry",
@@ -140,7 +140,7 @@
   },
   "pates": {
     "title": "PASTAS",
-    "desc": "Salsas caseras | Espaguetis, Tagliatelle, Penne o Linguini",
+    "desc": "Salsas caseras | Spaghettini, Tagliatelle, Penne o Linguini",
     "pesto": {
       "title": "Pesto",
       "desc": "Albahaca, ajo, parmesano, aceite de oliva"
@@ -162,7 +162,7 @@
       "desc": ""
     },
     "bolo": {
-      "title": "Boloñesa",
+      "title": "boloñesa",
       "desc": "Salsa de tomate y carne picada"
     }
   },
@@ -183,14 +183,14 @@
     }
   },
   "croques": {
-    "title": "CROQUE-MONSIEU",
+    "title": "CROQUE MONSIEUR",
     "desc": "Ensalada mixta o patatas fritas caseras",
     "grison": {
-      "title": "Carne de los Grisones, queso para raclette, encurtidos",
-      "desc": "Pan casero"
+      "title": "Carne de los Grisones, Queso raclette, Encurtidos",
+      "desc": "pan casero"
     },
     "brie": {
-      "title": "Brie, espinacas y sésamo tostado",
+      "title": "Brie, espinacas, sésamo tostado",
       "desc": "Pan de molde con semillas"
     },
     "poulet": {
@@ -202,7 +202,7 @@
     "title": "TORTILLAS",
     "desc": "Acompañado de ensalada mixta",
     "legume": {
-      "title": "Verduras variadas",
+      "title": "verduras mixtas",
       "desc": ""
     },
     "tomate": {
@@ -210,7 +210,7 @@
       "desc": ""
     },
     "parmesan": {
-      "title": "Virutas de parmesano",
+      "title": "virutas de parmesano",
       "desc": ""
     }
   },
@@ -239,25 +239,25 @@
     "desc": "",
     "roti": {
       "title": "Camembert asado con miel",
-      "desc": "Acompañado de pan casero y una crujiente ensalada verde."
+      "desc": "Servido con pan casero y una ensalada verde crujiente."
     }
   },
   "soupes": {
     "title": "SOPAS",
     "desc": "",
     "potiron": {
-      "title": "Calabaza, zanahorias y crema fresca",
+      "title": "Calabaza, zanahorias y crema agria",
       "desc": ""
     },
     "poisson": {
-      "title": "Pescado y camarones con rouille y crutones",
+      "title": "Pescado y camarones con rouille y crotones",
       "desc": ""
     }
   },
   "enfant": {
     "title": "MENÚ INFANTIL",
-    "desc": "Brochetas de carne picada o pollo",
-    "desc2": "Papas fritas o espaguetis con salsa de tomate o espaguetis con mantequilla y queso",
+    "desc": "Brochetas de carne picada o pollo con patatas fritas, verduras salteadas o ensalada mixta",
+    "desc2": "o Espaguetis con salsa de tomate o Espaguetis con mantequilla y queso",
     "desc3": "2 bolas de helado: Chocolate, Vainilla, Turrón, Limón, Fresa, Frambuesa, Café"
   },
   "dej": {
@@ -265,24 +265,24 @@
   },
   "dej-continental": {
     "title": "DESAYUNO CONTINENTAL",
-    "desc": "Bebida caliente (ILLY Espresso, Nouss Nouss, Té con menta, Té negro o Chocolate con leche)",
-    "desc2": "Zumo de naranja",
+    "desc": "Bebida caliente (ILLY Espresso, Nouss Nouss, Té de menta, Té negro o Chocolate con leche)",
+    "desc2": "zumo de naranja",
     "desc3": "Pan baguette, mantequilla y mermelada"
   },
   "dej-marocain": {
     "title": "DESAYUNO MARROQUÍ",
-    "desc": "Bebida caliente (ILLY Espresso, Nouss Nouss, Té con menta, Té negro o Chocolate con leche)",
-    "desc2": "Zumo de naranja",
-    "desc3": "Raif, Msemen, Harcha, Mantequilla y miel o Mantequilla y mermelada"
+    "desc": "Bebida caliente (ILLY Espresso, Nouss Nouss, Té de menta, Té negro o Chocolate con leche)",
+    "desc2": "zumo de naranja",
+    "desc3": "Raif, Msemen, Harcha, Mantequilla y Miel o Mantequilla y Mermelada"
   },
   "brunch": {
     "title": "DESALMUERZO",
-    "desc": "Bebida caliente (ILLY Espresso, Nouss Nouss, Té con menta, Té negro o Chocolate con leche)",
-    "desc2": "Zumo de naranja",
+    "desc": "Bebida caliente (ILLY Espresso, Nouss Nouss, Té de menta, Té negro o Chocolate con leche)",
+    "desc2": "zumo de naranja",
     "desc3": "Pan baguette, mantequilla y mermelada o mantequilla y miel",
-    "desc4": "Bollos (2 piezas)",
-    "desc5": "Semen de mi mujer",
-    "desc6": "2 Huevos (fritos, revueltos, en tortilla o duros)",
+    "desc4": "Rollos (2 piezas)",
+    "desc5": "Msemen",
+    "desc6": "2 huevos (fritos, revueltos, en tortilla o duros)",
     "desc7": "Jamón de pavo",
     "desc8": "Queso de cabra",
     "desc9": "Ensalada de dátiles y naranja"
@@ -290,11 +290,11 @@
   "complement": {
     "title": "ADEMÁS",
     "desc": {
-      "title": "Jugo de naranja y zanahoria",
+      "title": "Jugo de zanahoria y naranja",
       "price": "30"
     },
     "desc2": {
-      "title": "Panes pequeños (2 piezas)",
+      "title": "Rollitos pequeños (2 piezas)",
       "price": "15"
     },
     "desc3": {
@@ -370,7 +370,7 @@
       "desc": ""
     },
     "panna-amlou": {
-      "title": "Panna cotta con amlou",
+      "title": "Panna cotta con Amlou",
       "desc": ""
     },
     "mousse": {
@@ -395,7 +395,7 @@
     }
   },
   "crepes": {
-    "title": "CREPES",
+    "title": "CREPAS",
     "desc": "",
     "compote": {
       "title": "Compota de manzana y canela",
@@ -442,7 +442,7 @@
     "trois": "3 bolas"
   },
   "milkshakes": {
-    "title": "BATIDOS DE LECHE",
+    "title": "BATIDOS",
     "desc": "",
     "chocolat": {
       "title": "Chocolate",
@@ -466,7 +466,7 @@
     }
   },
   "jus": {
-    "title": "JUGO CASERO",
+    "title": "ZUMO CASERO",
     "desc": "",
     "orange-presse": {
       "title": "Naranja exprimida",
@@ -506,18 +506,18 @@
     }
   },
   "soft": {
-    "title": "BEBIDAS REFRESCAS",
+    "title": "REFRESCOS",
     "desc": "",
     "virgin": {
       "title": "Mojito virgen azul",
       "desc": ""
     },
     "virgin-cafe": {
-      "title": "Café Mojito Virgen ",
-      "desc": "Limón, espresso, gaseosa, menta fresca"
+      "title": "Café Virgin Mojito ",
+      "desc": "Limón, espresso, sprite, menta fresca"
     },
     "coca": {
-      "title": "Coca-Cola regular o cero",
+      "title": "Coca-Cola Regular o Zero",
       "desc": ""
     },
     "sprite": {
@@ -541,7 +541,7 @@
       "desc": "Perfumes bajo pedido"
     },
     "sirop-diabolo": {
-      "title": "MONIN Diabolo o jarabe de leche",
+      "title": "Jarabe o leche Diabolo MONIN",
       "desc": "Perfumes bajo pedido"
     },
     "eau": {
@@ -577,15 +577,15 @@
       "desc": "Café y leche Illy"
     },
     "cafe-epice": {
-      "title": "Café con especias",
+      "title": "Café especiado",
       "desc": ""
     },
     "expresso": {
-      "title": "Café expreso ILLY",
+      "title": "ILLY Espresso",
       "desc": ""
     },
     "double": {
-      "title": "ILLY Doble Espresso",
+      "title": "Espresso doble ILLY",
       "desc": ""
     },
     "capuccino": {

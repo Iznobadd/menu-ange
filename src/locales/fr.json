@@ -127,7 +127,7 @@
     },
     "marocain": {
       "title": "Le Marocain",
-      "desc": "Légumes, Épices, Fromage, Kefta"
+      "desc": "Légumes, Fromage, Kefta"
     },
     "poulet": {
       "title": "Poulet au Curry",
@@ -256,8 +256,8 @@
   },
   "enfant": {
     "title": "MENU ENFANT",
-    "desc": "Steack haché ou Brochettes de Poulet",
-    "desc2": "Frites ou Spaghetti sauce tomates ou Spaghetti beurre & fromage",
+    "desc": "Steack haché ou Brochettes de Poulet avec Frites, Légumes sautés ou Salade composée",
+    "desc2": "ou Spaghetti sauce tomates ou Spaghetti beurre & fromage",
     "desc3": "Glace 2 boules: Chocolat, Vanille, Nougat, Citron, Fraise, Framboise, Café"
   },
   "dej": {

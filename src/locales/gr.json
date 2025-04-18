@@ -2,7 +2,7 @@
   "language": {
     "choose": "Klicken Sie auf die Flagge Ihrer Sprache"
   },
-  "intro": "„Wo lokale Produktion auf Exzellenz trifft. Wir wählen sorgfältig Qualitätsprodukte aus, um Ihnen hausgemachte Kreationen voller Authentizität und einzigartigem Geschmack anzubieten“",
+  "intro": "„Hier trifft lokale Produktion auf Exzellenz. Wir wählen sorgfältig Qualitätsprodukte aus, um Ihnen hausgemachte Kreationen voller Authentizität und einzigartigem Geschmack anzubieten.“",
   "salades": {
     "title": "SALATE",
     "quinoa": {
@@ -10,11 +10,11 @@
       "desc": "Mango, Avocado, Datteln, Minze"
     },
     "buddha": {
-      "title": "Buddha-Schüssel",
+      "title": "Buddha Bowl",
       "desc": "Reis, Gemüse, Mango, Eigelb"
     },
     "thai": {
-      "title": "Thailändisches Huhn",
+      "title": "Thailändisches Hühnchen",
       "desc": ""
     },
     "anges": {
@@ -23,7 +23,7 @@
     }
   },
   "brochettes": {
-    "title": "SPIEßE",
+    "title": "Spieße",
     "desc": "Gemischter Salat | Hausgemachte Pommes | Reis | Sautiertes Gemüse",
     "poulet": {
       "title": "Huhn",
@@ -90,7 +90,7 @@
       "desc": ""
     },
     "jambon": {
-      "title": "Putenschinken mit Paprika & Pesto",
+      "title": "Putenschinken mit Pfeffer und Pesto",
       "desc": ""
     },
     "poivrons": {
@@ -98,7 +98,7 @@
       "desc": ""
     },
     "guacamole": {
-      "title": "Guacamole und Garnelen",
+      "title": "Guacamole & Garnelen",
       "desc": ""
     },
     "islandaise": {
@@ -122,15 +122,15 @@
       "desc": "Sautiertes Gemüse, Veganer Käse"
     },
     "epinard": {
-      "title": "Sautierter Spinat, Brie und gegrillter Sesam",
+      "title": "Sautierter Spinat, Brie und geröstete Sesamsamen",
       "desc": ""
     },
     "marocain": {
       "title": "Der Marokkaner",
-      "desc": "Gemüse, Gewürze, Käse, Kefta"
+      "desc": "Gemüse, Käse, Kefta"
     },
     "poulet": {
-      "title": "Hühnchen-Curry",
+      "title": "Hühnercurry",
       "desc": ""
     },
     "burger": {
@@ -146,7 +146,7 @@
       "desc": "Basilikum, Knoblauch, Parmesan, Olivenöl"
     },
     "creme": {
-      "title": "Sahne & Champignons",
+      "title": "Sahne & Pilze",
       "desc": ""
     },
     "carbo": {
@@ -163,7 +163,7 @@
     },
     "bolo": {
       "title": "Bolognese",
-      "desc": "Tomatensauce & Hackfleisch"
+      "desc": "Tomatensauce & Rinderhackfleisch"
     }
   },
   "pastillas": {
@@ -186,23 +186,23 @@
     "title": "CROQUE MONSIEUR",
     "desc": "Gemischter Salat oder hausgemachte Pommes",
     "grison": {
-      "title": "Bündnerfleisch, Raclettekäse, Pickles",
+      "title": "Bündnerfleisch, Raclettekäse, Gewürzgurken",
       "desc": "Hausgemachtes Brot"
     },
     "brie": {
       "title": "Brie, Spinat, gerösteter Sesam",
-      "desc": "Geschnittenes Brot mit Körnern"
+      "desc": "Geschnittenes Brot mit Samen"
     },
     "poulet": {
       "title": "Gebratenes Hähnchen, Avocadocreme, Cheddar",
-      "desc": "Geschnittenes Brot mit Körnern"
+      "desc": "Geschnittenes Brot mit Samen"
     }
   },
   "omelettes": {
     "title": "OMELETTES",
     "desc": "Dazu ein gemischter Salat",
     "legume": {
-      "title": "Verschiedene Gemüsesorten",
+      "title": "Gemischtes Gemüse",
       "desc": ""
     },
     "tomate": {
@@ -238,15 +238,15 @@
     "title": "CAMEMBERT",
     "desc": "",
     "roti": {
-      "title": "Mit Honig gerösteter Camembert",
-      "desc": "Dazu selbstgebackenes Brot und ein knackiger grüner Salat"
+      "title": "Honiggerösteter Camembert",
+      "desc": "Serviert mit selbstgebackenem Brot und einem knackigen grünen Salat"
     }
   },
   "soupes": {
     "title": "SUPPEN",
     "desc": "",
     "potiron": {
-      "title": "Kürbis - Karotten & Crème fraîche",
+      "title": "Kürbis - Karotten & Sauerrahm",
       "desc": ""
     },
     "poisson": {
@@ -256,8 +256,8 @@
   },
   "enfant": {
     "title": "KINDERMENÜ",
-    "desc": "Hacksteak- oder Hähnchenspieße",
-    "desc2": "Pommes Frites oder Spaghetti mit Tomatensauce oder Spaghetti mit Butter und Käse",
+    "desc": "Hacksteak- oder Hähnchenspieße mit Pommes frites, sautiertem Gemüse oder gemischtem Salat",
+    "desc2": "oder Spaghetti mit Tomatensoße oder Spaghetti mit Butter und Käse",
     "desc3": "2 Kugeln Eis: Schokolade, Vanille, Nougat, Zitrone, Erdbeere, Himbeere, Kaffee"
   },
   "dej": {
@@ -267,7 +267,7 @@
     "title": "KONTINENTALES FRÜHSTÜCK",
     "desc": "Heißgetränk (ILLY Espresso, Nouss Nouss, Minztee, Schwarztee oder Milchschokolade)",
     "desc2": "Orangensaft",
-    "desc3": "Baguette, Brot, Butter und Marmelade"
+    "desc3": "Baguettebrot, Butter und Marmelade"
   },
   "dej-marocain": {
     "title": "MAROKKANISCHER FRÜHSTÜCK",
@@ -294,7 +294,7 @@
       "price": "30"
     },
     "desc2": {
-      "title": "Kleine Brote (2 Stück)",
+      "title": "Kleine Brötchen (2 Stück)",
       "price": "15"
     },
     "desc3": {
@@ -378,7 +378,7 @@
       "desc": ""
     },
     "meli-melo": {
-      "title": "Saisonales Fruchtgemisch",
+      "title": "Saisonales Frucht-Medley",
       "desc": ""
     },
     "corne": {
@@ -395,7 +395,7 @@
     }
   },
   "crepes": {
-    "title": "CRÉPES",
+    "title": "Crêpes",
     "desc": "",
     "compote": {
       "title": "Apfel-Zimt-Kompott",
@@ -442,7 +442,7 @@
     "trois": "3 Bälle"
   },
   "milkshakes": {
-    "title": "MILCHSHAKES",
+    "title": "Milchshakes",
     "desc": "",
     "chocolat": {
       "title": "Schokolade",
@@ -469,7 +469,7 @@
     "title": "HAUSGEMACHTER SAFT",
     "desc": "",
     "orange-presse": {
-      "title": "Ausgepresste Orange",
+      "title": "Gepresste Orange",
       "desc": ""
     },
     "orange-carotte": {
@@ -489,7 +489,7 @@
       "desc": ""
     },
     "citron-basilic": {
-      "title": "Zitronen-Basilikum",
+      "title": "Zitronenbasilikum",
       "desc": ""
     },
     "avocat-lait": {
@@ -506,7 +506,7 @@
     }
   },
   "soft": {
-    "title": "ALKOHOLFREIE GETRÄNKE",
+    "title": "ERFRISCHUNGSGETRÄNKE",
     "desc": "",
     "virgin": {
       "title": "Blauer Virgin Mojito",
@@ -541,16 +541,16 @@
       "desc": "Parfüms auf Anfrage"
     },
     "sirop-diabolo": {
-      "title": "MONIN Diabolo oder Milchsirup",
+      "title": "MONIN Diabolo Sirup oder Milch",
       "desc": "Parfüms auf Anfrage"
     },
     "eau": {
       "title": "Mineralwasser",
-      "desc": "50ml / 150ml"
+      "desc": "50 ml / 150 ml"
     },
     "eau-petillante": {
       "title": "Sprudelwasser",
-      "desc": "50ml / 100ml"
+      "desc": "50 ml / 100 ml"
     }
   },
   "chaud": {
@@ -561,7 +561,7 @@
       "desc": ""
     },
     "the-corne": {
-      "title": "Minztee und Gazellenhörner",
+      "title": "Minztee & Gazellenhörner",
       "desc": "2 Zimmer"
     },
     "the-royal": {
@@ -577,7 +577,7 @@
       "desc": "Illy Kaffee & Milch"
     },
     "cafe-epice": {
-      "title": "Gewürzter Kaffee",
+      "title": "Gewürzkaffee",
       "desc": ""
     },
     "expresso": {
@@ -585,7 +585,7 @@
       "desc": ""
     },
     "double": {
-      "title": "ILLY Doppelter Espresso",
+      "title": "Doppelter ILLY Espresso",
       "desc": ""
     },
     "capuccino": {
@@ -609,7 +609,7 @@
       "desc": ""
     },
     "supplement": {
-      "title": "Nahrungsergänzungsmittel mit Mandelmilch und Hafer",
+      "title": "Mandel- und Hafermilchergänzung",
       "desc": ""
     }
   }
