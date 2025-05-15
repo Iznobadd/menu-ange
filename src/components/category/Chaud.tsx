@@ -43,16 +43,22 @@ const Chaud = () => {
       image: Earl,
     },
     {
-      title: t("chaud.nouss.title"),
-      desc: t("chaud.nouss.desc"),
+      title: t("chaud.chocolat.title"),
+      desc: t("chaud.chocolat.desc"),
       price: 30,
-      image: Nouss,
+      image: Chocolat,
     },
     {
       title: t("chaud.cafe-epice.title"),
       desc: t("chaud.cafe-epice.desc"),
       price: 30,
       image: Epice,
+    },
+    {
+      title: t("chaud.nouss.title"),
+      desc: t("chaud.nouss.desc"),
+      price: 30,
+      image: Nouss,
     },
     {
       title: t("chaud.expresso.title"),
@@ -95,12 +101,6 @@ const Chaud = () => {
       desc: t("chaud.cafe-frappe.desc"),
       price: 50,
       image: CafeFrappe,
-    },
-    {
-      title: t("chaud.chocolat.title"),
-      desc: t("chaud.chocolat.desc"),
-      price: 30,
-      image: Chocolat,
     },
     {
       title: t("chaud.supplement.title"),
