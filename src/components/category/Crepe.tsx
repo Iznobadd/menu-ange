@@ -7,6 +7,7 @@ import Suzette from "../../assets/crepes/suzette.png";
 import Miel from "../../assets/crepes/miel.png";
 import Caramel from "../../assets/crepes/caramel.png";
 import Amlou from "../../assets/crepes/amlou.png";
+import ChocolatNoir from "../../assets/crepes/chocolat-noir.png";
 
 const Crepe = () => {
   const { t } = useTranslation();
@@ -39,7 +40,7 @@ const Crepe = () => {
       title: t("crepes.chocolat.title"),
       desc: t("crepes.chocolat.desc"),
       price: 50,
-      image: Nutella,
+      image: ChocolatNoir,
     },
     {
       title: t("crepes.suzette.title"),
