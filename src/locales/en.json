@@ -437,7 +437,7 @@
   "glaces": {
     "title": "ICE CREAM",
     "desc": "Chocolate | Coffee | Vanilla | Nougat | Lemon | Raspberry | Strawberry | Mango | Pistachio",
-    "une": "1 Ball",
+    "une": "1 ball",
     "deux": "2 Balls",
     "trois": "3 Balls"
   },
@@ -586,6 +586,10 @@
     },
     "double": {
       "title": "Double ILLY espresso",
+      "desc": ""
+    },
+    "allonge": {
+      "title": "ILLY long coffee",
       "desc": ""
     },
     "capuccino": {

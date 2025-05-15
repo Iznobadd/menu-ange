@@ -12,6 +12,8 @@ import Double from "../../assets/chaud/double.png";
 import Epice from "../../assets/chaud/epice.png";
 import Expresso from "../../assets/chaud/expresso.png";
 import Nouss from "../../assets/chaud/nouss.png";
+import CafeGlace from "../../assets/chaud/cafe-glace.png";
+import Allonge from "../../assets/chaud/allonge.png";
 
 const Chaud = () => {
   const { t } = useTranslation();
@@ -59,6 +61,12 @@ const Chaud = () => {
       image: Expresso,
     },
     {
+      title: t("chaud.allonge.title"),
+      desc: t("chaud.allonge.desc"),
+      price: 25,
+      image: Allonge,
+    },
+    {
       title: t("chaud.double.title"),
       desc: t("chaud.double.desc"),
       price: 45,
@@ -80,7 +88,7 @@ const Chaud = () => {
       title: t("chaud.cafe-glace.title"),
       desc: t("chaud.cafe-glace.desc"),
       price: 35,
-      image: CafeFrappe,
+      image: CafeGlace,
     },
     {
       title: t("chaud.cafe-frappe.title"),

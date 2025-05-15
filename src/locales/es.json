@@ -588,6 +588,10 @@
       "title": "Espresso doble ILLY",
       "desc": ""
     },
+    "allonge": {
+      "title": "Café largo ILLY",
+      "desc": ""
+    },
     "capuccino": {
       "title": "Capuchino ILLY",
       "desc": ""
@@ -602,7 +606,7 @@
     },
     "cafe-frappe": {
       "title": "Café Frappé",
-      "desc": "Doble espresso ILLY + cubitos de hielo"
+      "desc": "Espresso doble ILLY + cubitos de hielo"
     },
     "chocolat": {
       "title": "Chocolate con leche",
