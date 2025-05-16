@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Poulet from "../../assets/couscous/poulet.png";
+import Boeuf from "../../assets/couscous/boeuf.png";
+import Agneau from "../../assets/couscous/agneau.png";
 const Couscous = () => {
   const { t } = useTranslation();
   const couscous = [
@@ -19,13 +21,13 @@ const Couscous = () => {
       title: t("couscous.boeuf.title"),
       desc: t("couscous.boeuf.desc"),
       price: 100,
-      image: Poulet,
+      image: Boeuf,
     },
     {
       title: t("couscous.agneau.title"),
       desc: t("couscous.agneau.desc"),
       price: 120,
-      image: Poulet,
+      image: Agneau,
     },
   ];
   return (
